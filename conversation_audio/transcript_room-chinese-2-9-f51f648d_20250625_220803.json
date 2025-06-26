@@ -1,0 +1,41 @@
+{
+  "room_name": "room-chinese-2-9-f51f648d",
+  "category_id": 2,
+  "topic_id": 9,
+  "topic_name": "Shopping for Clothes",
+  "category_name": "Daily Conversation",
+  "timestamp": "20250625_220803",
+  "student_details": null,
+  "conversation_history": {
+    "items": [
+      {
+        "id": "item_dced7d03e13c",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "欢迎光临！ (huān yíng guāng lín)请问您需要帮助吗？ (qǐng wèn nín xū yào bāng zhù ma)您想看看什么样的衣服？ (nín xiǎng kàn kàn shén me yàng de yī fú)"
+        ],
+        "interrupted": false
+      },
+      {
+        "id": "item_918e0e854956",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "什麼都可以。"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.0
+      },
+      {
+        "id": "item_8d317c377ead",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "好的，我们有很多选择！ (hǎo de wǒ men yǒu hěn duō xuǎn zé) (hǎo de, wǒ men yǒu hěn duō xuǎn zé)比如说，您喜欢衬衫，裙子，还是外套？ (bǐ rú shuō nín xǐ huān chèn shān qún zi hái shì wài tào) (bǐ rú shuō, nín xǐ huān chèn shān, qún zǐ, hái shì wài tào)"
+        ],
+        "interrupted": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "room_name": "room-chinese-2-9-3c2aaf14",
+  "category_id": 2,
+  "topic_id": 9,
+  "topic_name": "Shopping for Clothes",
+  "category_name": "Daily Conversation",
+  "timestamp": "20250625_215548",
+  "student_details": null,
+  "conversation_history": {
+    "items": [
+      {
+        "id": "item_c96379cafa5d",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "欢迎光临！ (huān yíng guāng lín)请问您需要帮助吗？ (qǐng wèn nín xū yào bāng zhù ma)您想看看什么样的衣服？ (nín xiǎng kàn kàn shén me yàng de yī fú)"
+        ],
+        "interrupted": false
+      },
+      {
+        "id": "item_8fbc032839f3",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "你好"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.0
+      },
+      {
+        "id": "item_3d3d6476b98c",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Hiç yerdä çemäyä."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.0
+      },
+      {
+        "id": "item_da5cec18bd9c",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "你好！ (nǐ hǎo) (nǐ hǎo) 请问您想找什么样的衣服呢？ (qǐng wèn nín xiǎng zhǎo shén me yàng de yī fú ne) (qǐng wèn nín xiǎng zhǎo shén me yàng de yī fú ne)"
+        ],
+        "interrupted": false
+      },
+      {
+        "id": "item_037bd44f177e",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "我說你聽得懂嗎?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.0
+      },
+      {
+        "id": "item_a6559ba70f94",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "我听得懂一些，但请用中文交流会更好！ (wǒ tīng de dǒng yī xiē dàn qǐng yòng zhōng wén jiāo liú huì gèng hǎo) (wǒ tīng dé dǒng yī xiē, dàn qǐng yòng zhōng wén jiāo liú huì gèng hǎo!) 您想要找什么衣服呢？ (nín xiǎng yào zhǎo shén me yī fú ne)(nín xiǎng yào zhǎo shén me yī fú ne)"
+        ],
+        "interrupted": false
+      }
+    ]
+  }
+}

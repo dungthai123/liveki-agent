@@ -1,0 +1,22 @@
+{
+  "room_name": "room-chinese-2-9-f0aba043",
+  "category_id": 2,
+  "topic_id": 9,
+  "topic_name": "Shopping for Clothes",
+  "category_name": "Daily Conversation",
+  "timestamp": "20250625_213535",
+  "student_details": null,
+  "conversation_history": {
+    "items": [
+      {
+        "id": "item_a9f4409e5cf9",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "欢迎光临！请问您需要帮助吗？您想看看什么样的衣服？"
+        ],
+        "interrupted": false
+      }
+    ]
+  }
+}

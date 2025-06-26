@@ -1,0 +1,60 @@
+{
+  "room_name": "room-chinese-6-2-27e56656",
+  "category_id": 6,
+  "topic_id": 2,
+  "topic_name": "Overcoming Unemployment",
+  "category_name": "Healing",
+  "timestamp": "20250625_220423",
+  "student_details": null,
+  "conversation_history": {
+    "items": [
+      {
+        "id": "item_a1d273bba360",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "您好！ (nín hǎo)我知道失业可能很困难。 (wǒ zhī dào shī yè kě néng hěn kùn nán)您在寻找什么样的工作？ (nín zài xún zhǎo shén me yàng de gōng zuò)让我来帮助您。 (ràng wǒ lái bāng zhù nín)"
+        ],
+        "interrupted": false
+      },
+      {
+        "id": "item_7f6cc1718a2a",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Ah."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.0
+      },
+      {
+        "id": "item_8dad5eb38a67",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "请问您有什么具体的问题或者需要帮助的地方吗？ (qǐng wèn nín yǒu shén me jù tǐ de wèn tí huò zhě xū yào bāng zhù de dì fāng ma) (qǐng wèn nín yǒu shén me jù tǐ de wèn tí huò zhě xū yào bāng zhù de dì fāng ma)"
+        ],
+        "interrupted": false
+      },
+      {
+        "id": "item_0955c7be9a8d",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "沒有"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.0
+      },
+      {
+        "id": "item_6699c5e6ad19",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "好的，没关系！ (hǎo de méi guān xì) (hǎo de, méi guān xì)您可以分享一下您的技能吗？ (nín kě yǐ fēn xiǎng yī xià nín de jì néng ma) (nín kě yǐ fēn xiǎng yī xià nín de jì néng ma)我们可以看看如何将其应用到不同的工作机会中。 (wǒ men kě yǐ kàn kàn rú hé jiāng qí yìng yòng dào bù tóng de gōng zuò jī huì zhōng) (wǒ men kě yǐ kàn kàn rú hé jiāng qí yìng yòng dào bù tóng de gōng zuò jī huì zhōng)"
+        ],
+        "interrupted": false
+      }
+    ]
+  }
+}

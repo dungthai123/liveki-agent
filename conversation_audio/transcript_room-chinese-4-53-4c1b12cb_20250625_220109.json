@@ -1,0 +1,22 @@
+{
+  "room_name": "room-chinese-4-53-4c1b12cb",
+  "category_id": 4,
+  "topic_id": 53,
+  "topic_name": "Describing Your Daily Routine",
+  "category_name": "Tutor for Intermediate",
+  "timestamp": "20250625_220109",
+  "student_details": null,
+  "conversation_history": {
+    "items": [
+      {
+        "id": "item_3be95a024caf",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "你能描述一下你的日常生活吗？ (nǐ néng miáo shù yī xià nǐ de rì cháng shēng huó ma)"
+        ],
+        "interrupted": false
+      }
+    ]
+  }
+}

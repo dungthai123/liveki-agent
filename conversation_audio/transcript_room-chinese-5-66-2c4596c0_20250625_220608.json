@@ -1,0 +1,47 @@
+{
+  "room_name": "room-chinese-5-66-2c4596c0",
+  "category_id": 5,
+  "topic_id": 66,
+  "topic_name": "Advanced Business Chinese",
+  "category_name": "HSK 5-6 Level",
+  "timestamp": "20250625_220608",
+  "student_details": {
+    "name": "学生",
+    "email": "",
+    "level": "",
+    "goals": "",
+    "lessons_completed": 0
+  },
+  "conversation_history": {
+    "items": [
+      {
+        "id": "item_f3583e6ae9a3",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "我们来模拟一个商务谈判场景。 (wǒ men lái mó nǐ yí gè shāng wù tán pàn chǎng jǐng)你准备好了吗？ (nǐ zhǔn bèi hǎo le ma)"
+        ],
+        "interrupted": false
+      },
+      {
+        "id": "item_61f67a2cc64a",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "我準備好了。"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.0
+      },
+      {
+        "id": "item_6b56dd7ce2f9",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "太好了，学生！ (tài hǎo le xué shēng)我们假设你在和一个供应商谈判价格。 (wǒ men jiǎ shè nǐ zài hé yí gè gōng yìng shāng tán pàn jià gé)你想以什么价格开始谈判？ (nǐ xiǎng yǐ shén me jià gé kāi shǐ tán pàn) (tài hǎo le, xué shēng! wǒ men jiǎ shè nǐ zài hé yí gè gòng yìng shāng tán pàn jià gé. nǐ xiǎng yǐ shén me jià gé kāi shǐ tán pàn?)"
+        ],
+        "interrupted": false
+      }
+    ]
+  }
+}

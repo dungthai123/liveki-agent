@@ -1,0 +1,4830 @@
+[{
+  "_id": {
+    "$oid": "678e1ec38ce4b93d741773c2"
+  },
+  "id": 2,
+  "display_order": 2,
+  "regions": {
+    "vi": {
+      "name": "Trò chuyện"
+    },
+    "en": {
+      "name": "Daily Conversation"
+    },
+    "zh-Hant": {
+      "name": "日常對話"
+    },
+    "ko": {
+      "name": "일상 회화"
+    }
+  },
+  "topic_details": [
+    {
+      "topic_id": 9,
+      "prompt": "You are a Chinese-speaking shop assistant. Encourage the user to ask about various clothing items and respond with helpful suggestions. Use polite language and common shopping phrases.",
+      "first_message": "欢迎光临！请问您需要帮助吗？您想看看什么样的衣服？",
+      "image_url": "/uploads/conversation_topics/shopping_for_clothes.webp",
+      "regions": {
+        "vi": {
+          "title": "Mua sắm quần áo",
+          "description": "Luyện tập hỏi mua các mặt hàng quần áo bằng tiếng Nhật, hỏi về kích cỡ và cách biểu đạt sở thích.",
+          "tasks": [
+            "Hỏi về các mặt hàng quần áo cụ thể và tìm hiểu về các lựa chọn.",
+            "Thảo luận về kích cỡ và kiểu dáng phù hợp với sở thích cá nhân.",
+            "Yêu cầu gợi ý về các mặt hàng đang bán chạy hoặc khuyến mãi."
+          ]
+        },
+        "en": {
+          "title": "Shopping for Clothes",
+          "description": "Practice asking for different clothing items in Chinese, inquire about sizes, and how to express preferences.",
+          "tasks": [
+            "Ask about different clothing items and describe them.",
+            "Inquire about available sizes and colors.",
+            "Express preferences for styles or materials."
+          ]
+        },
+        "zh-Hant": {
+          "title": "購買衣服",
+          "description": "練習用中文詢問不同的服裝物品，詢問尺碼以及如何表達喜好。",
+          "tasks": [
+            "詢問不同的服裝專案並描述它們。",
+            "詢問可用的尺寸和顏色。",
+            "表達樣式或材質的首選項。"
+          ]
+        },
+        "ko": {
+          "title": "의류 쇼핑",
+          "description": "중국어로 다양한 의류 품목을 요청하고, 사이즈에 대해 문의하고, 선호도를 표현하는 방법을 연습합니다.",
+          "tasks": [
+            "다양한 의류 품목에 대해 물어보고 설명하십시오.",
+            "사용 가능한 크기와 색상에 대해 문의하십시오.",
+            "스타일 또는 재료에 대한 기본 설정을 표현합니다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 11,
+      "prompt": "You are a hotel receptionist. Guide the user through the process of making a reservation and encourage them to ask questions about the hotel facilities.",
+      "first_message": "您好，欢迎致电我们酒店。请问我能帮您预订房间吗？",
+      "image_url": "/uploads/conversation_topics/making_a_hotel_reservation.webp",
+      "regions": {
+        "vi": {
+          "title": "Đặt phòng khách sạn",
+          "description": "Luyện tập đặt phòng khách sạn bằng tiếng Nhật, bao gồm việc chỉ định loại phòng, hỏi về tiện nghi và xác nhận chi tiết đặt phòng.",
+          "tasks": [
+            "Chọn loại phòng và thảo luận về tiện nghi đi kèm.",
+            "Hỏi về các dịch vụ bổ sung như bữa sáng hoặc spa.",
+            "Xác nhận chi tiết đặt phòng và các yêu cầu đặc biệt."
+          ]
+        },
+        "en": {
+          "title": "Making a Hotel Reservation",
+          "description": "Practice booking a hotel room in Chinese, including specifying room type, asking about amenities, and confirming reservation details.",
+          "tasks": [
+            "Specify the type of room you need and the dates of your stay.",
+            "Inquire about hotel amenities like Wi-Fi or breakfast.",
+            "Confirm your reservation details with the receptionist."
+          ]
+        },
+        "zh-Hant": {
+          "title": "預訂酒店",
+          "description": "練習用中文預訂酒店房間，包括指定房型、詢問便利設施、確認預訂詳情。",
+          "tasks": [
+            "指定您需要的房間類型和入住日期。",
+            "詢問Wi-Fi或早餐等酒店設施。",
+            "請與接待員確認您的預訂詳細資訊。"
+          ]
+        },
+        "ko": {
+          "title": "호텔 예약하기",
+          "description": "객실 유형 지정, 편의 시설에 대한 질문, 예약 세부 정보 확인을 포함하여 중국어로 호텔 객실을 예약하는 연습을 합니다.",
+          "tasks": [
+            "필요한 객실 유형과 숙박 날짜를 지정하십시오.",
+            "Wi-Fi 또는 아침 식사와 같은 호텔 편의 시설에 대해 문의하십시오.",
+            "접수 원에게 예약 세부 정보를 확인하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 10,
+      "prompt": "You are a waiter in a Chinese restaurant. Help the user navigate the menu, make choices, and use phrases appropriate for dining out.",
+      "first_message": "欢迎光临我们餐厅！今天您想尝尝哪些菜品？",
+      "image_url": "/uploads/conversation_topics/ordering_at_a_chinese_restaurant.webp",
+      "regions": {
+        "vi": {
+          "title": "Gọi món tại nhà hàng Nhật Bản",
+          "description": "Luyện tập gọi món ăn trong một nhà hàng Nhật Bản, hỏi về các mục trên thực đơn và yêu cầu gợi ý.",
+          "tasks": [
+            "Lựa chọn món ăn từ thực đơn và hỏi về các thành phần chính.",
+            "Yêu cầu gợi ý về các món đặc sản hoặc phổ biến tại nhà hàng.",
+            "Thảo luận về các lựa chọn thực đơn phù hợp với sở thích ăn uống."
+          ]
+        },
+        "en": {
+          "title": "Ordering at a Chinese Restaurant",
+          "description": "Practice ordering dishes in a Chinese restaurant, asking about menu items, and requesting recommendations.",
+          "tasks": [
+            "Ask about specific dishes and their ingredients.",
+            "Request recommendations based on your preferences.",
+            "Place an order and ask for any necessary modifications."
+          ]
+        },
+        "zh-Hant": {
+          "title": "在中餐館點餐",
+          "description": "練習在中餐館點菜，詢問功能表項，並請求推薦。",
+          "tasks": [
+            "詢問具體的菜餚及其成分。",
+            "根據您的偏好請求推薦。",
+            "下訂單並要求進行任何必要的修改。"
+          ]
+        },
+        "ko": {
+          "title": "중식당에서 주문하기",
+          "description": "중식당에서 요리를 주문하고, 메뉴 항목에 대해 묻고, 추천을 요청하는 연습을 합니다.",
+          "tasks": [
+            "특정 요리와 재료에 대해 물어보십시오.",
+            "기본 설정에 따라 추천을 요청하세요.",
+            "주문하고 필요한 수정을 요청하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 8,
+      "prompt": "You are a local resident. Provide clear directions to the user and use common expressions related to location and movement.",
+      "first_message": "您好！看起来您好像有点迷路了，需要我帮您指路吗？",
+      "image_url": "/uploads/conversation_topics/asking_for_directions.webp",
+      "regions": {
+        "vi": {
+          "title": "Hỏi đường",
+          "description": "Luyện tập hỏi và hiểu chỉ dẫn đường đi bằng tiếng Nhật, cũng như cách cảm ơn ai đó vì đã giúp đỡ.",
+          "tasks": [
+            "Hỏi đường đến một địa điểm cụ thể và lắng nghe chỉ dẫn.",
+            "Thực hành cách nói về phương hướng và khoảng cách.",
+            "Cảm ơn người hướng dẫn và xác nhận lại thông tin đường đi."
+          ]
+        },
+        "en": {
+          "title": "Asking for Directions",
+          "description": "Practice asking for and understanding directions in Chinese, as well as thanking someone for their help.",
+          "tasks": [
+            "Ask for directions to a specific location.",
+            "Clarify the directions you receive.",
+            "Thank the person for their help and confirm your understanding."
+          ]
+        },
+        "zh-Hant": {
+          "title": "問路",
+          "description": "練習用中文詢問和理解方向，以及感謝某人的説明。",
+          "tasks": [
+            "詢問前往特定位置的路線。",
+            "澄清您收到的路線。",
+            "感謝此人的幫助並確認您的理解。"
+          ]
+        },
+        "ko": {
+          "title": "길 묻기",
+          "description": "중국어로 길을 묻고 이해하는 연습뿐만 아니라 도움을 준 사람에게 감사하는 연습을 합니다.",
+          "tasks": [
+            "특정 위치로 가는 길을 물어보세요.",
+            "받은 지시 사항을 명확히 하십시오.",
+            "도움을 준 사람에게 감사를 표하고 이해했음을 확인한다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 33,
+      "prompt": "You are a guide at a Chinese festival. Describe the festival to the user and answer their questions about the cultural significance of various activities.",
+      "first_message": "您好！欢迎来到我们的传统节日。您对哪个活动感兴趣？",
+      "image_url": "/uploads/conversation_topics/visiting_a_traditional_festival.webp",
+      "regions": {
+        "vi": {
+          "title": "Tham gia lễ hội truyền thống",
+          "description": "Học cách thảo luận về các hoạt động lễ hội, biểu lộ sự phấn khích và hỏi về phong tục văn hóa Nhật Bản。",
+          "tasks": [
+            "Hỏi về các hoạt động chính tại lễ hội và thời gian diễn ra.",
+            "Thảo luận về ý nghĩa văn hóa của lễ hội và các phong tục liên quan.",
+            "Biểu lộ sự phấn khích và hỏi thêm về các hoạt động thú vị khác."
+          ]
+        },
+        "en": {
+          "title": "Visiting a Traditional Festival",
+          "description": "Learn to discuss festival activities, express excitement, and ask about cultural practices in Chinese.",
+          "tasks": [
+            "Ask about different festival activities and their cultural significance.",
+            "Express excitement about participating in specific activities.",
+            "Discuss the history or traditions associated with the festival."
+          ]
+        },
+        "zh-Hant": {
+          "title": "參觀傳統節日",
+          "description": "學習用中文討論節日活動、表達興奮和詢問文化習俗。",
+          "tasks": [
+            "詢問不同的節日活動及其文化意義。",
+            "表達對參加特定活動的興奮。",
+            "討論與節日相關的歷史或傳統。"
+          ]
+        },
+        "ko": {
+          "title": "전통 축제 관람",
+          "description": "축제 활동에 대해 토론하고, 흥분을 표현하고, 중국어로 문화 관습에 대해 질문하는 방법을 배웁니다.",
+          "tasks": [
+            "다양한 축제 활동과 문화적 중요성에 대해 물어보십시오.",
+            "특정 활동에 참여하는 것에 대한 기대감을 표현한다.",
+            "축제와 관련된 역사나 전통에 대해 토론한다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 17,
+      "prompt": "You are a Chinese-speaking doctor. Encourage the user to describe their symptoms and provide reassurance as you offer medical advice.",
+      "first_message": "您好，请问您哪里不舒服？",
+      "image_url": "/uploads/conversation_topics/at_the_doctors_office.webp",
+      "regions": {
+        "vi": {
+          "title": "Tại phòng khám bác sĩ",
+          "description": "Luyện tập giải thích triệu chứng và hiểu về đơn thuốc và lời khuyên khi đến thăm bác sĩ bằng tiếng Nhật。",
+          "tasks": [
+            "Mô tả chi tiết các triệu chứng và cảm giác hiện tại.",
+            "Hỏi về các phương pháp điều trị và lời khuyên của bác sĩ.",
+            "Thảo luận về các biện pháp phòng ngừa và chăm sóc sức khỏe tại nhà."
+          ]
+        },
+        "en": {
+          "title": "At the Doctor's Office",
+          "description": "Practice explaining symptoms and understanding prescriptions and advice in Chinese when visiting a doctor.",
+          "tasks": [
+            "Describe your symptoms in detail to the doctor.",
+            "Ask questions about the diagnosis or treatment plan.",
+            "Discuss any concerns or preferences regarding the prescribed medication."
+          ]
+        },
+        "zh-Hant": {
+          "title": "在醫生辦公室",
+          "description": "看醫生時，練習用中文解釋癥狀並理解處方和建議。",
+          "tasks": [
+            "向醫生詳細描述您的癥狀。",
+            "詢問有關診斷或治療計劃的問題。",
+            "討論對處方藥的任何疑慮或偏好。"
+          ]
+        },
+        "ko": {
+          "title": "진료실에서",
+          "description": "의사를 방문할 때 중국어로 증상을 설명하고 처방전 및 조언을 이해하는 연습을 합니다.",
+          "tasks": [
+            "의사에게 증상을 자세히 설명하십시오.",
+            "진단 또는 치료 계획에 대해 질문하십시오.",
+            "처방된 약물에 대한 우려 사항이나 선호 사항에 대해 논의합니다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 14,
+      "prompt": "You are a Chinese teacher. Engage the user in a conversation about their hobbies and share information about your own to keep the conversation going.",
+      "first_message": "您好！我们来聊聊您的爱好。您平时喜欢做些什么呢？",
+      "image_url": "/uploads/conversation_topics/talking_about_hobbies.webp",
+      "regions": {
+        "vi": {
+          "title": "Nói về sở thích",
+          "description": "Học cách nói về sở thích bằng tiếng Nhật, đặt câu hỏi và biểu đạt ý kiến về các thú vui phổ biến。",
+          "tasks": [
+            "Chia sẻ về các sở thích cá nhân và lý do yêu thích.",
+            "Hỏi về sở thích của người khác và so sánh với mình.",
+            "Thảo luận về cách phát triển và duy trì các sở thích."
+          ]
+        },
+        "en": {
+          "title": "Talking About Hobbies",
+          "description": "Learn to talk about your hobbies in Chinese, ask questions, and express opinions about common pastimes.",
+          "tasks": [
+            "Describe your hobbies and how often you engage in them.",
+            "Ask others about their hobbies and share common interests.",
+            "Discuss why you enjoy your hobbies and any related experiences."
+          ]
+        },
+        "zh-Hant": {
+          "title": "談論愛好",
+          "description": "學會用中文談論你的愛好，提出問題，並就常見的消遣活動發表意見。",
+          "tasks": [
+            "描述您的愛好以及您從事這些愛好的頻率。",
+            "詢問他人的愛好並分享共同的興趣。",
+            "討論您為什麼喜歡自己的愛好和任何相關經歷。"
+          ]
+        },
+        "ko": {
+          "title": "취미에 대해 이야기하기",
+          "description": "중국어로 취미에 대해 이야기하고, 질문하고, 일반적인 오락에 대한 의견을 표현하는 방법을 배웁니다.",
+          "tasks": [
+            "당신의 취미와 당신이 그것에 얼마나 자주 참여하는지 설명하십시오.",
+            "다른 사람들에게 취미에 대해 물어보고 공통 관심사를 공유하십시오.",
+            "당신이 취미를 즐기는 이유와 그와 관련된 경험들에 대해 토론한다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 16,
+      "prompt": "You are a weather reporter. Discuss today's weather with the user and encourage them to describe the weather in their own area.",
+      "first_message": "您好！今天的天气怎么样？",
+      "image_url": "/uploads/conversation_topics/discussing_weather.webp",
+      "regions": {
+        "vi": {
+          "title": "Thảo luận về thời tiết",
+          "description": "Luyện tập nói về thời tiết và các mùa trong năm bằng tiếng Nhật, bao gồm biểu đạt sở thích và làm giao tiếp nhỏ。",
+          "tasks": [
+            "Mô tả thời tiết hiện tại và cảm giác của bạn về nó.",
+            "Hỏi về thời tiết ở khu vực khác và so sánh với thời tiết hiện tại.",
+            "Thảo luận về các mùa yêu thích và lý do tại sao."
+          ]
+        },
+        "en": {
+          "title": "Discussing Weather",
+          "description": "Practice talking about the weather and seasons in Chinese, including expressing preferences and making small talk.",
+          "tasks": [
+            "Describe the current weather conditions in your area.",
+            "Discuss your favorite and least favorite types of weather.",
+            "Ask about the weather in different regions and compare climates."
+          ]
+        },
+        "zh-Hant": {
+          "title": "討論天氣",
+          "description": "練習用中文談論天氣和季節，包括表達喜好和閒聊。",
+          "tasks": [
+            "描述您所在地區的當前天氣狀況。",
+            "討論你最喜歡和最不喜歡的天氣類型。",
+            "詢問不同地區的天氣並比較氣候。"
+          ]
+        },
+        "ko": {
+          "title": "날씨에 대해 토론하기",
+          "description": "중국어로 날씨와 계절에 대해 이야기하는 연습을 하고, 선호 사항을 표현하고 잡담을 합니다.",
+          "tasks": [
+            "해당 지역의 현재 기상 상태를 설명하십시오.",
+            "가장 좋아하는 날씨와 가장 싫어하는 날씨 유형에 대해 토론하십시오.",
+            "다른 지역의 날씨에 대해 물어보고 기후를 비교하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 43,
+      "prompt": "You are a travel agent. Assist the user in planning a trip by asking about their preferences and making suggestions.",
+      "first_message": "您好！我可以帮您规划旅行吗？您想去中国的哪个地方旅游？",
+      "image_url": "/uploads/conversation_topics/planning_a_trip.webp",
+      "regions": {
+        "vi": {
+          "title": "Lên kế hoạch đi du lịch",
+          "description": "Học cách thảo luận về kế hoạch du lịch bằng tiếng Nhật, bao gồm hỏi về điểm đến, phương tiện di chuyển và sở thích về chỗ ở。",
+          "tasks": [
+            "Chọn điểm đến và thảo luận về các hoạt động dự định.",
+            "Hỏi về các phương tiện di chuyển và lợi ích của từng loại.",
+            "Thảo luận về các lựa chọn chỗ ở và tiện nghi mong muốn."
+          ]
+        },
+        "en": {
+          "title": "Planning a Trip",
+          "description": "Learn to discuss travel plans in Chinese, including asking about destinations, transportation, and accommodation preferences.",
+          "tasks": [
+            "Discuss your preferred travel destination and reasons for choosing it.",
+            "Ask about transportation options and compare their pros and cons.",
+            "Plan your accommodation and other activities for the trip."
+          ]
+        },
+        "zh-Hant": {
+          "title": "規劃行程",
+          "description": "學習用中文討論旅行計劃，包括詢問目的地、交通和住宿偏好。",
+          "tasks": [
+            "討論您首選的旅行目的地和選擇它的原因。",
+            "詢問交通方式並比較它們的優缺點。",
+            "計劃您的旅行住宿和其他活動。"
+          ]
+        },
+        "ko": {
+          "title": "여행 계획하기",
+          "description": "목적지, 교통 및 숙박 시설 선호도에 대해 묻는 것을 포함하여 중국어로 여행 계획을 논의하는 방법을 배웁니다.",
+          "tasks": [
+            "선호하는 여행 목적지와 선택 이유에 대해 논의하십시오.",
+            "교통 수단에 대해 물어보고 장단점을 비교하십시오.",
+            "여행을 위한 숙박 및 기타 활동을 계획하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 46,
+      "prompt": "You are a Chinese language teacher. Help the user understand the basics of Chinese characters and practice writing them.",
+      "first_message": "您好！今天我们来学习一些基础的汉字。您想从哪个字开始？",
+      "image_url": "/uploads/conversation_topics/learning_chinese_characters.webp",
+      "regions": {
+        "vi": {
+          "title": "Học chữ Hán",
+          "description": "Luyện viết và nhận biết các chữ Hán cơ bản, và tìm hiểu ý nghĩa và cách phát âm của chúng。",
+          "tasks": [
+            "Luyện viết các chữ Hán cơ bản và học cách phát âm chúng.",
+            "Học về ý nghĩa của từng chữ và cách sử dụng trong câu.",
+            "Thảo luận về cách ghi nhớ chữ Hán hiệu quả."
+          ]
+        },
+        "en": {
+          "title": "Learning Chinese Characters",
+          "description": "Practice writing and recognizing basic Chinese characters, and learn their meanings and pronunciations.",
+          "tasks": [
+            "Learn the basic strokes and structure of Chinese characters.",
+            "Practice writing and recognizing common characters.",
+            "Discuss the meanings and pronunciations of the characters."
+          ]
+        },
+        "zh-Hant": {
+          "title": "學習漢字",
+          "description": "練習書寫和識別基本漢字，並學習它們的含義和發音。",
+          "tasks": [
+            "學習漢字的基本筆劃和結構。",
+            "練習寫作和識別常見字元。",
+            "討論字元的含義和發音。"
+          ]
+        },
+        "ko": {
+          "title": "한자 배우기",
+          "description": "기본적인 한자를 쓰고 인식하는 연습을 하고 그 의미와 발음을 배웁니다.",
+          "tasks": [
+            "한자의 기본 획과 구조를 배웁니다.",
+            "일반적인 문자를 쓰고 인식하는 연습을 합니다.",
+            "문자의 의미와 발음에 대해 토론합니다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 44,
+      "prompt": "You are a transportation service helper. Guide the user on how to navigate the public transportation system in China.",
+      "first_message": "您好！请问您需要如何帮助您找到合适的公交或火车？",
+      "image_url": "/uploads/conversation_topics/public_transportation.webp",
+      "regions": {
+        "vi": {
+          "title": "Sử dụng phương tiện giao thông công cộng",
+          "description": "Thảo luận về việc sử dụng phương tiện giao thông công cộng ở Nhật Bản, bao gồm cách mua vé và tìm đúng xe buýt hoặc tàu。",
+          "tasks": [
+            "Hỏi về các tuyến đường và thời gian xe buýt hoặc tàu chạy.",
+            "Thảo luận về cách mua vé và sử dụng các dịch vụ giao thông công cộng.",
+            "Hỏi về các tiện ích trên xe buýt hoặc tàu và cách sử dụng."
+          ]
+        },
+        "en": {
+          "title": "Public Transportation",
+          "description": "Discuss using public transportation in China, including how to buy tickets and how to find the right bus or train.",
+          "tasks": [
+            "Ask about the best way to reach a destination using public transportation.",
+            "Inquire about how to buy tickets and use transportation passes.",
+            "Discuss different modes of public transportation and their schedules."
+          ]
+        },
+        "zh-Hant": {
+          "title": "公共交通",
+          "description": "討論在中國使用公共交通工具，包括如何買票以及如何找到合適的公共汽車或火車。",
+          "tasks": [
+            "詢問使用公共交通工具到達目的地的最佳方式。",
+            "詢問如何購買車票和使用交通通行證。",
+            "討論不同的公共交通方式及其時程表。"
+          ]
+        },
+        "ko": {
+          "title": "대중 교통",
+          "description": "티켓을 구입하는 방법, 적합한 버스 또는 기차를 찾는 방법 등 중국에서 대중 교통을 이용하는 방법에 대해 논의합니다.",
+          "tasks": [
+            "대중 교통을 이용하여 목적지에 도착하는 가장 좋은 방법에 대해 물어보십시오.",
+            "승차권 구입 및 교통 패스 사용 방법에 대해 문의하십시오.",
+            "다양한 대중 교통 수단과 일정에 대해 논의하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 38,
+      "prompt": "You are a real estate agent. Help the user find the right apartment and discuss the terms of renting.",
+      "first_message": "您好！请问您在找怎样的公寓？您对房间大小有什么要求吗？",
+      "image_url": "/uploads/conversation_topics/renting_an_apartment.webp",
+      "regions": {
+        "vi": {
+          "title": "Thuê căn hộ",
+          "description": "Học cách thảo luận về đặc điểm căn hộ, đàm phán giá thuê và hiểu về hợp đồng thuê nhà bằng tiếng Nhật。",
+          "tasks": [
+            "Thảo luận về các đặc điểm cần thiết của căn hộ và vị trí mong muốn.",
+            "Hỏi về giá thuê và các chi phí liên quan khác.",
+            "Thảo luận về điều khoản hợp đồng và các điều kiện thuê."
+          ]
+        },
+        "en": {
+          "title": "Renting an Apartment",
+          "description": "Learn to discuss apartment features, negotiate rent, and understand lease agreements in Chinese.",
+          "tasks": [
+            "Describe your ideal apartment, including size, location, and amenities.",
+            "Ask about rental terms, including lease length and cost.",
+            "Negotiate rent and discuss any specific conditions or needs."
+          ]
+        },
+        "zh-Hant": {
+          "title": "租房",
+          "description": "學習討論公寓特色、協商租金和瞭解中文租賃協定。",
+          "tasks": [
+            "描述您理想的公寓，包括大小、位置和便利設施。",
+            "詢問租賃條款，包括租賃期限和成本。",
+            "協商租金並討論任何具體條件或需求。"
+          ]
+        },
+        "ko": {
+          "title": "아파트 임대",
+          "description": "아파트 특징에 대해 토론하고, 임대료를 협상하고, 중국어로 임대 계약을 이해하는 방법을 배웁니다.",
+          "tasks": [
+            "크기, 위치 및 편의 시설을 포함하여 이상적인 아파트를 설명하십시오.",
+            "임대 기간 및 비용을 포함한 임대 조건에 대해 문의하십시오.",
+            "임대료를 협상하고 특정 조건이나 요구 사항에 대해 논의합니다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 35,
+      "prompt": "You are a grocery store clerk. Assist the user with finding food items and discussing their prices.",
+      "first_message": "欢迎光临！请问您今天需要买些什么食材？",
+      "image_url": "/uploads/conversation_topics/grocery_shopping.webp",
+      "regions": {
+        "vi": {
+          "title": "Mua sắm tạp hóa",
+          "description": "Luyện tập hỏi mua các mặt hàng thực phẩm cụ thể, so sánh giá cả và hiểu về đơn vị đo lường trong tiếng Nhật。",
+          "tasks": [
+            "Hỏi về các mặt hàng thực phẩm cụ thể và giá cả của chúng.",
+            "So sánh giá cả và chất lượng giữa các sản phẩm khác nhau.",
+            "Thảo luận về đơn vị đo lường và cách chọn mua hàng tốt nhất."
+          ]
+        },
+        "en": {
+          "title": "Grocery Shopping",
+          "description": "Practice asking for specific food items, comparing prices, and understanding units of measurement in Chinese.",
+          "tasks": [
+            "Ask for specific food items and inquire about their availability.",
+            "Compare prices and ask about discounts or promotions.",
+            "Discuss the units of measurement and how to choose quantities."
+          ]
+        },
+        "zh-Hant": {
+          "title": "買",
+          "description": "練習詢問特定的食物、比較價格和理解中文的計量單位。",
+          "tasks": [
+            "詢問特定食品並詢問其可用性。",
+            "比較價格並詢問折扣或促銷活動。",
+            "討論度量單位以及如何選擇數量。"
+          ]
+        },
+        "ko": {
+          "title": "식료품 쇼핑",
+          "description": "특정 식품을 요청하고, 가격을 비교하고, 중국어로 측정 단위를 이해하는 연습을 합니다.",
+          "tasks": [
+            "특정 식품을 요청하고 재고에 대해 문의하십시오.",
+            "가격을 비교하고 할인 또는 프로모션에 대해 문의하십시오.",
+            "측정 단위와 수량 선택 방법에 대해 논의합니다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 40,
+      "prompt": "You are a cinema ticket seller. Help the user decide on a movie and complete the purchase of tickets.",
+      "first_message": "您好！欢迎来到我们的影院。请问您今天想看哪一部电影？",
+      "image_url": "/uploads/conversation_topics/going_to_the_movies.webp",
+      "regions": {
+        "vi": {
+          "title": "Đi xem phim",
+          "description": "Học cách thảo luận về các thể loại phim khác nhau, chọn phim và mua vé xem phim bằng tiếng Nhật。",
+          "tasks": [
+            "Hỏi về các bộ phim đang chiếu và thể loại yêu thích.",
+            "Thảo luận về nội dung phim và chọn phim phù hợp.",
+            "Hoàn tất việc mua vé và hỏi về các dịch vụ đi kèm như đồ ăn vặt."
+          ]
+        },
+        "en": {
+          "title": "Going to the Movies",
+          "description": "Learn to discuss different film genres, choose a movie, and buy tickets in Chinese.",
+          "tasks": [
+            "Ask about current movie showings and their genres.",
+            "Discuss your preferences and choose a movie to watch.",
+            "Purchase tickets and inquire about seating options."
+          ]
+        },
+        "zh-Hant": {
+          "title": "去看電影",
+          "description": "學習討論不同的電影類型，選擇電影，並購買中文門票。",
+          "tasks": [
+            "詢問當前的電影放映及其類型。",
+            "討論您的偏好並選擇要觀看的電影。",
+            "購票並詢問座位選擇。"
+          ]
+        },
+        "ko": {
+          "title": "영화 보러 가기",
+          "description": "다양한 영화 장르에 대해 토론하고, 영화를 선택하고, 중국어로 티켓을 구매하는 방법을 배웁니다.",
+          "tasks": [
+            "현재 상영 중인 영화와 장르에 대해 물어보세요.",
+            "선호도에 대해 논의하고 볼 영화를 선택하십시오.",
+            "티켓을 구매하고 좌석 옵션에 대해 문의하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 45,
+      "prompt": "You are a park guide. Describe the park's features to the user and suggest some activities they can do.",
+      "first_message": "欢迎您来到公园！您对公园里有哪些活动感兴趣吗？",
+      "image_url": "/uploads/conversation_topics/enjoying_a_park.webp",
+      "regions": {
+        "vi": {
+          "title": "Tận hưởng công viên",
+          "description": "Thảo luận về các hoạt động có thể làm trong công viên và nói về cảnh quan thiên nhiên bằng tiếng Nhật。",
+          "tasks": [
+            "Thảo luận về các hoạt động ngoài trời có thể làm trong công viên.",
+            "Hỏi về các khu vực đẹp để chụp ảnh hoặc dã ngoại.",
+            "Thảo luận về các loài cây và động vật có thể thấy trong công viên."
+          ]
+        },
+        "en": {
+          "title": "Enjoying a Park",
+          "description": "Discuss various activities one can do in a park and talk about natural scenery in Chinese.",
+          "tasks": [
+            "Describe the natural scenery and key features of the park.",
+            "Discuss various activities available in the park, such as walking, picnicking, or sports.",
+            "Express your enjoyment of the park and suggest what to do there."
+          ]
+        },
+        "zh-Hant": {
+          "title": "享受公園",
+          "description": "討論在公園裡可以進行的各種活動，並用中文談論自然風光。",
+          "tasks": [
+            "描述公園的自然風光和主要特色。",
+            "討論公園內提供的各種活動，例如散步、野餐或運動。",
+            "表達您對公園的喜愛並建議在那裡做什麼。"
+          ]
+        },
+        "ko": {
+          "title": "공원을 만끽하기",
+          "description": "공원에서 할 수 있는 다양한 활동에 대해 토론하고 중국어로 자연 경관에 대해 이야기합니다.",
+          "tasks": [
+            "자연 경관과 공원의 주요 특징을 설명하십시오.",
+            "걷기, 피크닉 또는 스포츠와 같이 공원에서 할 수 있는 다양한 활동에 대해 토론합니다.",
+            "공원에 대한 즐거움을 표현하고 그곳에서 무엇을 할 수 있는지 제안하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 28,
+      "prompt": "You are a school administrator. Help the user navigate their class schedule and classroom locations.",
+      "first_message": "您好！请问您需要帮助找到您的教室还是了解课程安排？",
+      "image_url": "/uploads/conversation_topics/attending_a_class.webp",
+      "regions": {
+        "vi": {
+          "title": "Tham dự lớp học",
+          "description": "Luyện ngôn ngữ trong lớp học, thảo luận về các môn học khác nhau và học cách giao tiếp với giáo viên và bạn cùng lớp bằng tiếng Nhật。",
+          "tasks": [
+            "Thảo luận về thời gian biểu và các môn học yêu thích.",
+            "Hỏi về vị trí lớp học và cách tìm đến đó.",
+            "Thảo luận về cách giao tiếp với giáo viên và bạn cùng lớp."
+          ]
+        },
+        "en": {
+          "title": "Attending a Class",
+          "description": "Practice classroom language, discuss different subjects, and learn how to communicate with teachers and classmates in Chinese.",
+          "tasks": [
+            "Ask about class schedules and the subjects offered.",
+            "Discuss the location of your classes and how to get there.",
+            "Inquire about specific teachers or classmates and how to communicate with them."
+          ]
+        },
+        "zh-Hant": {
+          "title": "上課",
+          "description": "練習課堂語言，討論不同的主題，並學習如何用中文與老師和同學交流。",
+          "tasks": [
+            "詢問課程表和提供的科目。",
+            "討論您的課程地點以及如何到達那裡。",
+            "詢問特定的老師或同學以及如何與他們交流。"
+          ]
+        },
+        "ko": {
+          "title": "수업 참석하기",
+          "description": "교실 언어를 연습하고, 다양한 주제에 대해 토론하고, 중국어로 교사 및 급우들과 의사 소통하는 방법을 배웁니다.",
+          "tasks": [
+            "수업 시간표와 제공되는 과목에 대해 문의하십시오.",
+            "수업 장소와 가는 방법에 대해 논의합니다.",
+            "특정 교사나 급우에 대해 문의하고 그들과 의사 소통하는 방법에 대해 문의하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 23,
+      "prompt": "You are a museum curator. Introduce the user to the different exhibits and offer to guide them.",
+      "first_message": "欢迎您参观我们的博物馆！您对哪一部分展览感兴趣？",
+      "image_url": "/uploads/conversation_topics/visiting_a_museum.webp",
+      "regions": {
+        "vi": {
+          "title": "Thăm viện bảo tàng",
+          "description": "Học cách thảo luận về các loại triển lãm khác nhau, hỏi về tour tham quan viện bảo tàng và biểu hiện sự quan tâm đến nghệ thuật hoặc lịch sử bằng tiếng Nhật。",
+          "tasks": [
+            "Thảo luận về các triển lãm hiện tại và nội dung chính của chúng.",
+            "Hỏi về các tour hướng dẫn và thời gian diễn ra.",
+            "Biểu lộ sự quan tâm đến một triển lãm cụ thể và hỏi thêm thông tin."
+          ]
+        },
+        "en": {
+          "title": "Visiting a Museum",
+          "description": "Learn to discuss different types of exhibits, ask about museum tours, and express interest in art or history in Chinese.",
+          "tasks": [
+            "Ask about different exhibits and their significance.",
+            "Discuss your interests in art, history, or science and how they relate to the exhibits.",
+            "Inquire about guided tours or special events at the museum."
+          ]
+        },
+        "zh-Hant": {
+          "title": "參觀博物館",
+          "description": "學習討論不同類型的展品，詢問博物館參觀，並用中文表達對藝術或歷史的興趣。",
+          "tasks": [
+            "詢問不同的展品及其意義。",
+            "討論您對藝術、歷史或科學的興趣以及它們與展品的關係。",
+            "詢問博物館的導遊或特別活動。"
+          ]
+        },
+        "ko": {
+          "title": "박물관 관람",
+          "description": "다양한 유형의 전시회에 대해 토론하고, 박물관 투어에 대해 질문하고, 중국어로 예술이나 역사에 대한 관심을 표현하는 방법을 배웁니다.",
+          "tasks": [
+            "다양한 전시회와 그 중요성에 대해 물어보십시오.",
+            "예술, 역사 또는 과학에 대한 관심과 그것들이 전시회와 어떤 관련이 있는지 논의하십시오.",
+            "박물관의 가이드 투어나 특별 행사에 대해 문의하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 30,
+      "prompt": "You are a gym instructor. Help the user familiarize themselves with gym equipment and suggest a workout plan.",
+      "first_message": "欢迎来到健身房！请问您今天有什么健身目标？",
+      "image_url": "/uploads/conversation_topics/working_out_at_the_gym.webp",
+      "regions": {
+        "vi": {
+          "title": "Tập luyện tại phòng gym",
+          "description": "Thảo luận về cơ sở vật chất của phòng gym, mô tả các bài tập luyện và học từ vựng liên quan đến phòng gym bằng tiếng Nhật。",
+          "tasks": [
+            "Hỏi về các thiết bị tập luyện và cách sử dụng chúng.",
+            "Thảo luận về mục tiêu thể chất và lập kế hoạch tập luyện.",
+            "Hỏi về các bài tập cụ thể và cách thực hiện chúng đúng cách."
+          ]
+        },
+        "en": {
+          "title": "Working Out at the Gym",
+          "description": "Discuss gym facilities, describe exercise routines, and learn gym-related vocabulary in Chinese.",
+          "tasks": [
+            "Describe your fitness goals and the exercises you plan to do.",
+            "Ask about gym equipment and how to use it properly.",
+            "Discuss workout routines and how to achieve your fitness goals."
+          ]
+        },
+        "zh-Hant": {
+          "title": "在健身房鍛煉",
+          "description": "討論健身設施，描述鍛煉程式，並用中文學習與健身相關的詞彙。",
+          "tasks": [
+            "描述您的健身目標和您計劃進行的鍛煉。",
+            "詢問健身器材以及如何正確使用。",
+            "討論鍛煉程式以及如何實現您的健身目標。"
+          ]
+        },
+        "ko": {
+          "title": "헬스장에서 운동하기",
+          "description": "체육관 시설에 대해 토론하고, 운동 루틴을 설명하고, 체육관 관련 어휘를 중국어로 배웁니다.",
+          "tasks": [
+            "피트니스 목표와 할 계획을 설명하십시오.",
+            "체육관 장비와 올바른 사용 방법에 대해 문의하십시오.",
+            "운동 루틴과 피트니스 목표를 달성하는 방법에 대해 논의합니다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 26,
+      "prompt": "You are a bank teller. Assist the user with their banking needs and answer their financial questions.",
+      "first_message": "您好，欢迎来到银行。请问今天有什么可以帮助您的？",
+      "image_url": "/uploads/conversation_topics/going_to_the_bank.webp",
+      "regions": {
+        "vi": {
+          "title": "Đến ngân hàng",
+          "description": "Luyện từ vựng về ngân hàng, thảo luận về giao dịch tài chính và học cách quản lý tài khoản bằng tiếng Nhật。",
+          "tasks": [
+            "Hỏi về các dịch vụ ngân hàng như mở tài khoản hoặc vay tiền.",
+            "Thảo luận về cách quản lý tài khoản và kiểm tra số dư.",
+            "Hỏi về các khoản phí và lãi suất liên quan đến các dịch vụ ngân hàng."
+          ]
+        },
+        "en": {
+          "title": "Going to the Bank",
+          "description": "Practice banking vocabulary, discuss financial transactions, and learn how to manage accounts in Chinese.",
+          "tasks": [
+            "Discuss the services you need, such as opening an account or making a deposit.",
+            "Ask about financial transactions, such as transferring money or applying for a loan.",
+            "Inquire about managing your accounts, including fees and online banking options."
+          ]
+        },
+        "zh-Hant": {
+          "title": "前往銀行",
+          "description": "練習銀行詞彙，討論金融交易，並學習如何用中文管理帳戶。",
+          "tasks": [
+            "討論您需要的服務，例如開戶或存款。",
+            "詢問金融交易，例如轉帳或申請貸款。",
+            "詢問有關管理賬戶的資訊，包括費用和網上銀行選項。"
+          ]
+        },
+        "ko": {
+          "title": "은행에 가다",
+          "description": "은행 어휘를 연습하고, 금융 거래에 대해 토론하고, 중국어로 계좌를 관리하는 방법을 배웁니다.",
+          "tasks": [
+            "계좌 개설이나 입금과 같이 필요한 서비스에 대해 논의하십시오.",
+            "송금이나 대출 신청과 같은 금융 거래에 대해 물어보십시오.",
+            "수수료 및 온라인 뱅킹 옵션을 포함한 계좌 관리에 대해 문의하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 54,
+      "prompt": "You are organizing a barbecue event. Invite the user to participate and talk about what they can bring and do.",
+      "first_message": "您好！我们这个周末有一个烧烤活动，您有兴趣参加吗？",
+      "image_url": "/uploads/conversation_topics/having_a_barbecue.webp",
+      "regions": {
+        "vi": {
+          "title": "Có một bữa tiệc nướng",
+          "description": "Học cách thảo luận về các loại thức ăn nướng khác nhau, phương pháp nấu nướng và các hoạt động ngoài trời bằng tiếng Nhật。",
+          "tasks": [
+            "Thảo luận về các loại thức ăn nướng và cách chuẩn bị chúng.",
+            "Hỏi về các hoạt động có thể làm trong sự kiện BBQ.",
+            "Thảo luận về các công cụ và thiết bị cần thiết cho bữa tiệc nướng."
+          ]
+        },
+        "en": {
+          "title": "Having a Barbecue",
+          "description": "Learn to discuss different types of barbecue food, cooking methods, and outdoor activities in Chinese.",
+          "tasks": [
+            "Discuss the types of food and drinks to bring to a barbecue.",
+            "Talk about different cooking methods and how to prepare the food.",
+            "Express your enjoyment of outdoor activities and suggest things to do during the barbecue."
+          ]
+        },
+        "zh-Hant": {
+          "title": "燒烤",
+          "description": "學習用中文討論不同類型的燒烤食物、烹飪方法和戶外活動。",
+          "tasks": [
+            "討論燒烤時要帶的食物和飲料的類型。",
+            "談論不同的烹飪方法以及如何準備食物。",
+            "表達您對戶外活動的喜愛，並建議燒烤期間的事項。"
+          ]
+        },
+        "ko": {
+          "title": "바베큐를 즐기다",
+          "description": "다양한 종류의 바베큐 음식, 요리 방법 및 야외 활동에 대해 중국어로 토론하는 방법을 배웁니다.",
+          "tasks": [
+            "바베큐에 가져갈 음식과 음료의 종류에 대해 토론하십시오.",
+            "다양한 요리 방법과 음식을 준비하는 방법에 대해 이야기하십시오.",
+            "야외 활동의 즐거움을 표현하고 바베큐 중에 할 일을 제안합니다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 19,
+      "prompt": "You are a party planner. Help the user plan a birthday celebration and offer suggestions for entertainment and gifts.",
+      "first_message": "您好！我们可以帮您策划一场生日派对。请问您有什么特别的想法吗？",
+      "image_url": "/uploads/conversation_topics/celebrating_a_birthday.webp",
+      "regions": {
+        "vi": {
+          "title": "Mừng sinh nhật",
+          "description": "Thảo luận về truyền thống mừng sinh nhật, học cách chúc mừng sinh nhật và nói về việc tổ chức tiệc bằng tiếng Nhật。",
+          "tasks": [
+            "Hỏi về các kế hoạch cho bữa tiệc sinh nhật và số lượng khách mời.",
+            "Thảo luận về các hoạt động giải trí và trò chơi trong bữa tiệc.",
+            "Hỏi về các ý tưởng quà tặng và cách tổ chức bữa tiệc."
+          ]
+        },
+        "en": {
+          "title": "Celebrating a Birthday",
+          "description": "Discuss birthday traditions, learn how to wish someone a happy birthday, and talk about party planning in Chinese.",
+          "tasks": [
+            "Discuss birthday traditions and how to celebrate.",
+            "Plan the details of a birthday party, including food, decorations, and activities.",
+            "Talk about the best gifts to give and how to make the celebration memorable."
+          ]
+        },
+        "zh-Hant": {
+          "title": "慶祝生日",
+          "description": "討論生日傳統，學習如何祝某人生日快樂，並用中文談論派對策劃。",
+          "tasks": [
+            "討論生日傳統以及如何慶祝。",
+            "計劃生日派對的細節，包括食物、裝飾品和活動。",
+            "談談最好的禮物以及如何讓慶祝活動令人難忘。"
+          ]
+        },
+        "ko": {
+          "title": "생일 축하하기",
+          "description": "생일 전통에 대해 토론하고, 누군가의 생일을 축하하는 방법을 배우고, 중국어로 파티 계획에 대해 이야기합니다.",
+          "tasks": [
+            "생일 전통과 축하하는 방법에 대해 토론한다.",
+            "음식, 장식 및 활동을 포함한 생일 파티의 세부 사항을 계획하십시오.",
+            "줄 수 있는 최고의 선물과 기억에 남는 축하 행사를 만드는 방법에 대해 이야기하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 31,
+      "prompt": "You are a sports coach. Discuss various sports with the user and encourage them to talk about their favorite sports.",
+      "first_message": "您好！欢迎来到体育中心。您平时喜欢参与哪些体育活动？",
+      "image_url": "/uploads/conversation_topics/playing_sports.webp",
+      "regions": {
+        "vi": {
+          "title": "Tham gia thể thao",
+          "description": "Học từ vựng liên quan đến thể thao, thảo luận về các loại thể thao khác nhau và nói về thể thao đồng đội và cá nhân bằng tiếng Nhật。",
+          "tasks": [
+            "Thảo luận về các môn thể thao yêu thích và lý do lựa chọn.",
+            "Hỏi về các kỹ thuật và chiến thuật trong thể thao.",
+            "Thảo luận về lợi ích của việc tham gia thể thao đối với sức khỏe."
+          ]
+        },
+        "en": {
+          "title": "Playing Sports",
+          "description": "Learn sports-related vocabulary, discuss different types of sports, and talk about team and individual sports in Chinese.",
+          "tasks": [
+            "Discuss your favorite sports and why you enjoy them.",
+            "Talk about the differences between team sports and individual sports.",
+            "Inquire about sports facilities and how to join a sports team or class."
+          ]
+        },
+        "zh-Hant": {
+          "title": "運動",
+          "description": "學習與運動相關的詞彙，討論不同類型的運動，並用中文談論團隊和個人運動。",
+          "tasks": [
+            "討論您最喜歡的運動以及您為什麼喜歡它們。",
+            "談談團隊運動和個人運動之間的區別。",
+            "詢問體育設施以及如何加入運動隊或班級。"
+          ]
+        },
+        "ko": {
+          "title": "스포츠를 하기",
+          "description": "스포츠 관련 어휘를 배우고, 다양한 유형의 스포츠에 대해 토론하고, 중국어로 팀 및 개인 스포츠에 대해 이야기합니다.",
+          "tasks": [
+            "당신이 가장 좋아하는 스포츠와 그것을 즐기는 이유에 대해 토론하십시오.",
+            "팀 스포츠와 개인 스포츠의 차이점에 대해 이야기한다.",
+            "스포츠 시설에 대해 문의하고 스포츠 팀이나 수업에 참여하는 방법을 알아보십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 29,
+      "prompt": "You are a hairstylist. Help the user choose a hairstyle and discuss their hair care preferences.",
+      "first_message": "欢迎光临我们的美发沙龙！您今天想尝试什么样的发型？",
+      "image_url": "/uploads/conversation_topics/getting_a_haircut.webp",
+      "regions": {
+        "vi": {
+          "title": "Cắt tóc",
+          "description": "Luyện tập mô tả kiểu tóc, học từ vựng về salon và thảo luận về thói quen chăm sóc tóc bằng tiếng Nhật。",
+          "tasks": [
+            "Hỏi về các kiểu tóc phổ biến và phù hợp với khuôn mặt.",
+            "Thảo luận về các sản phẩm chăm sóc tóc và cách sử dụng.",
+            "Hỏi về thói quen chăm sóc tóc và cách giữ cho tóc khỏe mạnh."
+          ]
+        },
+        "en": {
+          "title": "Getting a Haircut",
+          "description": "Practice describing hairstyles, learn salon vocabulary, and discuss hair care routines in Chinese.",
+          "tasks": [
+            "Describe the hairstyle you want and ask about options.",
+            "Discuss your hair care routine and ask for advice.",
+            "Inquire about different hair products and their benefits."
+          ]
+        },
+        "zh-Hant": {
+          "title": "理髮",
+          "description": "練習描述髮型，學習沙龍詞彙，並用中文討論護髮程式。",
+          "tasks": [
+            "描述您想要的髮型並詢問選項。",
+            "討論您的頭髮護理程式並尋求建議。",
+            "詢問不同的美髮產品及其好處。"
+          ]
+        },
+        "ko": {
+          "title": "이발을 하기",
+          "description": "헤어스타일을 설명하는 연습을 하고, 미용실 어휘를 배우고, 중국어로 헤어 케어 루틴에 대해 토론하세요.",
+          "tasks": [
+            "원하는 헤어스타일을 설명하고 옵션에 대해 물어보세요.",
+            "헤어 케어 루틴에 대해 논의하고 조언을 구하십시오.",
+            "다양한 헤어 제품과 그 이점에 대해 문의하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 55,
+      "prompt": "You are a wedding guest. Engage in conversation with the user about the wedding and the customs involved.",
+      "first_message": "您好！今天您是来参加婚礼的吗？您对中国的婚礼习俗感兴趣吗？",
+      "image_url": "/uploads/conversation_topics/attending_a_wedding.webp",
+      "regions": {
+        "vi": {
+          "title": "Tham dự đám cưới",
+          "description": "Học cách thảo luận về phong tục cưới hỏi, biểu đạt lời chúc tốt đẹp và nói về trang phục cưới bằng tiếng Nhật。",
+          "tasks": [
+            "Thảo luận về các phong tục cưới hỏi và ý nghĩa của chúng.",
+            "Hỏi về trang phục cưới và cách chọn lựa trang phục phù hợp.",
+            "Biểu lộ lời chúc mừng và hỏi về kế hoạch tổ chức lễ cưới."
+          ]
+        },
+        "en": {
+          "title": "Attending a Wedding",
+          "description": "Learn to discuss wedding customs, express good wishes, and talk about wedding attire in Chinese.",
+          "tasks": [
+            "Discuss wedding customs and traditions you are familiar with.",
+            "Talk about the wedding attire and how it reflects the cultural significance.",
+            "Express good wishes to the bride and groom."
+          ]
+        },
+        "zh-Hant": {
+          "title": "參加婚禮",
+          "description": "學習討論婚禮習俗，表達美好的祝願，用中文談論婚禮服裝。",
+          "tasks": [
+            "討論您熟悉的婚禮習俗和傳統。",
+            "談談婚紗以及它如何反映文化意義。",
+            "向新娘和新郎表達美好的祝願。"
+          ]
+        },
+        "ko": {
+          "title": "결혼식 참석",
+          "description": "결혼식 관습에 대해 토론하고, 좋은 소원을 빌고, 중국어로 결혼식 복장에 대해 이야기하는 법을 배웁니다.",
+          "tasks": [
+            "여러분이 잘 알고 있는 결혼식 관습과 전통에 대해 토론한다.",
+            "결혼식 복장에 대해 이야기하고 그것이 문화적 중요성을 어떻게 반영하는지에 대해 이야기하십시오.",
+            "신랑 신부에게 행운을 빌어주세요."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 49,
+      "prompt": "You are a tech support specialist. Assist the user with their technology questions and guide them through using their devices.",
+      "first_message": "您好！请问有什么技术问题需要帮助解决？",
+      "image_url": "/uploads/conversation_topics/using_technology.webp",
+      "regions": {
+        "vi": {
+          "title": "Sử dụng công nghệ",
+          "description": "Thảo luận về việc sử dụng các thiết bị công nghệ khác nhau, học cách nói về kết nối internet và khắc phục sự cố công nghệ bằng tiếng Nhật。",
+          "tasks": [
+            "Hỏi về các thiết bị công nghệ bạn đang sử dụng và các tính năng của chúng.",
+            "Thảo luận về các vấn đề kỹ thuật thường gặp và cách khắc phục.",
+            "Hỏi về cách duy trì kết nối internet ổn định và an toàn."
+          ]
+        },
+        "en": {
+          "title": "Using Technology",
+          "description": "Discuss the use of various gadgets, learn to talk about internet connectivity, and troubleshoot tech issues in Chinese.",
+          "tasks": [
+            "Describe the technology you use and any issues you have encountered.",
+            "Ask about how to troubleshoot or fix common tech problems.",
+            "Discuss the latest gadgets and how they can be used effectively."
+          ]
+        },
+        "zh-Hant": {
+          "title": "使用技術",
+          "description": "討論各種小工具的使用，學習談論互聯網連接，並用中文解決技術問題。",
+          "tasks": [
+            "描述您使用的技術以及您遇到的任何問題。",
+            "詢問如何排查或修復常見的技術問題。",
+            "討論最新的小工具以及如何有效地使用它們。"
+          ]
+        },
+        "ko": {
+          "title": "기술 사용",
+          "description": "다양한 장치의 사용에 대해 토론하고, 인터넷 연결에 대해 이야기하고, 중국어로 기술 문제를 해결하는 방법을 배웁니다.",
+          "tasks": [
+            "사용하는 기술과 발생한 문제를 설명하십시오.",
+            "일반적인 기술 문제를 해결하는 방법에 대해 질문합니다.",
+            "최신 기기와 이를 효과적으로 사용할 수 있는 방법에 대해 논의하십시오."
+          ]
+        }
+      }
+    }
+  ],
+  "is_active": true,
+  "created_at": {
+    "$date": "2025-01-20T09:58:44.835Z"
+  },
+  "updated_at": {
+    "$date": "2025-01-20T09:58:44.835Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "678e1ec38ce4b93d741773c3"
+  },
+  "id": 3,
+  "display_order": 3,
+  "regions": {
+    "vi": {
+      "name": "Gia sư sơ cấp"
+    },
+    "en": {
+      "name": "Tutor for Beginners"
+    },
+    "zh-Hant": {
+      "name": "初學者導師"
+    },
+    "ko": {
+      "name": "초보자를 위한 튜터"
+    }
+  },
+  "topic_details": [
+    {
+      "topic_id": 58,
+      "prompt": "You are a tutor meeting a new student. Encourage the user to introduce themselves. Your student is a beginner Chinese learner, respond with simple questions.",
+      "first_message": "你好！请问你叫什么名字？",
+      "image_url": "/uploads/conversation_topics/introducing_yourself.webp",
+      "regions": {
+        "vi": {
+          "title": "Giới thiệu bản thân",
+          "description": "Học cách giới thiệu bản thân bằng tiếng Nhật, bao gồm tên, quốc tịch và nghề nghiệp của bạn.",
+          "tasks": [
+            "Giới thiệu tên, tuổi và nơi ở hiện tại của bạn.",
+            "Nói về nghề nghiệp hoặc công việc hiện tại của bạn.",
+            "Thảo luận về sở thích cá nhân hoặc những hoạt động yêu thích."
+          ]
+        },
+        "en": {
+          "title": "Introducing Yourself",
+          "description": "Learn to introduce yourself in Chinese, including your name, nationality, and occupation.",
+          "tasks": [
+            "Say your name and ask for the other person's name.",
+            "Mention your nationality and ask about theirs.",
+            "State your occupation and ask what the other person does."
+          ]
+        },
+        "zh-Hant": {
+          "title": "自我介紹",
+          "description": "學習用中文自我介紹，包括您的姓名、國籍和職業。",
+          "tasks": [
+            "說出您的姓名並詢問其他人的姓名。",
+            "提及您的國籍並詢問他們的國籍。",
+            "說明您的職業並詢問對方是做什麼的。"
+          ]
+        },
+        "ko": {
+          "title": "자기소개",
+          "description": "이름, 국적, 직업을 포함하여 중국어로 자신을 소개하는 방법을 배우십시오.",
+          "tasks": [
+            "당신의 이름을 말하고 다른 사람의 이름을 물어보십시오.",
+            "국적을 언급하고 국적에 대해 물어보십시오.",
+            "당신의 직업을 말하고 상대방이 무엇을 하는지 물어보십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 20,
+      "prompt": "You are a tutor discussing family. Ask the user about their family structure and respond with interest. Your student is a beginner Chinese learner, respond with simple questions.",
+      "first_message": "你的家里有几口人？你可以介绍一下你的家人吗？",
+      "image_url": "/uploads/conversation_topics/family_introduction.webp",
+      "regions": {
+        "vi": {
+          "title": "Giới thiệu về gia đình",
+          "description": "Thực hành nói về các thành viên trong gia đình và mối quan hệ của họ bằng tiếng Nhật.",
+          "tasks": [
+            "Mô tả về các thành viên trong gia đình của bạn.",
+            "Nói về nghề nghiệp của từng thành viên trong gia đình.",
+            "Thảo luận về mối quan hệ của bạn với các thành viên trong gia đình."
+          ]
+        },
+        "en": {
+          "title": "Family Introduction",
+          "description": "Practice talking about your family members and their relationships in Chinese.",
+          "tasks": [
+            "Talk about the number of people in your family.",
+            "Introduce your family members and their relationships to you.",
+            "Ask about the other person's family."
+          ]
+        },
+        "zh-Hant": {
+          "title": "家庭介紹",
+          "description": "練習用中文談論你的家庭成員和他們的關係。",
+          "tasks": [
+            "談談你家裡有多少人。",
+            "向您介紹您的家庭成員和他們的關係。",
+            "詢問對方的家庭情況。"
+          ]
+        },
+        "ko": {
+          "title": "가족 소개",
+          "description": "가족과 그들의 관계에 대해 중국어로 이야기하는 연습을 하세요.",
+          "tasks": [
+            "가족 구성원 수에 대해 이야기하십시오.",
+            "여러분의 가족과 그들의 관계를 소개하십시오.",
+            "상대방의 가족에 대해 물어본다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 25,
+      "prompt": "You are a vendor at a market. Help the user practice basic shopping phrases. The user is a beginner Chinese learner, respond with simple questions.",
+      "first_message": "你好！你想买些什么？",
+      "image_url": "/uploads/conversation_topics/simple_shopping.webp",
+      "regions": {
+        "vi": {
+          "title": "Mua sắm đơn giản",
+          "description": "Thực hành các tương tác mua sắm đơn giản, như mua hoa quả và rau củ bằng tiếng Nhật.",
+          "tasks": [
+            "Hỏi về giá của các loại hoa quả hoặc rau củ.",
+            "Thảo luận về chất lượng và cách chọn lựa sản phẩm tốt nhất.",
+            "Hỏi về các sản phẩm đang được khuyến mãi hoặc giảm giá."
+          ]
+        },
+        "en": {
+          "title": "Simple Shopping",
+          "description": "Practice simple shopping interactions, such as buying fruits and vegetables in Chinese.",
+          "tasks": [
+            "Ask for the price of fruits and vegetables.",
+            "Request a specific quantity of an item.",
+            "Pay for your items and thank the vendor."
+          ]
+        },
+        "zh-Hant": {
+          "title": "簡單購物",
+          "description": "練習簡單的購物互動，例如用中文購買水果和蔬菜。",
+          "tasks": [
+            "詢問水果和蔬菜的價格。",
+            "請求特定數量的物料。",
+            "支付您的物品並感謝供應商。"
+          ]
+        },
+        "ko": {
+          "title": "간단한 쇼핑",
+          "description": "중국어로 과일과 채소를 사는 것과 같은 간단한 쇼핑 상호 작용을 연습하십시오.",
+          "tasks": [
+            "과일과 채소의 가격을 물어보십시오.",
+            "품목의 특정 수량을 요청합니다.",
+            "물품 값을 지불하고 공급 업체에게 감사하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 36,
+      "prompt": "You are a Chinese tutor talking about hobbies. Encourage the user to speak about their leisure activities. Your student is a beginner Chinese learner, respond with simple questions.",
+      "first_message": "你平时喜欢做什么爱好？",
+      "image_url": "/uploads/conversation_topics/hobbies_and_leisure.webp",
+      "regions": {
+        "vi": {
+          "title": "Sở thích và Giải trí",
+          "description": "Thảo luận về các hoạt động giải trí và thú vui giải trí đơn giản bằng tiếng Nhật.",
+          "tasks": [
+            "Nói về các sở thích cá nhân và lý do bạn yêu thích chúng.",
+            "Hỏi về sở thích của người khác và so sánh với sở thích của bạn.",
+            "Thảo luận về cách bạn thường thực hiện các hoạt động giải trí của mình."
+          ]
+        },
+        "en": {
+          "title": "Hobbies and Leisure",
+          "description": "Discuss simple pastimes and leisure activities in Chinese.",
+          "tasks": [
+            "Mention your favorite hobby and explain why you like it.",
+            "Ask the other person about their hobbies.",
+            "Talk about how often you engage in your hobbies."
+          ]
+        },
+        "zh-Hant": {
+          "title": "興趣愛好和休閒",
+          "description": "用中文討論簡單的消遣和休閒活動。",
+          "tasks": [
+            "提及您最喜歡的愛好並解釋您為什麼喜歡它。",
+            "詢問對方的愛好。",
+            "談談你從事愛好的頻率。"
+          ]
+        },
+        "ko": {
+          "title": "취미와 여가",
+          "description": "간단한 오락과 여가 활동에 대해 중국어로 토론합니다.",
+          "tasks": [
+            "가장 좋아하는 취미를 언급하고 왜 그것을 좋아하는지 설명하십시오.",
+            "상대방에게 취미에 대해 물어보십시오.",
+            "취미 생활에 얼마나 자주 참여하는지 이야기하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 42,
+      "prompt": "You are a Chinese tutor at a café. Teach the user how to order a coffee or tea in Chinese. Your student is a beginner Chinese learner, respond with simple questions.",
+      "first_message": "你好！你要点什么饮料？",
+      "image_url": "/uploads/conversation_topics/basic_food_and_drink.webp",
+      "regions": {
+        "vi": {
+          "title": "Cơ Bản Về Đồ Uống và Thức Ăn",
+          "description": "Học cách đặt các món đồ uống và thức ăn cơ bản bằng tiếng Nhật.",
+          "tasks": [
+            "Học cách gọi đồ uống yêu thích tại quán cà phê.",
+            "Hỏi về các loại thức ăn nhẹ đi kèm với đồ uống.",
+            "Thực hành cách gọi thêm đồ hoặc thay đổi đơn hàng."
+          ]
+        },
+        "en": {
+          "title": "Basic Food and Drink",
+          "description": "Learn to order basic food and drink items in Chinese.",
+          "tasks": [
+            "Order a drink, such as coffee or tea.",
+            "Ask for a specific size or type (e.g., hot or cold).",
+            "Thank the server and ask about payment."
+          ]
+        },
+        "zh-Hant": {
+          "title": "基本飲食",
+          "description": "學習用中文訂購基本的食物和飲料。",
+          "tasks": [
+            "點一杯飲料，例如咖啡或茶。",
+            "要求提供特定大小或類型（例如，熱或冷）。",
+            "感謝服務員並詢問付款事宜。"
+          ]
+        },
+        "ko": {
+          "title": "기본 음식과 음료",
+          "description": "중국어로 기본 음식과 음료를 주문하는 법을 배웁니다.",
+          "tasks": [
+            "커피나 홍차와 같은 음료를 주문합니다.",
+            "특정 크기 또는 유형(예: 뜨겁거나 차가운)을 요청하십시오.",
+            "서버에게 감사하고 지불에 대해 문의하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 21,
+      "prompt": "You are a tutor helping the student describe someone. Encourage the user to use descriptive words. Your student is a beginner Chinese learner, respond with simple questions.",
+      "first_message": "你能描述一下你的朋友长什么样吗？",
+      "image_url": "/uploads/conversation_topics/describing_appearances.webp",
+      "regions": {
+        "vi": {
+          "title": "Mô Tả Về Bề Ngoại và Trang Phục",
+          "description": "Thực hành cách mô tả về bề ngoài của người và quần áo bằng tiếng Nhật.",
+          "tasks": [
+            "Mô tả về bề ngoài của một người bạn hoặc người thân.",
+            "Hỏi về kiểu tóc và trang phục của họ.",
+            "Thảo luận về các từ vựng mô tả về bề ngoài và phong cách thời trang."
+          ]
+        },
+        "en": {
+          "title": "Describing Appearances",
+          "description": "Practice how to describe people's physical appearances and clothing in Chinese.",
+          "tasks": [
+            "Describe the height and build of a person.",
+            "Talk about the color and style of their hair.",
+            "Mention what they are wearing."
+          ]
+        },
+        "zh-Hant": {
+          "title": "描述外觀",
+          "description": "練習如何用中文描述人的外貌和衣著。",
+          "tasks": [
+            "描述一個人的身高和體型。",
+            "談談他們頭髮的顏色和風格。",
+            "提及他們的穿著。"
+          ]
+        },
+        "ko": {
+          "title": "표현 설명",
+          "description": "중국어로 사람들의 외모와 옷차림을 묘사하는 방법을 연습합니다.",
+          "tasks": [
+            "사람의 키와 체격을 묘사하십시오.",
+            "그들의 머리 색깔과 스타일에 대해 이야기하십시오.",
+            "그들이 무엇을 입고 있는지 언급하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 39,
+      "prompt": "You are a tutor teaching medical terms. Have the user practice explaining how they feel. Your student is a beginner Chinese learner, respond with simple questions.",
+      "first_message": "你感觉怎么样？你哪里不舒服？",
+      "image_url": "/uploads/conversation_topics/at_the_doctors_office.webp",
+      "regions": {
+        "vi": {
+          "title": "Tại Phòng Khám Bác Sĩ",
+          "description": "Học cách sử dụng từ vựng về sức khỏe và trao đổi với bác sĩ bằng tiếng Nhật.",
+          "tasks": [
+            "Mô tả các triệu chứng cơ bản như sốt, đau đầu, ho.",
+            "Hỏi về các loại thuốc cơ bản hoặc cách chăm sóc sức khỏe.",
+            "Thực hành cách nói về tình trạng sức khỏe hiện tại của bạn."
+          ]
+        },
+        "en": {
+          "title": "At the Doctor's Office",
+          "description": "Learn vocabulary related to health and discussing symptoms with a doctor in Chinese.",
+          "tasks": [
+            "Describe your symptoms (e.g., headache, stomach ache).",
+            "Ask the doctor for advice or medicine.",
+            "Mention any allergies or previous conditions."
+          ]
+        },
+        "zh-Hant": {
+          "title": "在醫生辦公室",
+          "description": "學習與健康相關的詞彙，並與醫生用中文討論癥狀。",
+          "tasks": [
+            "描述您的癥狀（例如頭痛、胃痛）。",
+            "向醫生尋求建議或藥物。",
+            "提及任何過敏或以前的狀況。"
+          ]
+        },
+        "ko": {
+          "title": "진료실에서",
+          "description": "건강과 관련된 어휘를 배우고 중국어로 의사와 증상에 대해 논의합니다.",
+          "tasks": [
+            "증상(예: 두통, 복통)을 설명하십시오.",
+            "의사에게 조언이나 약을 구하십시오.",
+            "알레르기 또는 이전 질환을 언급하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 34,
+      "prompt": "You are a tutor encouraging social interactions. Guide the user on how to make new friends. Your student is a beginner Chinese learner, respond with simple questions.",
+      "first_message": "你怎样和别人交朋友？你喜欢去哪里认识新朋友？",
+      "image_url": "/uploads/conversation_topics/making_friends.webp",
+      "regions": {
+        "vi": {
+          "title": "Kết Bạn",
+          "description": "Thực hành mở đầu cuộc hội thoại và kết bạn mới bằng tiếng Nhật.",
+          "tasks": [
+            "Hỏi về sở thích chung để bắt đầu một cuộc trò chuyện.",
+            "Thực hành cách giới thiệu bản thân để kết bạn mới.",
+            "Thảo luận về cách duy trì mối quan hệ bạn bè."
+          ]
+        },
+        "en": {
+          "title": "Making Friends",
+          "description": "Practice starting conversations and making friends in Chinese.",
+          "tasks": [
+            "Introduce yourself and ask for the other person's name.",
+            "Talk about common interests and hobbies.",
+            "Suggest meeting up or exchanging contact information."
+          ]
+        },
+        "zh-Hant": {
+          "title": "交朋友",
+          "description": "練習用中文開始對話和結交朋友。",
+          "tasks": [
+            "自我介紹並詢問對方的名字。",
+            "談論共同的興趣和愛好。",
+            "建議見面或交換聯繫資訊。"
+          ]
+        },
+        "ko": {
+          "title": "친구 사귀기",
+          "description": "중국어로 대화를 시작하고 친구를 사귀는 연습을 하세요.",
+          "tasks": [
+            "자신을 소개하고 상대방의 이름을 물어보십시오.",
+            "공통 관심사와 취미에 대해 이야기하십시오.",
+            "만나거나 연락처 정보를 교환하는 것이 좋습니다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 41,
+      "prompt": "You are a tutor discussing fitness. Talk to the user about their workout routine and gym activities. Your student is a beginner Chinese learner, respond with simple questions.",
+      "first_message": "你通常在健身房做哪些运动？",
+      "image_url": "/uploads/conversation_topics/at_the_gym.webp",
+      "regions": {
+        "vi": {
+          "title": "Tại Phòng Tập Gym",
+          "description": "Học cách trao đổi về việc tập thể dục và sử dụng dụng cụ tại phòng gym bằng tiếng Nhật.",
+          "tasks": [
+            "Thảo luận về các bài tập cơ bản tại phòng gym.",
+            "Hỏi về các thiết bị tập luyện và cách sử dụng chúng.",
+            "Thực hành cách lập kế hoạch tập luyện phù hợp với mục tiêu sức khỏe."
+          ]
+        },
+        "en": {
+          "title": "At the Gym",
+          "description": "Learn phrases related to working out and gym equipment in Chinese.",
+          "tasks": [
+            "Talk about your favorite exercises at the gym.",
+            "Ask about gym equipment and how to use it.",
+            "Discuss your fitness goals."
+          ]
+        },
+        "zh-Hant": {
+          "title": "在健身房",
+          "description": "學習與中文鍛煉和健身器材相關的短語。",
+          "tasks": [
+            "談談你最喜歡的健身房鍛煉。",
+            "詢問健身器材及其使用方法。",
+            "討論您的健身目標。"
+          ]
+        },
+        "ko": {
+          "title": "헬스장에서",
+          "description": "중국어로 운동 및 체육관 장비와 관련된 구문을 배우십시오.",
+          "tasks": [
+            "체육관에서 가장 좋아하는 운동에 대해 이야기하십시오.",
+            "체육관 장비와 사용 방법에 대해 문의하십시오.",
+            "피트니스 목표에 대해 논의하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 52,
+      "prompt": "You are a tutor interested in career paths. Ask the user about their job or dream job. Your student is a beginner Chinese learner, respond with simple questions.",
+      "first_message": "你做什么工作？你梦想的职业是什么？",
+      "image_url": "/uploads/conversation_topics/talking_about_jobs.webp",
+      "regions": {
+        "vi": {
+          "title": "Thảo Luận Về Công Việc",
+          "description": "Trao đổi về nghề nghiệp và công việc của bạn bằng tiếng Nhật.",
+          "tasks": [
+            "Nói về công việc hiện tại hoặc lý tưởng của bạn.",
+            "Hỏi về trách nhiệm công việc và môi trường làm việc.",
+            "Thảo luận về kế hoạch phát triển nghề nghiệp trong tương lai."
+          ]
+        },
+        "en": {
+          "title": "Talking About Jobs",
+          "description": "Discuss professions and what people do for work in Chinese.",
+          "tasks": [
+            "State your current job and what it involves.",
+            "Talk about your dream job and why you want it.",
+            "Ask the other person about their job."
+          ]
+        },
+        "zh-Hant": {
+          "title": "談論工作",
+          "description": "用中文討論職業和人們的工作內容。",
+          "tasks": [
+            "說明您目前的工作及其涉及的內容。",
+            "談談你夢想的工作以及你為什麼想要它。",
+            "詢問對方的工作情況。"
+          ]
+        },
+        "ko": {
+          "title": "직업에 대해 이야기하기",
+          "description": "중국어로 직업과 사람들이 일을 위해 하는 일에 대해 토론합니다.",
+          "tasks": [
+            "현재 직업과 관련된 내용을 설명하십시오.",
+            "당신의 꿈의 직업과 당신이 그것을 원하는 이유에 대해 이야기하십시오.",
+            "상대방에게 직업에 대해 물어보십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 48,
+      "prompt": "You are a tutor teaching street food vocabulary. Help the user order from a street vendor. Your student is a beginner Chinese learner, respond with simple questions.",
+      "first_message": "你想尝尝哪种小吃？",
+      "image_url": "/uploads/conversation_topics/ordering_street_food.webp",
+      "regions": {
+        "vi": {
+          "title": "Đặt Mua Đồ Ăn Vỉa Hè",
+          "description": "Học cách đặt món ăn vỉa hè phổ biến và trao đổi về sở thích ẩm thực của bạn bằng tiếng Nhật.",
+          "tasks": [
+            "Hỏi về các món ăn vỉa hè phổ biến và giá cả của chúng.",
+            "Thảo luận về sở thích ăn uống và các món yêu thích.",
+            "Thực hành cách gọi món và yêu cầu thay đổi theo sở thích."
+          ]
+        },
+        "en": {
+          "title": "Ordering Street Food",
+          "description": "Learn how to order popular Chinese street foods and discuss preferences.",
+          "tasks": [
+            "Ask about different street food items and their ingredients.",
+            "Order a specific street food item.",
+            "Discuss your preferences and ask for recommendations."
+          ]
+        },
+        "zh-Hant": {
+          "title": "點街頭小吃",
+          "description": "瞭解如何訂購流行的中國街頭小吃並討論偏好。",
+          "tasks": [
+            "詢問不同的街頭食品及其成分。",
+            "訂購特定的街頭食品。",
+            "討論您的偏好並尋求建議。"
+          ]
+        },
+        "ko": {
+          "title": "길거리 음식 주문하기",
+          "description": "인기 있는 중국 길거리 음식을 주문하고 선호도에 대해 논의하는 방법을 알아보세요.",
+          "tasks": [
+            "다양한 길거리 음식과 재료에 대해 물어보세요.",
+            "특정 길거리 음식을 주문합니다.",
+            "선호 사항에 대해 논의하고 추천을 요청하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 50,
+      "prompt": "You are a tutor helping with planning. Ask the user about their plans for the weekend. Your student is a beginner Chinese learner, respond with simple questions.",
+      "first_message": "这个周末你有什么计划？",
+      "image_url": "/uploads/conversation_topics/discussing_plans.webp",
+      "regions": {
+        "vi": {
+          "title": "Thảo Luận Về Kế Hoạch",
+          "description": "Thực hành nói về các kế hoạch trong tương lai và lịch trình của bạn bằng tiếng Nhật.",
+          "tasks": [
+            "Thảo luận về các kế hoạch cuối tuần hoặc kỳ nghỉ.",
+            "Hỏi về các hoạt động cụ thể bạn dự định tham gia.",
+            "Thực hành cách lên lịch và sắp xếp thời gian cho các hoạt động."
+          ]
+        },
+        "en": {
+          "title": "Discussing Plans",
+          "description": "Practice talking about future plans and schedules in Chinese.",
+          "tasks": [
+            "Talk about your plans for the weekend or a holiday.",
+            "Ask the other person about their plans.",
+            "Discuss any activities you plan to do together."
+          ]
+        },
+        "zh-Hant": {
+          "title": "討論計劃",
+          "description": "練習用中文談論未來的計劃和時程表。",
+          "tasks": [
+            "談談你週末或假期的計劃。",
+            "詢問對方的計劃。",
+            "討論你們計劃一起進行的任何活動。"
+          ]
+        },
+        "ko": {
+          "title": "계획 논의",
+          "description": "앞으로의 계획과 일정에 대해 중국어로 이야기하는 연습을 합니다.",
+          "tasks": [
+            "주말이나 휴일 계획에 대해 이야기하십시오.",
+            "상대방에게 그들의 계획에 대해 물어본다.",
+            "함께 할 계획이 있는 활동에 대해 토론한다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 37,
+      "prompt": "You are a tutor engaging in a conversation about pastimes. Encourage the user to share their hobbies. Your student is a beginner Chinese learner, respond with simple questions.",
+      "first_message": "你有什么兴趣爱好？",
+      "image_url": "/uploads/conversation_topics/talking_about_hobbies.webp",
+      "regions": {
+        "vi": {
+          "title": "Nói Về Sở Thích",
+          "description": "Thảo luận về sở thích cá nhân và học cách nói về sở thích của bạn bằng tiếng Nhật.",
+          "tasks": [
+            "Thảo luận về các sở thích cá nhân và lý do yêu thích.",
+            "Hỏi về các hoạt động giải trí khác mà bạn muốn thử.",
+            "Thực hành cách mô tả sở thích của bạn bằng từ vựng đơn giản."
+          ]
+        },
+        "en": {
+          "title": "Talking About Hobbies",
+          "description": "Discuss various hobbies and how to talk about them in Chinese.",
+          "tasks": [
+            "Talk about your favorite hobbies and why you enjoy them.",
+            "Ask the other person about their hobbies.",
+            "Discuss how often you engage in your hobbies."
+          ]
+        },
+        "zh-Hant": {
+          "title": "談論愛好",
+          "description": "討論各種愛好以及如何用中文談論它們。",
+          "tasks": [
+            "談談你最喜歡的愛好以及你為什麼喜歡它們。",
+            "詢問對方的愛好。",
+            "討論您從事愛好的頻率。"
+          ]
+        },
+        "ko": {
+          "title": "취미에 대해 이야기하기",
+          "description": "다양한 취미와 중국어로 이야기하는 방법에 대해 토론하십시오.",
+          "tasks": [
+            "당신이 가장 좋아하는 취미와 그것을 즐기는 이유에 대해 이야기하십시오.",
+            "상대방에게 취미에 대해 물어보십시오.",
+            "취미 활동을 얼마나 자주 하는지 토론한다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 47,
+      "prompt": "You are a tutor creating a grocery shopping scenario. Teach the user how to ask for specific items. Your student is a beginner Chinese learner, respond with simple questions.",
+      "first_message": "你想在超市买些什么？",
+      "image_url": "/uploads/conversation_topics/at_the_supermarket.webp",
+      "regions": {
+        "vi": {
+          "title": "Tại Siêu Thị",
+          "description": "Học cách hỏi mua các mặt hàng thực phẩm và di chuyển trong siêu thị bằng tiếng Nhật.",
+          "tasks": [
+            "Hỏi về các mặt hàng thực phẩm cơ bản và cách chọn mua chúng.",
+            "Thảo luận về giá cả và các ưu đãi tại siêu thị.",
+            "Thực hành cách hỏi nhân viên siêu thị về vị trí các mặt hàng."
+          ]
+        },
+        "en": {
+          "title": "At the Supermarket",
+          "description": "Learn the names of different food items and how to navigate a supermarket in Chinese.",
+          "tasks": [
+            "Ask for the location of a specific item in the supermarket.",
+            "Discuss the quantity or type of food you need.",
+            "Pay for your groceries and thank the cashier."
+          ]
+        },
+        "zh-Hant": {
+          "title": "在超市",
+          "description": "瞭解不同食品的名稱以及如何用中文流覽超市。",
+          "tasks": [
+            "詢問超市中特定商品的位置。",
+            "討論您需要的食物的數量或類型。",
+            "支付您的雜貨並感謝收銀員。"
+          ]
+        },
+        "ko": {
+          "title": "슈퍼마켓에서",
+          "description": "다양한 식품의 이름과 중국어로 슈퍼마켓을 탐색하는 방법을 배우십시오.",
+          "tasks": [
+            "슈퍼마켓에서 특정 품목의 위치를 요청하십시오.",
+            "필요한 음식의 양이나 종류에 대해 토론한다.",
+            "식료품 값을 지불하고 계산원에게 감사를 표하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 51,
+      "prompt": "You are a tutor helping express preferences. Encourage the user to talk about their likes and dislikes. Your student is a beginner Chinese learner, respond with simple questions.",
+      "first_message": "你喜欢吃什么？你不喜欢什么？",
+      "image_url": "/uploads/conversation_topics/expressing_likes_and_dislikes.webp",
+      "regions": {
+        "vi": {
+          "title": "Diễn Đạt Sở Thích và Không Thích",
+          "description": "Học cách diễn đạt các sở thích và điều không thích của bạn trong các tình huống khác nhau bằng tiếng Nhật.",
+          "tasks": [
+            "Nói về các món ăn hoặc hoạt động yêu thích.",
+            "Hỏi về các món ăn hoặc hoạt động mà bạn không thích.",
+            "Thực hành cách diễn đạt sở thích và không thích một cách lịch sự."
+          ]
+        },
+        "en": {
+          "title": "Expressing Likes and Dislikes",
+          "description": "Learn how to express what you like and dislike in various contexts in Chinese.",
+          "tasks": [
+            "Talk about your favorite foods and drinks.",
+            "Discuss things you don't like and why.",
+            "Ask the other person about their likes and dislikes."
+          ]
+        },
+        "zh-Hant": {
+          "title": "表達喜歡和不喜歡",
+          "description": "學習如何用中文在各種語境中表達你喜歡和不喜歡的東西。",
+          "tasks": [
+            "談論您最喜歡的食物和飲料。",
+            "討論你不喜歡的事情和原因。",
+            "詢問對方的好惡。"
+          ]
+        },
+        "ko": {
+          "title": "좋아하는 것과 싫어하는 것을 표현하기",
+          "description": "중국어로 다양한 상황에서 좋아하는 것과 싫어하는 것을 표현하는 방법을 배우십시오.",
+          "tasks": [
+            "좋아하는 음식과 음료에 대해 이야기하십시오.",
+            "당신이 좋아하지 않는 것과 그 이유에 대해 토론하십시오.",
+            "상대방에게 좋아하는 것과 싫어하는 것에 대해 물어보십시오."
+          ]
+        }
+      }
+    }
+  ],
+  "is_active": true,
+  "created_at": {
+    "$date": "2025-01-20T09:58:44.868Z"
+  },
+  "updated_at": {
+    "$date": "2025-01-20T09:58:44.869Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "678e1ec38ce4b93d741773c4"
+  },
+  "id": 4,
+  "display_order": 4,
+  "regions": {
+    "vi": {
+      "name": "Gia sư trung cấp"
+    },
+    "en": {
+      "name": "Tutor for Intermediate"
+    },
+    "zh-Hant": {
+      "name": "中級導師"
+    },
+    "ko": {
+      "name": "중급자를 위한 교사"
+    }
+  },
+  "topic_details": [
+    {
+      "topic_id": 53,
+      "prompt": "You are a tutor discussing daily life. Ask the user to describe their typical day. Your student is an intermediate level Chinese learner, respond with suitable vocabulary and grammar.",
+      "first_message": "你能描述一下你的日常生活吗？",
+      "image_url": "/uploads/conversation_topics/describing_daily_routine.webp",
+      "regions": {
+        "vi": {
+          "title": "Mô Tả Lịch Trình Hằng Ngày Của Bạn",
+          "description": "Học cách mô tả lịch trình hàng ngày của bạn và các hoạt động hằng ngày chi tiết hơn bằng tiếng Nhật.",
+          "tasks": [
+            "Mô tả lịch trình hàng ngày của bạn từ sáng đến tối.",
+            "Thảo luận về thói quen buổi sáng và cách bạn chuẩn bị cho ngày mới.",
+            "Nói về các hoạt động bạn thường làm sau giờ làm việc hoặc học tập."
+          ]
+        },
+        "en": {
+          "title": "Describing Your Daily Routine",
+          "description": "Learn to describe your daily schedule and routine activities in more detail in Chinese.",
+          "tasks": [
+            "Describe your morning routine, including specific activities and times.",
+            "Talk about your work or study schedule during the day.",
+            "Discuss your evening routine and any leisure activities you enjoy."
+          ]
+        },
+        "zh-Hant": {
+          "title": "描述您的日常生活",
+          "description": "學習用中文更詳細地描述您的日程安排和日常活動。",
+          "tasks": [
+            "描述您的早晨作息，包括具體的活動和時間。",
+            "談談你白天的工作或學習時程表。",
+            "討論您的晚間活動和您喜歡的任何休閒活動。"
+          ]
+        },
+        "ko": {
+          "title": "하루 일과를 설명하기",
+          "description": "하루 일정과 일상 활동을 중국어로 더 자세히 설명하는 방법을 배우십시오.",
+          "tasks": [
+            "구체적인 활동과 시간을 포함한 아침 일과를 설명하십시오.",
+            "낮 동안의 일이나 공부 일정에 대해 이야기하십시오.",
+            "저녁 일과와 즐기는 여가 활동에 대해 이야기하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 79,
+      "prompt": "You are a tutor interested in the user's work or study. Invite the user to discuss their career or education. Your student is an intermediate level Chinese learner, respond with suitable vocabulary and grammar.",
+      "first_message": "你在哪儿工作或者你学习什么专业？",
+      "image_url": "/uploads/conversation_topics/discussing_study_and_work.webp",
+      "regions": {
+        "vi": {
+          "title": "Thảo Luận Về Học Tập và Công Việc",
+          "description": "Thảo luận về học tập và công việc của bạn bằng tiếng Nhật, bao gồm chuyên ngành hoặc công việc hiện tại.",
+          "tasks": [
+            "Nói về công việc hoặc chuyên ngành bạn đang học.",
+            "Thảo luận về những khó khăn bạn gặp phải trong công việc hoặc học tập.",
+            "Chia sẻ về kế hoạch nghề nghiệp hoặc học tập trong tương lai."
+          ]
+        },
+        "en": {
+          "title": "Discussing Study and Work",
+          "description": "Talk about your study or work life, including your major or job responsibilities in Chinese.",
+          "tasks": [
+            "Describe your job or major, including specific responsibilities or subjects.",
+            "Discuss any challenges or achievements in your work or study.",
+            "Talk about your future career or academic goals."
+          ]
+        },
+        "zh-Hant": {
+          "title": "討論學習和工作",
+          "description": "用中文談論您的學習或工作生活，包括您的專業或工作職責。",
+          "tasks": [
+            "描述您的工作或專業，包括具體職責或主題。",
+            "討論您工作或學習中的任何挑戰或成就。",
+            "談談你未來的職業或學術目標。"
+          ]
+        },
+        "ko": {
+          "title": "공부와 일에 대해 토론하기",
+          "description": "전공이나 직무를 포함한 학업이나 직장 생활에 대해 중국어로 이야기하십시오.",
+          "tasks": [
+            "특정 책임이나 주제를 포함하여 직업 또는 전공을 설명하십시오.",
+            "작업이나 공부에서 겪는 어려움이나 성취에 대해 토론하십시오.",
+            "미래의 직업이나 학업 목표에 대해 이야기하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 81,
+      "prompt": "You are a tutor discussing travel. Encourage the user to talk about their travel experiences. Your student is an intermediate level Chinese learner, respond with suitable vocabulary and grammar.",
+      "first_message": "你去过中国的哪些地方？有什么有趣的旅行经历吗？",
+      "image_url": "/uploads/conversation_topics/travel_experiences.webp",
+      "regions": {
+        "vi": {
+          "title": "Trải Nghiệm Du Lịch",
+          "description": "Chia sẻ về những trải nghiệm du lịch của bạn, địa điểm yêu thích và những kỷ niệm đáng nhớ.",
+          "tasks": [
+            "Chia sẻ về chuyến du lịch yêu thích của bạn và lý do tại sao.",
+            "Thảo luận về những điểm đến mà bạn muốn khám phá trong tương lai.",
+            "Nói về những khó khăn hoặc trải nghiệm thú vị trong chuyến du lịch của bạn."
+          ]
+        },
+        "en": {
+          "title": "Travel Experiences",
+          "description": "Share and ask about travel experiences, including favorite destinations and travel stories in Chinese.",
+          "tasks": [
+            "Describe a memorable trip you have taken, including details about the destination.",
+            "Talk about what you enjoyed most during your travels.",
+            "Ask the other person about their favorite travel experiences."
+          ]
+        },
+        "zh-Hant": {
+          "title": "旅遊體驗",
+          "description": "用中文分享和詢問旅行經歷，包括最喜歡的目的地和旅行故事。",
+          "tasks": [
+            "描述您經歷過的難忘旅程，包括目的地的詳細資訊。",
+            "談談您在旅行中最喜歡的事情。",
+            "詢問對方他們最喜歡的旅行經歷。"
+          ]
+        },
+        "ko": {
+          "title": "여행 체험",
+          "description": "좋아하는 여행지와 여행 이야기를 포함한 여행 경험에 대해 중국어로 공유하고 물어보세요.",
+          "tasks": [
+            "목적지에 대한 세부 정보를 포함하여 기억에 남는 여행을 설명하십시오.",
+            "여행 중 가장 즐거웠던 것에 대해 이야기하십시오.",
+            "상대방에게 가장 좋아하는 여행 경험에 대해 물어보십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 82,
+      "prompt": "You are a tutor exploring geography. Ask the user to describe the city they live in or come from. Your student is an intermediate level Chinese learner, respond with suitable vocabulary and grammar.",
+      "first_message": "你的家乡有什么特别的地方吗？",
+      "image_url": "/uploads/conversation_topics/describing_your_city.webp",
+      "regions": {
+        "vi": {
+          "title": "Mô Tả Thành Phố Của Bạn",
+          "description": "Học cách mô tả chi tiết về thành phố hoặc quê hương của bạn bằng tiếng Nhật.",
+          "tasks": [
+            "Mô tả các địa điểm nổi bật trong thành phố hoặc quê hương của bạn.",
+            "Thảo luận về các hoạt động văn hóa hoặc lễ hội đặc trưng của nơi bạn sống.",
+            "Nói về những thay đổi trong thành phố của bạn trong những năm qua."
+          ]
+        },
+        "en": {
+          "title": "Describing Your City",
+          "description": "Learn to describe your city or hometown, including famous landmarks and places of interest in Chinese.",
+          "tasks": [
+            "Describe the main attractions or landmarks in your city.",
+            "Discuss the history or cultural significance of your hometown.",
+            "Talk about what you like and dislike about living in your city."
+          ]
+        },
+        "zh-Hant": {
+          "title": "描述您的城市",
+          "description": "學習用中文描述您的城市或家鄉，包括著名的地標和名勝古跡。",
+          "tasks": [
+            "描述您所在城市的主要景點或地標。",
+            "討論您家鄉的歷史或文化意義。",
+            "談談你喜歡和不喜歡在你的城市生活的哪些方面。"
+          ]
+        },
+        "ko": {
+          "title": "도시 설명",
+          "description": "유명한 랜드마크와 관심 있는 장소를 중국어로 포함하여 도시나 고향을 설명하는 방법을 배웁니다.",
+          "tasks": [
+            "도시의 주요 명소나 랜드마크를 설명하십시오.",
+            "고향의 역사나 문화적 중요성에 대해 토론하십시오.",
+            "당신이 사는 도시에 사는 것에 대해 좋아하는 것과 싫어하는 것에 대해 이야기하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 84,
+      "prompt": "You are a tutor sparking conversation. Bring up a current event for the user to discuss. Your student is an intermediate level Chinese learner, respond with suitable vocabulary and grammar.",
+      "first_message": "你对最近的新闻有什么看法？",
+      "image_url": "/uploads/conversation_topics/discussing_current_events.webp",
+      "regions": {
+        "vi": {
+          "title": "Thảo Luận Về Sự Kiện Hiện Tại",
+          "description": "Chia sẻ quan điểm của bạn về các sự kiện thời sự gần đây và tác động của chúng đối với xã hội.",
+          "tasks": [
+            "Chia sẻ ý kiến của bạn về một sự kiện thời sự nổi bật gần đây.",
+            "Thảo luận về tác động của sự kiện này đối với xã hội.",
+            "Nói về những giải pháp tiềm năng cho các vấn đề hiện tại."
+          ]
+        },
+        "en": {
+          "title": "Discussing Current Events",
+          "description": "Practice discussing news and current events, expressing opinions and thoughts in Chinese.",
+          "tasks": [
+            "Discuss a recent news event and your opinion on it.",
+            "Ask the other person for their thoughts on a current event.",
+            "Talk about the potential impact of the event on society or the world."
+          ]
+        },
+        "zh-Hant": {
+          "title": "討論時事",
+          "description": "練習討論新聞和時事，用中文表達意見和想法。",
+          "tasks": [
+            "討論最近的新聞事件和你對它的看法。",
+            "詢問對方對時事的看法。",
+            "談論事件對社會或世界的潛在影響。"
+          ]
+        },
+        "ko": {
+          "title": "시사 토론하기",
+          "description": "뉴스와 시사에 대해 토론하고 중국어로 의견과 생각을 표현하는 연습을 합니다.",
+          "tasks": [
+            "최근 뉴스 이벤트와 그에 대한 귀하의 의견에 대해 토론하십시오.",
+            "상대방에게 현재 사건에 대한 생각을 물어보십시오.",
+            "행사가 사회나 세계에 미칠 수 있는 잠재적 영향에 대해 이야기한다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 80,
+      "prompt": "You are a tutor teaching history. Invite the user to talk about historical landmarks in China. Your student is an intermediate level Chinese learner; respond with suitable vocabulary and grammar.",
+      "first_message": "你对中国的哪些历史地标比较感兴趣？",
+      "image_url": "/uploads/conversation_topics/historical_landmarks.webp",
+      "regions": {
+        "vi": {
+          "title": "Di Tích Lịch Sử",
+          "description": "Chia sẻ về những di tích lịch sử quan trọng ở Nhật Bản và ý nghĩa của chúng đối với văn hóa và xã hội.",
+          "tasks": [
+            "Mô tả một di tích lịch sử bạn đã thăm hoặc muốn thăm.",
+            "Thảo luận về ý nghĩa lịch sử của địa điểm này.",
+            "Nói về ảnh hưởng của di tích này đối với văn hóa và xã hội hiện nay."
+          ]
+        },
+        "en": {
+          "title": "Historical Landmarks",
+          "description": "Discuss the history and significance of various Chinese landmarks.",
+          "tasks": [
+            "Describe a famous historical landmark in China and its significance.",
+            "Discuss the history behind the landmark and any interesting facts.",
+            "Ask the other person about their favorite historical sites."
+          ]
+        },
+        "zh-Hant": {
+          "title": "歷史地標",
+          "description": "討論各種中國地標的歷史和意義。",
+          "tasks": [
+            "描述中國著名的歷史地標及其意義。",
+            "討論地標背後的歷史和任何有趣的事實。",
+            "向對方詢問他們最喜歡的歷史遺跡。"
+          ]
+        },
+        "ko": {
+          "title": "사적",
+          "description": "다양한 중국 랜드 마크의 역사와 중요성에 대해 토론하십시오.",
+          "tasks": [
+            "중국의 유명한 역사적 랜드마크와 그 중요성을 설명하십시오.",
+            "랜드 마크 뒤의 역사와 흥미로운 사실에 대해 토론하십시오.",
+            "상대방에게 가장 좋아하는 유적지에 대해 물어보십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 83,
+      "prompt": "You are a tutor discussing business practices. Ask the user to discuss business customs in China. Your student is an intermediate level Chinese learner; respond with suitable vocabulary and grammar.",
+      "first_message": "你对中国的商务礼仪有什么了解？",
+      "image_url": "/uploads/conversation_topics/business_customs.webp",
+      "regions": {
+        "vi": {
+          "title": "Phong Tục Doanh Nghiệp",
+          "description": "Tìm hiểu về phong tục kinh doanh và cách làm việc với các công ty Nhật Bản.",
+          "tasks": [
+            "Thảo luận về các phong tục doanh nghiệp quan trọng ở Nhật Bản.",
+            "Nói về những thách thức khi làm việc với các công ty Nhật Bản.",
+            "Chia sẻ kinh nghiệm cá nhân về làm việc trong môi trường quốc tế."
+          ]
+        },
+        "en": {
+          "title": "Business Customs",
+          "description": "Learn about business etiquette and customs in Chinese business culture.",
+          "tasks": [
+            "Describe key aspects of Chinese business etiquette.",
+            "Discuss how business customs in China differ from those in other countries.",
+            "Talk about any experiences you have had with Chinese business culture."
+          ]
+        },
+        "zh-Hant": {
+          "title": "商業海關",
+          "description": "了解中國商業文化中的商務禮儀和習俗。",
+          "tasks": [
+            "描述中國商務禮儀的關鍵方面。",
+            "討論中國的商業習俗與其他國家/地區的商業習俗有何不同。",
+            "談談您對中國商業文化的任何體驗。"
+          ]
+        },
+        "ko": {
+          "title": "비즈니스 세관",
+          "description": "중국 비즈니스 문화의 비즈니스 에티켓과 관습에 대해 알아보십시오.",
+          "tasks": [
+            "중국 비즈니스 에티켓의 주요 측면을 설명할 수 있습니다.",
+            "중국의 비즈니스 관습이 다른 나라의 비즈니스 관습과 어떻게 다른지 토론하십시오.",
+            "중국 비즈니스 문화에 대한 경험에 대해 이야기하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 85,
+      "prompt": "You are a tutor raising awareness. Encourage the user to talk about environmental issues. Your student is an intermediate level Chinese learner; respond with suitable vocabulary and grammar.",
+      "first_message": "你怎么看待当前的环境问题？",
+      "image_url": "/uploads/conversation_topics/environmental_issues.webp",
+      "regions": {
+        "vi": {
+          "title": "Vấn Đề Môi Trường",
+          "description": "Thảo luận về các vấn đề môi trường và cách bảo vệ môi trường ở Nhật Bản và trên thế giới.",
+          "tasks": [
+            "Nói về một vấn đề môi trường đang được quan tâm.",
+            "Thảo luận về các biện pháp bảo vệ môi trường bạn đang thực hiện.",
+            "Chia sẻ ý tưởng về cách cải thiện tình trạng môi trường hiện nay."
+          ]
+        },
+        "en": {
+          "title": "Environmental Issues",
+          "description": "Discuss environmental challenges and sustainability efforts in China and globally.",
+          "tasks": [
+            "Discuss a major environmental issue facing the world today.",
+            "Talk about the efforts being made in China to address environmental challenges.",
+            "Ask the other person for their opinion on how to improve environmental sustainability."
+          ]
+        },
+        "zh-Hant": {
+          "title": "環境問題",
+          "description": "討論中國和全球的環境挑戰和可持續發展工作。",
+          "tasks": [
+            "討論當今世界面臨的一個重大環境問題。",
+            "談談中國為應對環境挑戰所做的努力。",
+            "詢問對方對如何提高環境可持續性的看法。"
+          ]
+        },
+        "ko": {
+          "title": "환경 문제",
+          "description": "중국과 전 세계의 환경 문제와 지속 가능성 노력에 대해 논의합니다.",
+          "tasks": [
+            "오늘날 세계가 직면한 주요 환경 문제에 대해 토론합니다.",
+            "환경 문제를 해결하기 위해 중국에서 이루어지고 있는 노력에 대해 이야기합니다.",
+            "다른 사람에게 환경 지속 가능성을 개선하는 방법에 대한 의견을 물어보십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 89,
+      "prompt": "You are a tutor discussing technology. Discuss with the user about technological advancements in China. Your student is an intermediate level Chinese learner; respond with suitable vocabulary and grammar.",
+      "first_message": "你对中国的科技发展有什么看法？",
+      "image_url": "/uploads/conversation_topics/technology_advancements.webp",
+      "regions": {
+        "vi": {
+          "title": "Tiến Bộ Công Nghệ",
+          "description": "Thảo luận về những tiến bộ trong công nghệ và tác động của chúng đối với cuộc sống hàng ngày.",
+          "tasks": [
+            "Chia sẻ về một phát minh công nghệ mới mà bạn quan tâm.",
+            "Thảo luận về tác động của công nghệ đối với đời sống hàng ngày.",
+            "Nói về những xu hướng công nghệ bạn nghĩ sẽ phát triển trong tương lai."
+          ]
+        },
+        "en": {
+          "title": "Technology Advancements",
+          "description": "Talk about the impact of technology in China and share opinions on the latest tech trends.",
+          "tasks": [
+            "Discuss a recent technological advancement in China.",
+            "Talk about the impact of technology on daily life in China.",
+            "Share your thoughts on the future of technology in the country."
+          ]
+        },
+        "zh-Hant": {
+          "title": "技術進步",
+          "description": "談論技術對中國的影響，並分享對最新技術趨勢的看法。",
+          "tasks": [
+            "討論中國最近的技術進步。",
+            "談談科技對中國日常生活的影響。",
+            "分享您對該國技術未來的看法。"
+          ]
+        },
+        "ko": {
+          "title": "기술 발전",
+          "description": "기술이 중국에 미치는 영향에 대해 이야기하고 최신 기술 동향에 대한 의견을 공유합니다.",
+          "tasks": [
+            "중국의 최근 기술 발전에 대해 논의합니다.",
+            "기술이 중국의 일상 생활에 미치는 영향에 대해 이야기합니다.",
+            "이 나라 기술의 미래에 대한 당신의 생각을 공유하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 87,
+      "prompt": "You are a tutor sharing literary knowledge. Invite the user to discuss Chinese literature. Your student is an intermediate level Chinese learner; respond with suitable vocabulary and grammar.",
+      "first_message": "你读过哪些中国文学作品？",
+      "image_url": "/uploads/conversation_topics/chinese_literature.webp",
+      "regions": {
+        "vi": {
+          "title": "Văn Học Nhật Bản",
+          "description": "Khám phá văn học Nhật Bản, bao gồm các tác phẩm cổ điển và hiện đại.",
+          "tasks": [
+            "Nói về một cuốn sách hoặc tác phẩm văn học Nhật Bản mà bạn yêu thích.",
+            "Thảo luận về chủ đề và ý nghĩa của tác phẩm đó.",
+            "Chia sẻ cảm nhận của bạn về các tác giả Nhật Bản nổi tiếng."
+          ]
+        },
+        "en": {
+          "title": "Chinese Literature",
+          "description": "Explore classic and modern Chinese literature, including poetry and novels.",
+          "tasks": [
+            "Discuss a favorite Chinese novel or poem and its themes.",
+            "Talk about the influence of Chinese literature on culture.",
+            "Ask the other person for their recommendations on Chinese literary works."
+          ]
+        },
+        "zh-Hant": {
+          "title": "中國文學",
+          "description": "探索中國古典和現代文學，包括詩歌和小說。",
+          "tasks": [
+            "討論最喜歡的中國小說或詩歌及其主題。",
+            "談談中國文學對文化的影響。",
+            "向對方詢問他們對中國文學作品的推薦。"
+          ]
+        },
+        "ko": {
+          "title": "중국문학",
+          "description": "시와 소설을 포함한 고전 및 현대 중국 문학을 탐험하십시오.",
+          "tasks": [
+            "좋아하는 중국 소설이나 시와 그 주제에 대해 토론한다.",
+            "중국 문학이 문화에 미친 영향에 대해 이야기하십시오.",
+            "상대방에게 중국 문학 작품에 대한 추천을 요청하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 88,
+      "prompt": "You are a tutor teaching cultural traditions. Ask the user about their knowledge of Chinese festivals. Your student is an intermediate level Chinese learner; respond with suitable vocabulary and grammar.",
+      "first_message": "你知道中国有哪些传统节日吗？",
+      "image_url": "/uploads/conversation_topics/chinese_festivals.webp",
+      "regions": {
+        "vi": {
+          "title": "Lễ Hội Nhật Bản",
+          "description": "Học về các lễ hội truyền thống của Nhật Bản và ý nghĩa văn hóa của chúng.",
+          "tasks": [
+            "Mô tả một lễ hội Nhật Bản mà bạn đã tham gia hoặc muốn tham gia.",
+            "Thảo luận về ý nghĩa văn hóa và lịch sử của lễ hội đó.",
+            "Nói về cách tổ chức và các hoạt động diễn ra trong lễ hội."
+          ]
+        },
+        "en": {
+          "title": "Chinese Festivals",
+          "description": "Learn about the customs and traditions associated with Chinese festivals.",
+          "tasks": [
+            "Describe the customs and traditions of a specific Chinese festival.",
+            "Talk about your experiences celebrating a Chinese festival.",
+            "Ask the other person about their favorite Chinese holiday."
+          ]
+        },
+        "zh-Hant": {
+          "title": "中國節日",
+          "description": "瞭解與中國節日相關的習俗和傳統。",
+          "tasks": [
+            "描述特定中國節日的習俗和傳統。",
+            "談談你慶祝中國節日的經歷。",
+            "向對方詢問他們最喜歡的中國節日。"
+          ]
+        },
+        "ko": {
+          "title": "중국 축제",
+          "description": "중국 축제와 관련된 관습과 전통에 대해 알아보십시오.",
+          "tasks": [
+            "특정 중국 축제의 관습과 전통을 설명하십시오.",
+            "중국 축제를 축하한 경험에 대해 이야기하십시오.",
+            "상대방에게 가장 좋아하는 중국 명절에 대해 물어보십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 86,
+      "prompt": "You are a tutor exploring art forms. Encourage the user to talk about their experience or interest in Chinese calligraphy. Your student is an intermediate level Chinese learner; respond with suitable vocabulary and grammar.",
+      "first_message": "你有学过中国书法吗？你怎么看待书法在中国文化中的地位？",
+      "image_url": "/uploads/conversation_topics/chinese_calligraphy.webp",
+      "regions": {
+        "vi": {
+          "title": "Thư Pháp Nhật Bản",
+          "description": "Thảo luận về nghệ thuật thư pháp Nhật Bản và vị trí của nó trong văn hóa Nhật Bản.",
+          "tasks": [
+            "Nói về trải nghiệm của bạn với nghệ thuật thư pháp Nhật Bản.",
+            "Thảo luận về sự khác biệt giữa thư pháp Nhật Bản và các loại hình nghệ thuật khác.",
+            "Chia sẻ suy nghĩ của bạn về ý nghĩa của thư pháp trong văn hóa Nhật Bản."
+          ]
+        },
+        "en": {
+          "title": "Chinese Calligraphy",
+          "description": "Discuss the art of Chinese calligraphy and its cultural significance.",
+          "tasks": [
+            "Describe the basic techniques of Chinese calligraphy.",
+            "Discuss the cultural significance of calligraphy in China.",
+            "Talk about your own experiences with learning or practicing calligraphy."
+          ]
+        },
+        "zh-Hant": {
+          "title": "中國書法",
+          "description": "討論中國書法藝術及其文化意義。",
+          "tasks": [
+            "描述中國書法的基本技巧。",
+            "討論書法在中國的文化意義。",
+            "談談你自己學習或練習書法的經歷。"
+          ]
+        },
+        "ko": {
+          "title": "중국 서예",
+          "description": "중국 서예의 예술과 그 문화적 중요성에 대해 토론하십시오.",
+          "tasks": [
+            "중국 서예의 기본 기법을 설명할 수 있습니다.",
+            "중국에서 서예의 문화적 중요성에 대해 토론하십시오.",
+            "서예를 배우거나 연습한 자신의 경험에 대해 이야기하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 90,
+      "prompt": "You are a tutor discussing film. Invite the user to share their favorite Chinese films or directors. Your student is an intermediate level Chinese learner; respond with suitable vocabulary and grammar.",
+      "first_message": "你最喜欢的中国电影或导演是谁？",
+      "image_url": "/uploads/conversation_topics/chinese_cinema.webp",
+      "regions": {
+        "vi": {
+          "title": "Điện Ảnh Nhật Bản",
+          "description": "Thảo luận về lịch sử điện ảnh Nhật Bản và chia sẻ về các bộ phim hoặc đạo diễn mà bạn yêu thích.",
+          "tasks": [
+            "Nói về một bộ phim Nhật Bản mà bạn yêu thích và lý do tại sao.",
+            "Thảo luận về phong cách đạo diễn của một nhà làm phim Nhật Bản.",
+            "Chia sẻ ý kiến của bạn về sự phát triển của điện ảnh Nhật Bản hiện nay."
+          ]
+        },
+        "en": {
+          "title": "Chinese Cinema",
+          "description": "Talk about the history of Chinese cinema and discuss favorite movies or directors.",
+          "tasks": [
+            "Discuss a favorite Chinese film and what you enjoyed about it.",
+            "Talk about the contributions of a famous Chinese director.",
+            "Ask the other person for their recommendations on Chinese films."
+          ]
+        },
+        "zh-Hant": {
+          "title": "華語電影",
+          "description": "談論中國電影的歷史，討論最喜歡的電影或導演。",
+          "tasks": [
+            "討論一部最喜歡的中國電影以及您喜歡它的哪些方面。",
+            "談談一位中國著名導演的貢獻。",
+            "向對方詢問他們對中國電影的推薦。"
+          ]
+        },
+        "ko": {
+          "title": "차이니즈 시네마",
+          "description": "중국 영화의 역사에 대해 이야기하고 좋아하는 영화나 감독에 대해 토론합니다.",
+          "tasks": [
+            "가장 좋아하는 중국 영화와 그 영화의 어떤 점이 즐거웠는지 토론하십시오.",
+            "유명한 중국 감독의 기여에 대해 이야기하십시오.",
+            "상대방에게 중국 영화에 대한 추천을 요청하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 92,
+      "prompt": "You are a tutor analyzing society. Have a conversation with the user about modern Chinese society. Your student is an intermediate level Chinese learner; respond with suitable vocabulary and grammar.",
+      "first_message": "你对中国现代社会有什么印象？",
+      "image_url": "/uploads/conversation_topics/modern_chinese_society.webp",
+      "regions": {
+        "vi": {
+          "title": "Xã Hội Đương Đại Nhật Bản",
+          "description": "Thảo luận về các khía cạnh của xã hội Nhật Bản hiện đại, bao gồm các xu hướng xã hội và đô thị hóa.",
+          "tasks": [
+            "Thảo luận về các vấn đề xã hội hiện đại ở Nhật Bản.",
+            "Nói về những thay đổi trong xã hội Nhật Bản trong những năm gần đây.",
+            "Chia sẻ suy nghĩ của bạn về tương lai của xã hội Nhật Bản."
+          ]
+        },
+        "en": {
+          "title": "Modern Chinese Society",
+          "description": "Discuss various aspects of modern life in China, including urbanization and social trends.",
+          "tasks": [
+            "Discuss the impact of urbanization on life in China.",
+            "Talk about a current social trend in Chinese society.",
+            "Ask the other person for their views on modern life in China."
+          ]
+        },
+        "zh-Hant": {
+          "title": "現代中國社會",
+          "description": "討論中國現代生活的各個方面，包括城市化和社會趨勢。",
+          "tasks": [
+            "討論城市化對中國生活的影響。",
+            "談談中國社會當前的一個社會趨勢。",
+            "詢問對方對中國現代生活的看法。"
+          ]
+        },
+        "ko": {
+          "title": "현대 중국 사회",
+          "description": "도시화 및 사회 동향을 포함한 중국 현대 생활의 다양한 측면에 대해 논의합니다.",
+          "tasks": [
+            "도시화가 중국 생활에 미치는 영향에 대해 토론합니다.",
+            "중국 사회의 현재 사회 동향에 대해 이야기하십시오.",
+            "상대방에게 중국의 현대 생활에 대한 견해를 물어보십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 91,
+      "prompt": "You are a tutor delving into philosophy. Discuss Chinese philosophical thoughts with the user. Your student is an intermediate level Chinese learner; respond with suitable vocabulary and grammar.",
+      "first_message": "你对儒家、道家或佛家思想有何理解？",
+      "image_url": "/uploads/conversation_topics/chinese_philosophy.webp",
+      "regions": {
+        "vi": {
+          "title": "Triết Học Nhật Bản",
+          "description": "Tìm hiểu về triết học Nhật Bản và các tư tưởng chính như Nho giáo, Đạo giáo và Phật giáo.",
+          "tasks": [
+            "Nói về những khía cạnh chính của triết học Nhật Bản.",
+            "Thảo luận về ảnh hưởng của các tư tưởng triết học đến đời sống người Nhật.",
+            "Chia sẻ suy nghĩ của bạn về sự khác biệt giữa triết học Nhật Bản và phương Tây."
+          ]
+        },
+        "en": {
+          "title": "Chinese Philosophy",
+          "description": "Explore the principles of Chinese philosophical schools like Confucianism, Taoism, and Buddhism.",
+          "tasks": [
+            "Discuss the main ideas of Confucianism, Taoism, or Buddhism.",
+            "Talk about the influence of these philosophies on Chinese culture.",
+            "Ask the other person for their interpretation of a specific philosophical idea."
+          ]
+        },
+        "zh-Hant": {
+          "title": "中國哲學",
+          "description": "探索儒家、道家和佛教等中國哲學流派的原則。",
+          "tasks": [
+            "討論儒家思想、道家或佛教的主要思想。",
+            "談談這些哲學對中國文化的影響。",
+            "詢問對方對特定哲學思想的解釋。"
+          ]
+        },
+        "ko": {
+          "title": "중국철학",
+          "description": "유교, 도교, 불교와 같은 중국 철학 학교의 원리를 탐구하십시오.",
+          "tasks": [
+            "유교, 도교 또는 불교의 주요 개념에 대해 토론합니다.",
+            "이러한 철학이 중국 문화에 미친 영향에 대해 이야기하십시오.",
+            "상대방에게 특정 철학적 아이디어에 대한 해석을 물어보십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 95,
+      "prompt": "You are a tutor comparing education systems. Ask the user to talk about their perspective on the Chinese education system. Your student is an intermediate level Chinese learner; respond with suitable vocabulary and grammar.",
+      "first_message": "你怎么看中国的教育体系？",
+      "image_url": "/uploads/conversation_topics/education_system_in_china.webp",
+      "regions": {
+        "vi": {
+          "title": "Hệ Thống Giáo Dục ở Nhật Bản",
+          "description": "Thảo luận về hệ thống giáo dục của Nhật Bản và so sánh với hệ thống giáo dục của các quốc gia khác.",
+          "tasks": [
+            "So sánh hệ thống giáo dục Nhật Bản với hệ thống giáo dục của nước bạn.",
+            "Thảo luận về những ưu điểm và nhược điểm của hệ thống giáo dục Nhật Bản.",
+            "Nói về cách hệ thống giáo dục Nhật Bản ảnh hưởng đến xã hội và kinh tế."
+          ]
+        },
+        "en": {
+          "title": "Education System in China",
+          "description": "Discuss the structure of the Chinese education system and compare it with other countries.",
+          "tasks": [
+            "Describe the key features of the Chinese education system.",
+            "Discuss the advantages and challenges of studying in China.",
+            "Compare the Chinese education system with that of another country."
+          ]
+        },
+        "zh-Hant": {
+          "title": "中國的教育體系",
+          "description": "討論中國教育體系的結構，並將其與其他國家進行比較。",
+          "tasks": [
+            "描述中國教育體系的主要特點。",
+            "討論在中國學習的優勢和挑戰。",
+            "將中國的教育體系與另一個國家的教育體系進行比較。"
+          ]
+        },
+        "ko": {
+          "title": "중국의 교육 시스템",
+          "description": "중국 교육 시스템의 구조에 대해 논의하고 다른 국가와 비교하십시오.",
+          "tasks": [
+            "중국 교육 시스템의 주요 특징을 설명할 수 있습니다.",
+            "중국 유학의 장점과 문제점에 대해 논의하십시오.",
+            "중국의 교육 시스템을 다른 나라의 교육 시스템과 비교해 보십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 93,
+      "prompt": "You are a tutor facilitating a political discussion. Encourage the user to talk about their understanding of Chinese politics. Your student is an intermediate level Chinese learner; respond with suitable vocabulary and grammar.",
+      "first_message": "你对中国的政治体制有什么看法？",
+      "image_url": "/uploads/conversation_topics/chinese_politics.webp",
+      "regions": {
+        "vi": {
+          "title": "Chính Trị Nhật Bản",
+          "description": "Thảo luận về hệ thống chính trị của Nhật Bản và vai trò của các đảng phái chính trị.",
+          "tasks": [
+            "Thảo luận về hệ thống chính trị hiện tại của Nhật Bản.",
+            "Nói về vai trò của các đảng phái chính trị trong chính trường Nhật Bản.",
+            "Chia sẻ suy nghĩ của bạn về những thách thức mà Nhật Bản đang đối mặt trong lĩnh vực chính trị."
+          ]
+        },
+        "en": {
+          "title": "Chinese Politics",
+          "description": "Discuss the political system in China and the role of the Communist Party.",
+          "tasks": [
+            "Discuss the structure of the Chinese political system.",
+            "Talk about the role of the Communist Party in China.",
+            "Ask the other person for their views on a recent political event in China."
+          ]
+        },
+        "zh-Hant": {
+          "title": "中國政治",
+          "description": "討論中國的政治制度和共產黨的作用。",
+          "tasks": [
+            "討論中國政治制度的結構。",
+            "談談共產黨在中國的作用。",
+            "詢問對方對中國最近發生的政治事件的看法。"
+          ]
+        },
+        "ko": {
+          "title": "중국 정치",
+          "description": "중국의 정치 체제와 공산당의 역할에 대해 토론한다.",
+          "tasks": [
+            "중국 정치 시스템의 구조에 대해 논의한다.",
+            "중국에서 공산당의 역할에 대해 이야기하십시오.",
+            "상대방에게 최근 중국에서 있었던 정치 행사에 대한 견해를 물어보십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 96,
+      "prompt": "You are a tutor exploring alternative medicine. Discuss traditional Chinese medicine with the user. Your student is an intermediate level Chinese learner; respond with suitable vocabulary and grammar.",
+      "first_message": "你对传统中医有什么了解？",
+      "image_url": "/uploads/conversation_topics/traditional_chinese_medicine.webp",
+      "regions": {
+        "vi": {
+          "title": "Y Học Cổ Truyền Nhật Bản",
+          "description": "Tìm hiểu về y học cổ truyền Nhật Bản và vị trí của nó trong nền y học hiện đại.",
+          "tasks": [
+            "Nói về các phương pháp điều trị truyền thống trong y học Nhật Bản.",
+            "Thảo luận về sự kết hợp giữa y học cổ truyền và y học hiện đại ở Nhật Bản.",
+            "Chia sẻ suy nghĩ của bạn về hiệu quả của y học cổ truyền Nhật Bản."
+          ]
+        },
+        "en": {
+          "title": "Traditional Chinese Medicine",
+          "description": "Discuss the concepts and practices of traditional Chinese medicine and its place in modern healthcare.",
+          "tasks": [
+            "Describe the basic principles of traditional Chinese medicine.",
+            "Discuss the use of herbs, acupuncture, or other practices in Chinese medicine.",
+            "Talk about how traditional Chinese medicine is integrated into modern healthcare."
+          ]
+        },
+        "zh-Hant": {
+          "title": "中醫",
+          "description": "討論傳統中醫的概念和實踐及其在現代醫療保健中的地位。",
+          "tasks": [
+            "描述中醫的基本原理。",
+            "討論草藥、針灸或其他中醫實踐的使用。",
+            "談談傳統中醫如何融入現代醫療保健。"
+          ]
+        },
+        "ko": {
+          "title": "중국 전통 의학",
+          "description": "중국 전통 의학의 개념과 실천, 그리고 현대 의료에서 중국 의학이 차지하는 위치에 대해 논의합니다.",
+          "tasks": [
+            "중국 전통 의학의 기본 원리를 설명할 수 있습니다.",
+            "한의학에서 약초, 침술 또는 기타 관행의 사용에 대해 토론합니다.",
+            "중국 전통 의학이 현대 의료 서비스에 어떻게 통합되는지에 대해 이야기하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 98,
+      "prompt": "You are a tutor discussing sports. Have the user talk about sports that are popular in China and any athletes they know. Your student is an intermediate level Chinese learner; respond with suitable vocabulary and grammar.",
+      "first_message": "你知道中国有哪些受欢迎的运动吗？",
+      "image_url": "/uploads/conversation_topics/sports_in_china.webp",
+      "regions": {
+        "vi": {
+          "title": "Thể Thao ở Nhật Bản",
+          "description": "Thảo luận về các môn thể thao phổ biến ở Nhật Bản và những vận động viên nổi tiếng.",
+          "tasks": [
+            "Thảo luận về các môn thể thao được ưa chuộng ở Nhật Bản.",
+            "Nói về những vận động viên Nhật Bản nổi tiếng và thành tích của họ.",
+            "Chia sẻ suy nghĩ của bạn về tương lai của thể thao Nhật Bản."
+          ]
+        },
+        "en": {
+          "title": "Sports in China",
+          "description": "Talk about popular sports in China and famous Chinese athletes.",
+          "tasks": [
+            "Discuss the most popular sports in China and why they are favored.",
+            "Talk about a famous Chinese athlete and their achievements.",
+            "Ask the other person about their favorite sports to watch or play."
+          ]
+        },
+        "zh-Hant": {
+          "title": "中國體育",
+          "description": "談論中國的流行運動和著名的中國運動員。",
+          "tasks": [
+            "討論中國最受歡迎的運動以及它們受到青睞的原因。",
+            "談談一位著名的中國運動員和他們的成就。",
+            "詢問對方他們最喜歡觀看或玩的運動。"
+          ]
+        },
+        "ko": {
+          "title": "중국의 스포츠",
+          "description": "중국에서 인기 있는 스포츠와 유명한 중국 운동선수에 대해 이야기하십시오.",
+          "tasks": [
+            "중국에서 가장 인기 있는 스포츠와 그 스포츠가 선호되는 이유에 대해 토론합니다.",
+            "유명한 중국 운동 선수와 그들의 업적에 대해 이야기하십시오.",
+            "상대방에게 가장 좋아하는 스포츠나 놀이에 대해 물어본다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 99,
+      "prompt": "You are a tutor engaging in a pop culture conversation. Ask the user about their favorite Chinese pop culture icons or trends. Your student is an intermediate level Chinese learner; respond with suitable vocabulary and grammar.",
+      "first_message": "你喜欢哪些中国的流行文化，比如音乐、电视节目或网络现象？",
+      "image_url": "/uploads/conversation_topics/chinese_pop_culture.webp",
+      "regions": {
+        "vi": {
+          "title": "Văn Hóa Pop Nhật Bản",
+          "description": "Thảo luận về xu hướng văn hóa pop Nhật Bản, bao gồm âm nhạc, truyền hình và hiện tượng internet.",
+          "tasks": [
+            "Nói về các xu hướng văn hóa pop Nhật Bản mà bạn yêu thích.",
+            "Thảo luận về ảnh hưởng của văn hóa pop Nhật Bản đối với thế giới.",
+            "Chia sẻ suy nghĩ của bạn về tương lai của văn hóa pop Nhật Bản."
+          ]
+        },
+        "en": {
+          "title": "Chinese Pop Culture",
+          "description": "Discuss trends in Chinese pop culture, including music, television, and internet phenomena.",
+          "tasks": [
+            "Discuss a popular Chinese song, TV show, or internet trend.",
+            "Talk about your favorite Chinese pop culture icons.",
+            "Ask the other person about their views on current pop culture trends in China."
+          ]
+        },
+        "zh-Hant": {
+          "title": "中國流行文化",
+          "description": "討論中國流行文化的趨勢，包括音樂、電視和互聯網現象。",
+          "tasks": [
+            "討論流行的中文歌曲、電視節目或互聯網趨勢。",
+            "談談你最喜歡的中國流行文化偶像。",
+            "詢問對方對中國當前流行文化趨勢的看法。"
+          ]
+        },
+        "ko": {
+          "title": "중국 대중 문화",
+          "description": "음악, 텔레비전 및 인터넷 현상을 포함한 중국 대중 문화의 동향에 대해 논의합니다.",
+          "tasks": [
+            "인기 있는 중국 노래, TV 프로그램 또는 인터넷 트렌드에 대해 토론합니다.",
+            "좋아하는 중국 대중 문화 아이콘에 대해 이야기하십시오.",
+            "상대방에게 현재 중국의 대중 문화 트렌드에 대한 견해를 물어보십시오."
+          ]
+        }
+      }
+    }
+  ],
+  "is_active": true,
+  "created_at": {
+    "$date": "2025-01-20T09:58:45.933Z"
+  },
+  "updated_at": {
+    "$date": "2025-01-20T09:58:45.933Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "678e1ec38ce4b93d741773c5"
+  },
+  "id": 5,
+  "display_order": 5,
+  "regions": {
+    "vi": {
+      "name": "Gia sư cao cấp"
+    },
+    "en": {
+      "name": "HSK 5-6 Level"
+    },
+    "zh-Hant": {
+      "name": "HSK 5-6 級"
+    },
+    "ko": {
+      "name": "HSK 5-6급"
+    }
+  },
+  "topic_details": [
+    {
+      "topic_id": 60,
+      "prompt": "You are a tutor encouraging critical thinking. Present a social issue for the user to debate.",
+      "first_message": "你怎么看待最近的环保讨论？",
+      "image_url": "/uploads/conversation_topics/debating_social_issues.webp",
+      "regions": {
+        "vi": {
+          "title": "Thảo Luận Về Vấn Đề Xã Hội",
+          "description": "Tham gia tranh luận và thảo luận về các vấn đề xã hội, trình bày lập luận và ý kiến bằng tiếng Trung.",
+          "tasks": [
+            "Thảo luận về một vấn đề xã hội nổi bật hiện nay và nêu lên quan điểm của bạn.",
+            "Trình bày các lập luận và bằng chứng ủng hộ hoặc phản đối một quan điểm.",
+            "Thực hành cách phản biện lại các ý kiến đối lập trong một cuộc tranh luận."
+          ]
+        },
+        "en": {
+          "title": "Debating Social Issues",
+          "description": "Engage in debates and discussions on social issues, presenting arguments and opinions in Chinese.",
+          "tasks": [
+            "Present your stance on an environmental issue and support it with arguments.",
+            "Debate the pros and cons of a recent social policy in China.",
+            "Discuss the societal impact of a controversial social issue."
+          ]
+        },
+        "zh-Hant": {
+          "title": "辯論社會問題",
+          "description": "參與有關社會問題的辯論和討論，用中文提出論點和意見。",
+          "tasks": [
+            "提出你對環境問題的立場，並用論據來支援它。",
+            "辯論中國最近一項社會政策的利弊。",
+            "討論有爭議的社會問題的社會影響。"
+          ]
+        },
+        "ko": {
+          "title": "사회 문제에 대한 토론",
+          "description": "사회 문제에 대한 토론과 토론에 참여하여 중국어로 주장과 의견을 제시합니다.",
+          "tasks": [
+            "환경 문제에 대한 자신의 입장을 제시하고 주장으로 뒷받침합니다.",
+            "중국의 최근 사회 정책에 대한 장단점에 대해 토론하십시오.",
+            "논란의 여지가 있는 사회 문제의 사회적 영향에 대해 토론합니다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 66,
+      "prompt": "You are a tutor simulating a business environment. Engage the user in a business negotiation scenario.",
+      "first_message": "我们来模拟一个商务谈判场景。你准备好了吗？",
+      "image_url": "/uploads/conversation_topics/advanced_business_chinese.webp",
+      "regions": {
+        "vi": {
+          "title": "Tiếng Trung Kinh Doanh Cao Cấp",
+          "description": "Thảo luận về các chủ đề kinh doanh phức tạp, đàm phán và tương tác chuyên nghiệp bằng tiếng Trung.",
+          "tasks": [
+            "Thực hành kỹ năng đàm phán trong một tình huống kinh doanh cụ thể.",
+            "Thảo luận về các chiến lược và kỹ thuật đàm phán hiệu quả.",
+            "Mô phỏng một cuộc họp kinh doanh và thảo luận về cách đạt được thỏa thuận."
+          ]
+        },
+        "en": {
+          "title": "Advanced Business Chinese",
+          "description": "Discuss complex business topics, negotiations, and professional interactions in Chinese.",
+          "tasks": [
+            "Negotiate terms in a business deal, focusing on pricing and contract terms.",
+            "Discuss strategies for managing a business in China.",
+            "Analyze a case study of a successful Chinese company."
+          ]
+        },
+        "zh-Hant": {
+          "title": "高級商務漢語",
+          "description": "用中文討論複雜的商業話題、談判和專業互動。",
+          "tasks": [
+            "在商業交易中協商條款，重點關注定價和合同條款。",
+            "討論在中國管理企業的策略。",
+            "分析一家成功的中國公司的案例研究。"
+          ]
+        },
+        "ko": {
+          "title": "고급 비즈니스 중국어",
+          "description": "복잡한 비즈니스 주제, 협상 및 전문적인 상호 작용에 대해 중국어로 토론합니다.",
+          "tasks": [
+            "비즈니스 거래에서 가격 및 계약 조건에 중점을 두고 조건을 협상합니다.",
+            "중국에서 사업을 관리하기 위한 전략에 대해 논의합니다.",
+            "성공한 중국 기업의 사례 연구를 분석합니다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 61,
+      "prompt": "You are a tutor with a passion for culture. Discuss a famous Chinese novel or movie with the user.",
+      "first_message": "你读过或看过哪些中国的书籍和电影？我们来聊聊。",
+      "image_url": "/uploads/conversation_topics/literature_and_film_discussion.webp",
+      "regions": {
+        "vi": {
+          "title": "Thảo Luận Về Văn Học và Điện Ảnh",
+          "description": "Thảo luận về văn học và điện ảnh Trung Quốc, bao gồm phân tích cốt truyện và thảo luận về chủ đề bằng tiếng Trung.",
+          "tasks": [
+            "Phân tích cốt truyện và nhân vật trong một cuốn sách hoặc bộ phim Trung Quốc.",
+            "Thảo luận về các chủ đề và thông điệp chính của tác phẩm.",
+            "Chia sẻ suy nghĩ của bạn về sự phát triển của văn học và điện ảnh Trung Quốc hiện nay."
+          ]
+        },
+        "en": {
+          "title": "Literature and Film Discussion",
+          "description": "Discuss Chinese literature and films, including plot analysis and thematic discussions in Chinese.",
+          "tasks": [
+            "Analyze the themes of a famous Chinese novel or film.",
+            "Discuss the cultural significance of a particular literary work or movie.",
+            "Compare different works by the same author or director."
+          ]
+        },
+        "zh-Hant": {
+          "title": "文學與電影討論",
+          "description": "討論中國文學和電影，包括中文的情節分析和主題討論。",
+          "tasks": [
+            "分析中國著名小說或電影的主題。",
+            "討論特定文學作品或電影的文化意義。",
+            "比較同一作者或導演的不同作品。"
+          ]
+        },
+        "ko": {
+          "title": "문학과 영화에 대한 토론",
+          "description": "중국어로 줄거리 분석 및 주제별 토론을 포함하여 중국 문학과 영화에 대해 토론합니다.",
+          "tasks": [
+            "유명한 중국 소설이나 영화의 주제를 분석합니다.",
+            "특정 문학 작품이나 영화의 문화적 중요성에 대해 토론합니다.",
+            "같은 작가 또는 감독의 다른 작품을 비교하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 71,
+      "prompt": "You are a tutor enlightening the user about Chinese language richness. Teach them about idioms and proverbs.",
+      "first_message": "中国有很多成语和谚语。你知道哪些？让我们来讨论它们的意义。",
+      "image_url": "/uploads/conversation_topics/understanding_chinese_idioms_and_proverbs.webp",
+      "regions": {
+        "vi": {
+          "title": "Hiểu Biết Về Thành Ngữ và Tục Ngữ Trung Quốc",
+          "description": "Tìm hiểu về các thành ngữ và tục ngữ truyền thống Trung Quốc, và sử dụng chúng trong các cuộc trò chuyện bằng tiếng Trung.",
+          "tasks": [
+            "Thực hành sử dụng các thành ngữ trong một cuộc trò chuyện hàng ngày.",
+            "Thảo luận về ý nghĩa và nguồn gốc của một số thành ngữ phổ biến.",
+            "Chia sẻ thành ngữ yêu thích của bạn và cách áp dụng chúng trong cuộc sống."
+          ]
+        },
+        "en": {
+          "title": "Understanding Chinese Idioms and Proverbs",
+          "description": "Learn about traditional Chinese idioms and proverbs, and incorporate them into conversation in Chinese.",
+          "tasks": [
+            "Explain the meaning and origin of a well-known Chinese idiom.",
+            "Use idioms and proverbs in sentences to convey specific messages.",
+            "Discuss how idioms and proverbs reflect Chinese culture and values."
+          ]
+        },
+        "zh-Hant": {
+          "title": "了解中國成語和諺語",
+          "description": "瞭解傳統的中國成語和諺語，並將它們融入中文對話中。",
+          "tasks": [
+            "解釋一個著名的中文成語的含義和起源。",
+            "在句子中使用成語和諺語來傳達特定資訊。",
+            "討論成語和諺語如何反映中國文化和價值觀。"
+          ]
+        },
+        "ko": {
+          "title": "중국어 숙어와 속담 이해하기",
+          "description": "중국어 번체 관용구와 속담에 대해 배우고 중국어 대화에 통합하십시오.",
+          "tasks": [
+            "잘 알려진 중국어 관용구의 의미와 기원을 설명하십시오.",
+            "특정 메시지를 전달하기 위해 문장에서 관용구와 속담을 사용합니다.",
+            "관용구와 속담이 어떻게 중국 문화와 가치를 반영하는지 토론합니다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 67,
+      "prompt": "You are a tutor exploring history. Encourage the user to discuss the significance of a historical event or figure.",
+      "first_message": "你对中国哪个历史人物或事件感兴趣？让我们来深入讨论一下。",
+      "image_url": "/uploads/conversation_topics/historical_topics_and_perspectives.webp",
+      "regions": {
+        "vi": {
+          "title": "Chủ Đề Lịch Sử và Quan Điểm",
+          "description": "Thảo luận về các sự kiện lịch sử và nhân vật lịch sử trong tiếng Trung, bao gồm tác động của chúng đối với xã hội đương đại.",
+          "tasks": [
+            "Phân tích tầm quan trọng của một sự kiện hoặc nhân vật lịch sử Trung Quốc.",
+            "Thảo luận về tác động của sự kiện này đối với xã hội và văn hóa hiện nay.",
+            "Chia sẻ suy nghĩ của bạn về việc bảo tồn và phát huy giá trị của các di tích lịch sử."
+          ]
+        },
+        "en": {
+          "title": "Historical Topics and Perspectives",
+          "description": "Discuss historical events and figures in Chinese, including their impact on contemporary society.",
+          "tasks": [
+            "Discuss the life and contributions of a significant Chinese historical figure.",
+            "Analyze the impact of a major historical event on modern Chinese society.",
+            "Compare different historical perspectives on a key event."
+          ]
+        },
+        "zh-Hant": {
+          "title": "歷史主題和觀點",
+          "description": "討論中文的歷史事件和人物，包括他們對當代社會的影響。",
+          "tasks": [
+            "討論一位重要的中國歷史人物的生平和貢獻。",
+            "分析重大歷史事件對現代中國社會的影響。",
+            "比較對關鍵事件的不同歷史觀點。"
+          ]
+        },
+        "ko": {
+          "title": "역사적 주제와 관점",
+          "description": "역사적 사건과 인물이 현대 사회에 미친 영향을 포함하여 중국어로 토론합니다.",
+          "tasks": [
+            "중요한 중국 역사적 인물의 삶과 공헌에 대해 토론하십시오.",
+            "주요 역사적 사건이 현대 중국 사회에 미친 영향을 분석합니다.",
+            "주요 사건에 대한 다양한 역사적 관점을 비교합니다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 69,
+      "prompt": "You are a tutor helping to perfect the user's grammatical skills. Review advanced grammar points with the user.",
+      "first_message": "让我们来复习一些高级汉语语法点。你有什么问题或者想要深入了解的语法结构吗？",
+      "image_url": "/uploads/conversation_topics/chinese_grammar_and_syntax.webp",
+      "regions": {
+        "vi": {
+          "title": "Ngữ Pháp và Cú Pháp Tiếng Trung",
+          "description": "Hiểu và thực hành về sự phức tạp của ngữ pháp và cú pháp tiếng Trung ở mức cao.",
+          "tasks": [
+            "Thực hành sử dụng các cấu trúc ngữ pháp phức tạp trong câu.",
+            "Thảo luận về sự khác biệt giữa các cấu trúc cú pháp tiếng Trung và tiếng mẹ đẻ của bạn.",
+            "Phân tích một đoạn văn bản và xác định các cấu trúc ngữ pháp nâng cao."
+          ]
+        },
+        "en": {
+          "title": "Chinese Grammar and Syntax",
+          "description": "Understand and practice the complexities of Chinese grammar and syntax at an advanced level.",
+          "tasks": [
+            "Practice using advanced grammatical structures in complex sentences.",
+            "Identify and correct common errors in advanced Chinese grammar.",
+            "Discuss the nuances of word order and syntax in formal Chinese writing."
+          ]
+        },
+        "zh-Hant": {
+          "title": "中文語法和句法",
+          "description": "理解並練習高級漢語語法和句法的複雜性。",
+          "tasks": [
+            "練習在複雜句子中使用高級語法結構。",
+            "識別並糾正高級漢語語法中的常見錯誤。",
+            "討論正式中文寫作中詞序和句法的細微差別。"
+          ]
+        },
+        "ko": {
+          "title": "중국어 문법과 구문",
+          "description": "고급 수준에서 중국어 문법과 구문의 복잡성을 이해하고 연습합니다.",
+          "tasks": [
+            "복잡한 문장에서 고급 문법 구조를 사용하는 연습을 합니다.",
+            "고급 중국어 문법의 일반적인 오류를 식별하고 수정합니다.",
+            "공식적인 중국어 작문에서 어순과 구문의 뉘앙스에 대해 토론합니다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 68,
+      "prompt": "You are a tutor discussing the influence of technology on society. Start a conversation about technology in modern China.",
+      "first_message": "在中国，技术的快速发展对社会有什么影响？我们来谈谈你的看法。",
+      "image_url": "/uploads/conversation_topics/modern_china_and_technology.webp",
+      "regions": {
+        "vi": {
+          "title": "Trung Quốc Hiện Đại và Công Nghệ",
+          "description": "Khám phá mối quan hệ giữa xã hội Trung Quốc hiện đại và sự phát triển nhanh chóng của công nghệ.",
+          "tasks": [
+            "Thảo luận về các công nghệ mới nhất đang thay đổi xã hội Trung Quốc.",
+            "Phân tích tác động của công nghệ đối với lối sống và kinh tế ở Trung Quốc.",
+            "Chia sẻ suy nghĩ của bạn về tương lai của công nghệ tại Trung Quốc và thế giới."
+          ]
+        },
+        "en": {
+          "title": "Modern China and Technology",
+          "description": "Explore the relationship between modern Chinese society and the rapid growth of technology.",
+          "tasks": [
+            "Discuss the role of technology in transforming Chinese society.",
+            "Analyze the benefits and drawbacks of rapid technological advancement.",
+            "Talk about the future of technology and its potential impact on China."
+          ]
+        },
+        "zh-Hant": {
+          "title": "現代中國與科技",
+          "description": "探索現代中國社會與技術飛速發展之間的關係。",
+          "tasks": [
+            "討論技術在改變中國社會中的作用。",
+            "分析技術快速進步的利弊。",
+            "談論技術的未來及其對中國的潛在影響。"
+          ]
+        },
+        "ko": {
+          "title": "현대 중국과 기술",
+          "description": "현대 중국 사회와 기술의 급속한 성장 사이의 관계를 탐구하십시오.",
+          "tasks": [
+            "중국 사회를 변화시키는 데 있어 기술의 역할에 대해 논의합니다.",
+            "급속한 기술 발전의 장점과 단점을 분석합니다.",
+            "기술의 미래와 중국에 미칠 잠재적 영향에 대해 이야기합니다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 70,
+      "prompt": "You are a tutor introducing traditional Chinese medicine. Discuss its role in contemporary health and wellness.",
+      "first_message": "你对中医有什么了解？它在现代医疗保健中扮演着怎样的角色？",
+      "image_url": "/uploads/conversation_topics/traditional_chinese_medicine.webp",
+      "regions": {
+        "vi": {
+          "title": "Y Học Cổ Truyền Trung Quốc",
+          "description": "Tìm hiểu về các nguyên lý và thực hành của y học cổ truyền Trung Quốc và vị trí của nó trong chăm sóc sức khỏe hiện đại.",
+          "tasks": [
+            "Thảo luận về các nguyên lý cơ bản của y học cổ truyền Trung Quốc.",
+            "Phân tích sự khác biệt giữa y học cổ truyền và y học hiện đại.",
+            "Chia sẻ suy nghĩ của bạn về vai trò của y học cổ truyền trong chăm sóc sức khỏe hiện nay."
+          ]
+        },
+        "en": {
+          "title": "Traditional Chinese Medicine",
+          "description": "Learn about the principles and practices of traditional Chinese medicine and its place in modern healthcare.",
+          "tasks": [
+            "Explain the core principles of traditional Chinese medicine.",
+            "Discuss the integration of traditional and modern medicine in China.",
+            "Analyze a case where traditional Chinese medicine was used effectively."
+          ]
+        },
+        "zh-Hant": {
+          "title": "中醫",
+          "description": "瞭解傳統中醫的原理和實踐及其在現代醫療保健中的地位。",
+          "tasks": [
+            "解釋中醫的核心原理。",
+            "討論中國傳統醫學和現代醫學的結合。",
+            "分析一個有效使用中醫的案例。"
+          ]
+        },
+        "ko": {
+          "title": "중국 전통 의학",
+          "description": "중국 전통 의학의 원리와 관행, 그리고 현대 의료에서 중국 의학이 차지하는 위치에 대해 알아보십시오.",
+          "tasks": [
+            "중국 전통 의학의 핵심 원리를 설명할 수 있습니다.",
+            "중국의 전통 의학과 현대 의학의 통합에 대해 논의합니다.",
+            "중국 전통 의학이 효과적으로 사용된 사례를 분석합니다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 73,
+      "prompt": "You are a tutor with a taste for gastronomy. Talk about the regional varieties of Chinese cuisine.",
+      "first_message": "中国菜肴丰富多样，你最喜欢哪一地区的美食？让我们来探讨它们的文化意义。",
+      "image_url": "/uploads/conversation_topics/chinese_cuisine_and_culture.webp",
+      "regions": {
+        "vi": {
+          "title": "Ẩm Thực và Văn Hóa Trung Quốc",
+          "description": "Đào sâu vào thế giới đa dạng của ẩm thực Trung Quốc và ý nghĩa của nó trong văn hóa Trung Quốc.",
+          "tasks": [
+            "Thảo luận về các món ăn đặc trưng từ các vùng khác nhau của Trung Quốc.",
+            "Phân tích mối quan hệ giữa ẩm thực và văn hóa tại Trung Quốc.",
+            "Chia sẻ kinh nghiệm của bạn khi thưởng thức các món ăn Trung Quốc truyền thống."
+          ]
+        },
+        "en": {
+          "title": "Chinese Cuisine and Culture",
+          "description": "Dive into the diverse world of Chinese cuisine and its significance in Chinese culture.",
+          "tasks": [
+            "Discuss the characteristics of a specific regional cuisine in China.",
+            "Analyze the cultural significance of food in Chinese society.",
+            "Compare the culinary traditions of different regions in China."
+          ]
+        },
+        "zh-Hant": {
+          "title": "中國美食和文化",
+          "description": "深入了解中國菜的多元化世界及其在中國文化中的重要性。",
+          "tasks": [
+            "討論中國特定地區美食的特點。",
+            "分析食物在中國社會的文化意義。",
+            "比較中國不同地區的烹飪傳統。"
+          ]
+        },
+        "ko": {
+          "title": "중국 요리와 문화",
+          "description": "중국 요리의 다양한 세계와 중국 문화에서 그 중요성에 대해 알아보세요.",
+          "tasks": [
+            "중국의 특정 지역 요리의 특징에 대해 토론합니다.",
+            "중국 사회에서 음식의 문화적 중요성을 분석한다.",
+            "중국 여러 지역의 요리 전통을 비교해 보세요."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 74,
+      "prompt": "You are a tutor sharing travel experiences. Share insights on must-visit places in China.",
+      "first_message": "你去过中国的哪些地方？分享一下你的旅行经历和建议。",
+      "image_url": "/uploads/conversation_topics/travel_and_tourism_in_china.webp",
+      "regions": {
+        "vi": {
+          "title": "Du Lịch và Du Lịch ở Trung Quốc",
+          "description": "Thảo luận về các điểm tham quan, di tích văn hóa và mẹo du lịch để điều hướng qua cảnh đẹp đa dạng của Trung Quốc.",
+          "tasks": [
+            "Mô tả một địa điểm du lịch nổi tiếng ở Trung Quốc mà bạn đã đến.",
+            "Thảo luận về các mẹo du lịch hữu ích khi đến thăm Trung Quốc.",
+            "Chia sẻ kinh nghiệm và lời khuyên về các hoạt động văn hóa ở Trung Quốc."
+          ]
+        },
+        "en": {
+          "title": "Travel and Tourism in China",
+          "description": "Discuss the attractions, cultural sites, and travel tips for navigating China’s diverse landscapes.",
+          "tasks": [
+            "Describe a famous tourist destination in China and its attractions.",
+            "Discuss the challenges and rewards of traveling in China.",
+            "Offer travel tips for someone planning a trip to China."
+          ]
+        },
+        "zh-Hant": {
+          "title": "中國的旅行和旅遊業",
+          "description": "討論遊覽中國多樣化景觀的景點、文化遺址和旅行貼士。",
+          "tasks": [
+            "描述中國著名的旅遊目的地及其景點。",
+            "討論在中國旅行的挑戰和收穫。",
+            "為計劃去中國旅行的人提供旅行提示。"
+          ]
+        },
+        "ko": {
+          "title": "중국 여행 및 관광",
+          "description": "중국의 다양한 풍경을 탐색하기 위한 명소, 문화 유적지 및 여행 팁에 대해 논의합니다.",
+          "tasks": [
+            "중국의 유명한 관광지와 그 명소를 설명하십시오.",
+            "중국 여행의 어려움과 보람에 대해 논의하십시오.",
+            "중국 여행을 계획하고 있는 사람들을 위한 여행 팁을 제공하세요."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 75,
+      "prompt": "You are a tutor with an eye for beauty. Discuss the evolution of Chinese art and aesthetics.",
+      "first_message": "中国艺术有着悠久的历史，你对中国绘画、书法或雕塑有什么了解？",
+      "image_url": "/uploads/conversation_topics/chinese_art_and_aesthetics.webp",
+      "regions": {
+        "vi": {
+          "title": "Nghệ Thuật và Thẩm Mỹ Trung Hoa",
+          "description": "Khám phá lịch sử phong phú của nghệ thuật Trung Quốc, bao gồm hội họa, thư pháp và điêu khắc.",
+          "tasks": [
+            "Thảo luận về sự phát triển của nghệ thuật Trung Quốc qua các thời kỳ.",
+            "Phân tích các yếu tố thẩm mỹ đặc trưng trong hội họa và điêu khắc Trung Quốc.",
+            "Chia sẻ suy nghĩ của bạn về tầm quan trọng của nghệ thuật trong văn hóa Trung Quốc."
+          ]
+        },
+        "en": {
+          "title": "Chinese Art and Aesthetics",
+          "description": "Explore the rich history of Chinese art, including painting, calligraphy, and sculpture.",
+          "tasks": [
+            "Analyze the development of a specific form of Chinese art.",
+            "Discuss the cultural significance of traditional Chinese art forms.",
+            "Compare the styles and techniques of different Chinese artists."
+          ]
+        },
+        "zh-Hant": {
+          "title": "中國藝術與美學",
+          "description": "探索中國藝術的豐富歷史，包括繪畫、書法和雕塑。",
+          "tasks": [
+            "分析中國藝術的一種特定形式的發展。",
+            "討論中國傳統藝術形式的文化意義。",
+            "比較不同中國藝術家的風格和技巧。"
+          ]
+        },
+        "ko": {
+          "title": "중국 예술과 미학",
+          "description": "회화, 서예, 조각을 포함한 중국 예술의 풍부한 역사를 탐험하세요.",
+          "tasks": [
+            "중국 예술의 특정 형태의 발전을 분석합니다.",
+            "중국 전통 예술 형식의 문화적 중요성에 대해 토론합니다.",
+            "다른 중국 예술가들의 스타일과 기법을 비교하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 64,
+      "prompt": "You are a tutor with a passion for the arts. Discuss the diversity of Chinese music and dance.",
+      "first_message": "中国音乐和舞蹈形式多种多样，你最喜欢哪一种？让我们来探讨一下。",
+      "image_url": "/uploads/conversation_topics/chinese_music_and_dance.webp",
+      "regions": {
+        "vi": {
+          "title": "Âm Nhạc và Nhảy Múa Trung Quốc",
+          "description": "Tìm hiểu về âm nhạc và nhảy múa truyền thống và đương đại của Trung Quốc.",
+          "tasks": [
+            "Mô tả một thể loại âm nhạc hoặc điệu nhảy truyền thống của Trung Quốc.",
+            "Thảo luận về sự phát triển và thay đổi trong âm nhạc và nhảy múa Trung Quốc.",
+            "Chia sẻ kinh nghiệm của bạn khi thưởng thức âm nhạc và nhảy múa Trung Quốc."
+          ]
+        },
+        "en": {
+          "title": "Chinese Music and Dance",
+          "description": "Learn about traditional and contemporary Chinese music and dance forms.",
+          "tasks": [
+            "Discuss the characteristics of a traditional Chinese music or dance form.",
+            "Analyze the influence of Chinese music or dance on global culture.",
+            "Compare traditional and contemporary Chinese music or dance."
+          ]
+        },
+        "zh-Hant": {
+          "title": "中國音樂和舞蹈",
+          "description": "瞭解傳統和現代的中國音樂和舞蹈形式。",
+          "tasks": [
+            "討論中國傳統音樂或舞蹈形式的特點。",
+            "分析中國音樂或舞蹈對全球文化的影響。",
+            "比較傳統和現代的中國音樂或舞蹈。"
+          ]
+        },
+        "ko": {
+          "title": "중국 음악과 춤",
+          "description": "중국 전통 음악과 현대 음악과 무용 형식에 대해 알아보십시오.",
+          "tasks": [
+            "중국 전통 음악이나 무용 형식의 특징에 대해 토론한다.",
+            "중국 음악이나 무용이 세계 문화에 미치는 영향을 분석합니다.",
+            "중국 전통 음악과 현대 중국 음악이나 무용을 비교해 보세요."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 78,
+      "prompt": "You are a tutor delving into the depths of thought. Discuss the philosophical teachings of ancient China.",
+      "first_message": "中国有着丰富的哲学传统，你对儒家、道家或佛家思想有何见解？",
+      "image_url": "/uploads/conversation_topics/chinese_philosophy_and_thought.webp",
+      "regions": {
+        "vi": {
+          "title": "Triết Học và Tư Tưởng Trung Quốc",
+          "description": "Khám phá các truyền thống triết học của Trung Quốc, bao gồm Nho giáo, Đạo giáo và Phật giáo.",
+          "tasks": [
+            "Thảo luận về các nguyên lý cơ bản của một trong những triết học Trung Quốc.",
+            "Phân tích sự ảnh hưởng của triết học Trung Quốc đến đời sống hiện đại.",
+            "Chia sẻ suy nghĩ của bạn về sự tương đồng và khác biệt giữa triết học Trung Quốc và phương Tây."
+          ]
+        },
+        "en": {
+          "title": "Chinese Philosophy and Thought",
+          "description": "Explore the philosophical traditions of China, including Confucianism, Taoism, and Buddhism.",
+          "tasks": [
+            "Analyze the core teachings of Confucianism, Taoism, or Buddhism.",
+            "Discuss the impact of Chinese philosophy on modern society.",
+            "Compare the philosophical approaches of different Chinese thinkers."
+          ]
+        },
+        "zh-Hant": {
+          "title": "中國哲學與思想",
+          "description": "探索中國的哲學傳統，包括儒家思想、道家思想和佛教。",
+          "tasks": [
+            "分析儒家、道家或佛教的核心教義。",
+            "討論中國哲學對現代社會的影響。",
+            "比較不同中國思想家的哲學方法。"
+          ]
+        },
+        "ko": {
+          "title": "중국철학과 사상",
+          "description": "유교, 도교, 불교를 포함한 중국의 철학적 전통을 탐험하세요.",
+          "tasks": [
+            "유교, 도교 또는 불교의 핵심 가르침을 분석합니다.",
+            "중국 철학이 현대 사회에 미친 영향에 대해 토론합니다.",
+            "다른 중국 사상가들의 철학적 접근 방식을 비교하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 76,
+      "prompt": "You are a tutor sharing stories. Discuss the folklore and mythology that have influenced Chinese culture.",
+      "first_message": "中国有着丰富的神话传说，你最喜欢哪一个故事？让我们来探讨一下。",
+      "image_url": "/uploads/conversation_topics/chinese_folklore_and_mythology.webp",
+      "regions": {
+        "vi": {
+          "title": "Truyền Thuyết Dân Gian và Thần Thoại Trung Quốc",
+          "description": "Khám phá những truyền thuyết, huyền thoại và văn hóa dân gian đã tạo nên văn hóa và tín ngưỡng Trung Quốc.",
+          "tasks": [
+            "Kể lại một truyền thuyết hoặc thần thoại nổi tiếng của Trung Quốc.",
+            "Thảo luận về ý nghĩa và tác động của các câu chuyện dân gian đối với văn hóa Trung Quốc.",
+            "Chia sẻ suy nghĩ của bạn về cách mà truyền thuyết và thần thoại Trung Quốc ảnh hưởng đến nghệ thuật và văn hóa."
+          ]
+        },
+        "en": {
+          "title": "Chinese Folklore and Mythology",
+          "description": "Discover the myths, legends, and folklore that shape Chinese culture and beliefs.",
+          "tasks": [
+            "Retell a famous Chinese myth or legend and its moral.",
+            "Discuss the influence of folklore on Chinese culture and traditions.",
+            "Compare different Chinese myths and their interpretations."
+          ]
+        },
+        "zh-Hant": {
+          "title": "中國民間傳說和神話",
+          "description": "探索塑造中國文化和信仰的神話、傳說和民間傳說。",
+          "tasks": [
+            "複述一個著名的中國神話或傳說及其寓意。",
+            "討論民間傳說對中國文化和傳統的影響。",
+            "比較不同的中國神話及其解釋。"
+          ]
+        },
+        "ko": {
+          "title": "중국 민속과 신화",
+          "description": "중국 문화와 신념을 형성하는 신화, 전설, 민속을 발견하십시오.",
+          "tasks": [
+            "유명한 중국 신화나 전설과 그 교훈을 다시 들려주세요.",
+            "민속이 중국 문화와 전통에 미친 영향에 대해 토론합니다.",
+            "다양한 중국 신화와 그 해석을 비교하십시오."
+          ]
+        }
+      }
+    }
+  ],
+  "is_active": true,
+  "created_at": {
+    "$date": "2025-01-20T09:58:45.315Z"
+  },
+  "updated_at": {
+    "$date": "2025-01-20T09:58:45.316Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "678e1ec38ce4b93d741773c6"
+  },
+  "id": 6,
+  "display_order": 6,
+  "regions": {
+    "vi": {
+      "name": "Chữa Lành"
+    },
+    "en": {
+      "name": "Healing"
+    },
+    "zh-Hant": {
+      "name": "康復"
+    },
+    "ko": {
+      "name": "치유"
+    }
+  },
+  "topic_details": [
+    {
+      "topic_id": 2,
+      "prompt": "You are a career advisor. Guide the user on how to recreate their CV and prepare for interviews.",
+      "first_message": "您好！我知道失业可能很困难。您在寻找什么样的工作？让我来帮助您。",
+      "image_url": "/uploads/conversation_topics/overcoming_unemployment.webp",
+      "regions": {
+        "vi": {
+          "title": "Vượt Qua Thất Nghiệp",
+          "description": "Học cách đối mặt với tình trạng thất nghiệp, tìm kiếm cơ hội việc làm mới và phát triển kỹ năng nghề nghiệp.",
+          "tasks": [
+            "Cập nhật hoặc tạo lại CV của bạn với những kỹ năng và kinh nghiệm mới nhất.",
+            "Luyện tập các câu hỏi phỏng vấn phổ biến và cách trả lời một cách tự tin.",
+            "Thảo luận về các cách tìm kiếm công việc mới và mở rộng mạng lưới chuyên nghiệp của bạn."
+          ]
+        },
+        "en": {
+          "title": "Overcoming Unemployment",
+          "description": "Learn how to cope with unemployment, seek new job opportunities, and develop professional skills.",
+          "tasks": [
+            "Identify your key skills and how they apply to different job opportunities.",
+            "Discuss how to update your CV to highlight your strengths.",
+            "Practice answering common interview questions confidently."
+          ]
+        },
+        "zh-Hant": {
+          "title": "克服失業",
+          "description": "學習如何應對失業、尋找新的工作機會和發展專業技能。",
+          "tasks": [
+            "確定您的關鍵技能以及它們如何應用於不同的工作機會。",
+            "討論如何更新您的簡歷以突出您的優勢。",
+            "練習自信地回答常見的面試問題。"
+          ]
+        },
+        "ko": {
+          "title": "실직을 극복함",
+          "description": "실직에 대처하는 방법, 새로운 직업 기회를 찾는 방법, 전문 기술을 개발하는 방법을 배우십시오.",
+          "tasks": [
+            "핵심 기술을 식별하고 다양한 직업 기회에 어떻게 적용하는지 확인하십시오.",
+            "자신의 강점을 강조하기 위해 이력서를 업데이트하는 방법에 대해 논의하십시오.",
+            "일반적인 면접 질문에 자신 있게 대답하는 연습을 합니다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 1,
+      "prompt": "You are a psychologist. Encourage users to open up and share their feelings after a breakup.",
+      "first_message": "您好，我在这里倾听。您想如何谈论您的分手感受？",
+      "image_url": "/uploads/conversation_topics/healing_after_breakup.webp",
+      "regions": {
+        "vi": {
+          "title": "Hồi Phục Sau Chia Tay",
+          "description": "Thực hành các kỹ năng giao tiếp để chia sẻ cảm xúc và tìm kiếm sự hỗ trợ sau một mối quan hệ kết thúc.",
+          "tasks": [
+            "Thảo luận về cảm xúc của bạn sau khi chia tay và cách bạn đang đối phó với nó.",
+            "Thực hành các phương pháp để tự chăm sóc và tăng cường sức khỏe tinh thần của bạn.",
+            "Chia sẻ những gì bạn đã học được từ mối quan hệ và cách bạn sẽ sử dụng nó trong tương lai."
+          ]
+        },
+        "en": {
+          "title": "Healing After a Breakup",
+          "description": "Practice communication skills to share emotions and seek support after the end of a relationship.",
+          "tasks": [
+            "Share your feelings and emotions after the breakup.",
+            "Discuss coping strategies to manage the pain and move forward.",
+            "Explore ways to rebuild your self-esteem and confidence."
+          ]
+        },
+        "zh-Hant": {
+          "title": "分手後的治癒",
+          "description": "練習溝通技巧，在一段關係結束後分享情感並尋求支援。",
+          "tasks": [
+            "分享分手後的感受和情緒。",
+            "討論管理疼痛並繼續前進的應對策略。",
+            "探索重建自尊和自信的方法。"
+          ]
+        },
+        "ko": {
+          "title": "이별 후의 치유",
+          "description": "관계가 끝난 후 감정을 공유하고 도움을 구하기 위해 의사 소통 기술을 연습하십시오.",
+          "tasks": [
+            "이별 후의 느낌과 감정을 나눈다.",
+            "통증을 관리하고 앞으로 나아가기 위한 대처 전략에 대해 논의한다.",
+            "자존감과 자신감을 재건할 수 있는 방법을 찾아본다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 3,
+      "prompt": "You are a life coach. Help users reframe failure and identify the next steps in their career.",
+      "first_message": "您好，失败是人生的伟大导师。您对近期的经历有何感受？",
+      "image_url": "/uploads/conversation_topics/overcoming_feeling_of_failure.webp",
+      "regions": {
+        "vi": {
+          "title": "Khắc Phục Cảm Giác Thất Bại",
+          "description": "Tìm hiểu cách chấp nhận thất bại như một phần của quá trình học hỏi và phát triển cá nhân.",
+          "tasks": [
+            "Thảo luận về cảm giác của bạn khi đối mặt với thất bại gần đây.",
+            "Xác định những bài học bạn có thể rút ra từ thất bại và cách sử dụng chúng để phát triển cá nhân.",
+            "Lập kế hoạch cho các bước tiếp theo trong sự nghiệp hoặc cuộc sống cá nhân của bạn."
+          ]
+        },
+        "en": {
+          "title": "Overcoming Feelings of Failure",
+          "description": "Learn to accept failure as part of the learning process and personal development.",
+          "tasks": [
+            "Discuss your recent experiences and how they made you feel.",
+            "Reframe failure as a learning opportunity and identify lessons learned.",
+            "Set new goals and create a plan to achieve them."
+          ]
+        },
+        "zh-Hant": {
+          "title": "克服失敗的感覺",
+          "description": "學會接受失敗作為學習過程和個人發展的一部分。",
+          "tasks": [
+            "討論您最近的經歷以及它們給您帶來的感受。",
+            "將失敗重新定義為學習機會，並確定經驗教訓。",
+            "設定新目標並制定實現這些目標的計劃。"
+          ]
+        },
+        "ko": {
+          "title": "실패감을 극복함",
+          "description": "실패를 학습 과정과 개인 발전의 일부로 받아들이는 법을 배운다.",
+          "tasks": [
+            "최근에 겪은 일과 그로 인해 어떤 느낌이 들었는지 이야기한다.",
+            "실패를 학습 기회로 재구성하고 배운 교훈을 식별합니다.",
+            "새로운 목표를 세우고 그것을 달성하기 위한 계획을 세운다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 4,
+      "prompt": "You are a career counselor. Encourage users to explore their interests and personal goals.",
+      "first_message": "您好！让我们一起探索您真正的热情和梦想是什么。",
+      "image_url": "/uploads/conversation_topics/rediscovering_dreams.webp",
+      "regions": {
+        "vi": {
+          "title": "Tìm Lại Ước Mơ",
+          "description": "Hướng dẫn cách khám phá lại niềm đam mê và đặt ra mục tiêu mới cho cuộc sống.",
+          "tasks": [
+            "Xác định những điều bạn đam mê và muốn theo đuổi trong cuộc sống.",
+            "Lập danh sách các mục tiêu ngắn hạn và dài hạn dựa trên ước mơ của bạn.",
+            "Thảo luận về cách biến ước mơ thành hiện thực thông qua kế hoạch hành động cụ thể."
+          ]
+        },
+        "en": {
+          "title": "Rediscovering Dreams",
+          "description": "Guide on how to rediscover passion and set new goals for life.",
+          "tasks": [
+            "Identify your passions and interests through self-reflection.",
+            "Discuss potential goals and how they align with your values.",
+            "Create a plan to pursue your rediscovered dreams."
+          ]
+        },
+        "zh-Hant": {
+          "title": "重新發現夢想",
+          "description": "有關如何重新發現激情併為生活設定新目標的指南。",
+          "tasks": [
+            "通過自我反省確定您的激情和興趣。",
+            "討論潛在目標以及它們如何與您的價值觀保持一致。",
+            "制定一個計劃來追求您重新發現的夢想。"
+          ]
+        },
+        "ko": {
+          "title": "꿈의 재발견",
+          "description": "열정을 재발견하고 인생의 새로운 목표를 설정하는 방법을 안내합니다.",
+          "tasks": [
+            "자기 성찰을 통해 자신의 열정과 관심사를 파악하세요.",
+            "잠재적인 목표와 그 목표가 여러분의 가치관과 어떻게 일치하는지에 대해 논의하십시오.",
+            "재발견한 꿈을 추구하기 위한 계획을 세우십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 5,
+      "prompt": "You are a psychologist. Support users through the grieving process and recovery after a loss.",
+      "first_message": "您好，我为您的损失感到非常抱歉。有什么具体的事情你想谈谈吗？",
+      "image_url": "/uploads/conversation_topics/facing_loss.webp",
+      "regions": {
+        "vi": {
+          "title": "Đối Mặt Với Mất Mát",
+          "description": "Học cách xử lý cảm xúc và tìm kiếm sự chữa lành sau khi mất đi người thân yêu hoặc trải qua một mất mát lớn.",
+          "tasks": [
+            "Thảo luận về cảm xúc của bạn sau khi trải qua mất mát và cách bạn đang đối phó với nó.",
+            "Tìm hiểu các phương pháp để xử lý nỗi đau và tiến tới sự chữa lành.",
+            "Chia sẻ kỷ niệm về người thân yêu của bạn và cách bạn muốn giữ gìn ký ức của họ."
+          ]
+        },
+        "en": {
+          "title": "Facing Loss",
+          "description": "Learn how to deal with emotions and seek healing after the loss of a loved one or experiencing a significant loss.",
+          "tasks": [
+            "Share your emotions and memories related to the loss.",
+            "Discuss ways to honor the memory of your loved one.",
+            "Explore coping strategies to help you through the grieving process."
+          ]
+        },
+        "zh-Hant": {
+          "title": "面臨損失",
+          "description": "學習如何在失去親人或經歷重大損失后處理情緒並尋求治癒。",
+          "tasks": [
+            "分享您與損失相關的情感和回憶。",
+            "討論如何紀念您所愛的人。",
+            "探索應對策略，説明您度過悲傷的過程。"
+          ]
+        },
+        "ko": {
+          "title": "상실에 직면함",
+          "description": "사랑하는 사람을 잃거나 심각한 상실을 경험한 후 감정을 다루고 치유를 구하는 방법을 배운다.",
+          "tasks": [
+            "상실과 관련된 감정과 기억을 공유하십시오.",
+            "사랑하는 사람에 대한 기억을 기리는 방법에 대해 토론한다.",
+            "슬픔의 과정을 헤쳐 나가는 데 도움이 되는 대처 전략을 살펴보자."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 7,
+      "prompt": "You are a doctor. Help users describe their symptoms and provide information about treatment options.",
+      "first_message": "您好，我在这里提供帮助。您能描述一下您当前的症状吗？",
+      "image_url": "/uploads/conversation_topics/fighting_illness.webp",
+      "regions": {
+        "vi": {
+          "title": "Chiến Đấu Với Bệnh Tật",
+          "description": "Thực hành các kỹ năng giao tiếp để diễn đạt tình trạng sức khỏe và hiểu rõ hơn về quá trình điều trị.",
+          "tasks": [
+            "Mô tả các triệu chứng mà bạn đang trải qua một cách chi tiết.",
+            "Thảo luận về các phương pháp điều trị khả thi và cách bạn có thể chuẩn bị cho chúng.",
+            "Tìm hiểu cách duy trì tinh thần lạc quan và động lực trong quá trình điều trị."
+          ]
+        },
+        "en": {
+          "title": "Fighting Illness",
+          "description": "Practice communication skills to articulate health conditions and understand more about treatment processes.",
+          "tasks": [
+            "Describe your symptoms in detail and how they affect your daily life.",
+            "Discuss treatment options and their potential side effects.",
+            "Talk about how to manage your health condition and maintain a positive outlook."
+          ]
+        },
+        "zh-Hant": {
+          "title": "與疾病作鬥爭",
+          "description": "練習溝通技巧，以闡明健康情況並更多地瞭解治療過程。",
+          "tasks": [
+            "詳細描述您的癥狀以及它們如何影響您的日常生活。",
+            "討論治療方案及其潛在副作用。",
+            "談談如何管理您的健康情況並保持積極的前景。"
+          ]
+        },
+        "ko": {
+          "title": "병마와의 싸움",
+          "description": "건강 상태를 명확하게 표현하고 치료 과정에 대해 더 많이 이해하기 위해 의사 소통 기술을 연습합니다.",
+          "tasks": [
+            "자신의 증상을 자세히 설명하고 일상 생활에 어떤 영향을 미치는지 설명하십시오.",
+            "치료 옵션과 잠재적인 부작용에 대해 논의합니다.",
+            "건강 상태를 관리하고 긍정적인 견해를 유지하는 방법에 대해 이야기하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 6,
+      "prompt": "You are a psychologist. Guide users through techniques to cope with and reduce negative emotions.",
+      "first_message": "您好，消极情绪是生活中不可避免的一部分。您现在感觉如何？",
+      "image_url": "/uploads/conversation_topics/managing_negative_emotions.webp",
+      "regions": {
+        "vi": {
+          "title": "Quản Lý Cảm Xúc Tiêu Cực",
+          "description": "Tìm hiểu các phương pháp để nhận diện và quản lý cảm xúc tiêu cực như lo âu, tức giận hoặc buồn bã.",
+          "tasks": [
+            "Nhận diện các cảm xúc tiêu cực mà bạn đang trải qua.",
+            "Thực hành các kỹ thuật để quản lý và giảm thiểu cảm xúc tiêu cực như hít thở sâu, thiền, hoặc viết nhật ký.",
+            "Thảo luận về cách chuyển hóa cảm xúc tiêu cực thành năng lượng tích cực."
+          ]
+        },
+        "en": {
+          "title": "Managing Negative Emotions",
+          "description": "Learn methods to identify and manage negative emotions such as anxiety, anger, or sadness.",
+          "tasks": [
+            "Identify the negative emotions you are currently experiencing.",
+            "Discuss coping techniques such as mindfulness or relaxation exercises.",
+            "Explore ways to reframe negative thoughts into positive ones."
+          ]
+        },
+        "zh-Hant": {
+          "title": "管理負面情緒",
+          "description": "學習識別和管理負面情緒的方法，例如焦慮、憤怒或悲傷。",
+          "tasks": [
+            "確定您目前正在經歷的負面情緒。",
+            "討論應對技巧，例如正念或放鬆練習。",
+            "探索將消極想法重新構建為積極想法的方法。"
+          ]
+        },
+        "ko": {
+          "title": "부정적인 감정을 다스리기",
+          "description": "불안, 분노 또는 슬픔과 같은 부정적인 감정을 식별하고 관리하는 방법을 배운다.",
+          "tasks": [
+            "당신이 현재 경험하고 있는 부정적인 감정을 파악한다.",
+            "마음 챙김 또는 이완 운동과 같은 대처 기술에 대해 토론하십시오.",
+            "부정적인 생각을 긍정적인 생각으로 바꾸는 방법을 살펴보세요."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 18,
+      "prompt": "You are a therapist. Support users through the process of mental recovery after an accident.",
+      "first_message": "您好，我知道经历一场事故可能非常震惊。您现在感觉如何？",
+      "image_url": "/uploads/conversation_topics/mental_recovery_after_accident.webp",
+      "regions": {
+        "vi": {
+          "title": "Phục Hồi Tinh Thần Sau Tai Nạn",
+          "description": "Thực hành phương pháp đối phó và xây dựng lại sự tự tin sau khi trải qua một tai nạn.",
+          "tasks": [
+            "Thảo luận về cảm giác của bạn sau khi trải qua một tai nạn.",
+            "Thực hành các phương pháp để phục hồi tinh thần và tự tin sau tai nạn.",
+            "Xây dựng kế hoạch để vượt qua các chướng ngại tâm lý và tiến tới một cuộc sống tích cực hơn."
+          ]
+        },
+        "en": {
+          "title": "Mental Recovery After an Accident",
+          "description": "Practice coping methods and rebuild confidence after experiencing an accident.",
+          "tasks": [
+            "Discuss your feelings and thoughts about the accident.",
+            "Explore coping strategies to reduce trauma-related stress.",
+            "Talk about steps to rebuild confidence and regain normalcy in your life."
+          ]
+        },
+        "zh-Hant": {
+          "title": "事故後的精神恢復",
+          "description": "練習應對方法並在發生事故后重建信心。",
+          "tasks": [
+            "討論您對事故的感受和想法。",
+            "探索減少創傷相關壓力的應對策略。",
+            "討論重建信心和恢復生活正常的步驟。"
+          ]
+        },
+        "ko": {
+          "title": "사고 후의 정신적 회복",
+          "description": "사고를 겪은 후 대처 방법을 연습하고 자신감을 회복하십시오.",
+          "tasks": [
+            "사고에 대한 느낌과 생각을 이야기한다.",
+            "트라우마 관련 스트레스를 줄이기 위한 대처 전략을 살펴봅니다.",
+            "자신감을 회복하고 일상을 되찾기 위한 단계에 대해 이야기한다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 15,
+      "prompt": "You are a mental health consultant. Guide users on how to reduce stress at work.",
+      "first_message": "您好，工作压力可能会影响您的健康。您感受到了怎样的压力？",
+      "image_url": "/uploads/conversation_topics/coping_with_work_stress.webp",
+      "regions": {
+        "vi": {
+          "title": "Đối Phó Với Stress Công Việc",
+          "description": "Học cách nhận biết và quản lý căng thẳng trong môi trường làm việc để duy trì sức khỏe tinh thần.",
+          "tasks": [
+            "Nhận diện các nguyên nhân gây ra stress tại nơi làm việc.",
+            "Thảo luận về các kỹ thuật giảm stress như sắp xếp công việc, quản lý thời gian, và tìm kiếm sự hỗ trợ.",
+            "Thực hành các phương pháp để duy trì cân bằng giữa công việc và cuộc sống cá nhân."
+          ]
+        },
+        "en": {
+          "title": "Coping with Work Stress",
+          "description": "Learn to recognize and manage work-related stress to maintain mental health.",
+          "tasks": [
+            "Identify the sources of stress in your work environment.",
+            "Discuss strategies to manage and reduce work-related stress.",
+            "Explore work-life balance techniques to maintain mental well-being."
+          ]
+        },
+        "zh-Hant": {
+          "title": "應對工作壓力",
+          "description": "學會識別和管理與工作相關的壓力以保持心理健康。",
+          "tasks": [
+            "確定工作環境中的壓力來源。",
+            "討論管理和減少與工作相關的壓力的策略。",
+            "探索工作與生活平衡技巧以保持心理健康。"
+          ]
+        },
+        "ko": {
+          "title": "업무 스트레스에 대처하는 방법",
+          "description": "정신 건강을 유지하기 위해 업무 관련 스트레스를 인식하고 관리하는 방법을 배웁니다.",
+          "tasks": [
+            "작업 환경에서 스트레스의 원인을 파악하십시오.",
+            "업무 관련 스트레스를 관리하고 줄이기 위한 전략에 대해 논의합니다.",
+            "정신 건강을 유지하기 위한 일과 삶의 균형 기법을 살펴보세요."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 13,
+      "prompt": "You are a psychologist. Discuss with users the importance of seeking balance.",
+      "first_message": "您好，寻找生活平衡是幸福生活的关键。您是如何管理您的时间的？",
+      "image_url": "/uploads/conversation_topics/seeking_life_balance.webp",
+      "regions": {
+        "vi": {
+          "title": "Tìm Kiếm Sự Cân Bằng Trong Cuộc Sống",
+          "description": "Khám phá các phương pháp để tạo dựng sự cân bằng giữa công việc, gia đình và thời gian cá nhân.",
+          "tasks": [
+            "Thảo luận về cách bạn hiện tại quản lý thời gian giữa công việc, gia đình và bản thân.",
+            "Xác định các lĩnh vực trong cuộc sống cần sự cân bằng hơn.",
+            "Lập kế hoạch để tạo sự cân bằng tốt hơn giữa các khía cạnh khác nhau của cuộc sống."
+          ]
+        },
+        "en": {
+          "title": "Seeking Life Balance",
+          "description": "Explore methods to create balance between work, family, and personal time.",
+          "tasks": [
+            "Discuss your current life balance and areas that need improvement.",
+            "Explore time management techniques to better allocate your time.",
+            "Talk about setting boundaries to protect your personal time."
+          ]
+        },
+        "zh-Hant": {
+          "title": "尋求生活平衡",
+          "description": "探索在工作、家庭和個人時間之間取得平衡的方法。",
+          "tasks": [
+            "討論您目前的生活平衡和需要改進的領域。",
+            "探索時間管理技巧以更好地分配您的時間。",
+            "談談設定界限以保護你的個人時間。"
+          ]
+        },
+        "ko": {
+          "title": "삶의 균형을 추구함",
+          "description": "일, 가족, 개인 시간 간의 균형을 이루는 방법을 살펴보세요.",
+          "tasks": [
+            "현재의 삶의 균형과 개선이 필요한 부분에 대해 논의하십시오.",
+            "시간을 더 잘 배분할 수 있는 시간 관리 기법을 살펴보세요.",
+            "개인 시간을 보호하기 위해 경계를 설정하는 것에 대해 이야기하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 27,
+      "prompt": "You are a spiritual guide. Support users in understanding and practicing the process of forgiveness.",
+      "first_message": "您好，原谅并不总是容易的。您对什么或谁保持怨恨？",
+      "image_url": "/uploads/conversation_topics/learning_to_forgive.webp",
+      "regions": {
+        "vi": {
+          "title": "Học Cách Tha Thứ",
+          "description": "Khám phá quá trình tha thứ cho chính mình và người khác như một phần của quá trình chữa lành nội tâm.",
+          "tasks": [
+            "Thảo luận về những khó khăn trong việc tha thứ cho bản thân hoặc người khác.",
+            "Tìm hiểu các phương pháp để thực hành sự tha thứ và giải phóng cảm xúc tiêu cực.",
+            "Chia sẻ cảm nhận của bạn sau khi thực hành tha thứ."
+          ]
+        },
+        "en": {
+          "title": "Learning to Forgive",
+          "description": "Explore the process of forgiving oneself and others as a part of inner healing.",
+          "tasks": [
+            "Identify the person or situation you need to forgive.",
+            "Discuss the emotional impact of holding onto resentment.",
+            "Explore steps to practice forgiveness and move forward."
+          ]
+        },
+        "zh-Hant": {
+          "title": "學會寬恕",
+          "description": "探索原諒自己和他人的過程，作為內在療癒的一部分。",
+          "tasks": [
+            "確定你需要寬恕的人或情況。",
+            "討論堅持怨恨的情緒影響。",
+            "探索練習寬恕並向前邁進的步驟。"
+          ]
+        },
+        "ko": {
+          "title": "용서하는 법을 배움",
+          "description": "내적 치유의 일환으로 자신과 다른 사람을 용서하는 과정을 탐구하십시오.",
+          "tasks": [
+            "용서해야 할 사람이나 상황을 파악한다.",
+            "분노를 품고 있을 때 어떤 감정적 영향을 받는지 토론한다.",
+            "용서를 연습하고 앞으로 나아가기 위한 단계를 살펴본다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 12,
+      "prompt": "You are a social psychologist. Discuss with users the importance of connection and community.",
+      "first_message": "您好，孤独感可能非常难以应对。您希望如何与他人建立联系？",
+      "image_url": "/uploads/conversation_topics/facing_loneliness.webp",
+      "regions": {
+        "vi": {
+          "title": "Đối Mặt Với Sự Cô Đơn",
+          "description": "Tìm cách xây dựng mối quan hệ và cảm giác kết nối với người khác để giảm bớt cảm giác cô đơn.",
+          "tasks": [
+            "Thảo luận về cảm giác cô đơn và cách nó ảnh hưởng đến cuộc sống của bạn.",
+            "Xác định các hoạt động hoặc nhóm cộng đồng có thể giúp bạn cảm thấy kết nối hơn.",
+            "Thực hiện kế hoạch để tham gia vào cộng đồng hoặc xây dựng mối quan hệ mới."
+          ]
+        },
+        "en": {
+          "title": "Facing Loneliness",
+          "description": "Find ways to build relationships and a sense of connection with others to alleviate feelings of loneliness.",
+          "tasks": [
+            "Discuss the causes of your loneliness and how it affects you.",
+            "Explore opportunities to build new relationships and connections.",
+            "Talk about the benefits of community involvement and social activities."
+          ]
+        },
+        "zh-Hant": {
+          "title": "面對孤獨",
+          "description": "想辦法與他人建立關係和聯繫感，以減輕孤獨感。",
+          "tasks": [
+            "討論你孤獨的原因以及它如何影響你。",
+            "探索建立新關係和聯繫的機會。",
+            "談論社區參與和社會活動的好處。"
+          ]
+        },
+        "ko": {
+          "title": "외로움에 직면함",
+          "description": "외로움을 완화하기 위해 다른 사람들과 관계를 맺고 유대감을 쌓는 방법을 찾으십시오.",
+          "tasks": [
+            "외로움의 원인과 그것이 당신에게 어떤 영향을 미치는지에 대해 토론한다.",
+            "새로운 관계와 연결을 구축할 수 있는 기회를 탐색합니다.",
+            "지역 사회 참여 및 사회 활동의 이점에 대해 이야기하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 22,
+      "prompt": "You are a personal development expert. Encourage users to adopt a positive mindset in their life.",
+      "first_message": "您好，积极的心态可以改变一切。您通常是怎样的态度？",
+      "image_url": "/uploads/conversation_topics/cultivating_positive_mindset.webp",
+      "regions": {
+        "vi": {
+          "title": "Nuôi Dưỡng Tinh Thần Tích Cực",
+          "description": "Phát triển một thái độ tích cực và tận hưởng cuộc sống bất chấp những khó khăn hay thách thức.",
+          "tasks": [
+            "Thảo luận về những thử thách hiện tại mà bạn đang phải đối mặt và cách bạn nhìn nhận chúng.",
+            "Thực hành các phương pháp để phát triển tư duy tích cực như viết nhật ký biết ơn, tự động viên, và tập trung vào mặt tích cực của mọi vấn đề.",
+            "Chia sẻ những thay đổi tích cực trong cuộc sống của bạn sau khi áp dụng tư duy tích cực."
+          ]
+        },
+        "en": {
+          "title": "Cultivating a Positive Mindset",
+          "description": "Develop a positive attitude and enjoy life despite challenges and obstacles.",
+          "tasks": [
+            "Identify negative thought patterns and how they affect your life.",
+            "Discuss strategies to shift to a more positive mindset.",
+            "Explore ways to maintain a positive attitude during difficult times."
+          ]
+        },
+        "zh-Hant": {
+          "title": "培養積極的心態",
+          "description": "培養積極的態度，儘管面臨挑戰和障礙，但仍要享受生活。",
+          "tasks": [
+            "確定消極的思維模式以及它們如何影響您的生活。",
+            "討論轉向更積極心態的策略。",
+            "探索在困難時期保持積極態度的方法。"
+          ]
+        },
+        "ko": {
+          "title": "긍정적인 마음가짐을 기르기",
+          "description": "긍정적인 태도를 개발하고 도전과 장애물에도 불구하고 삶을 즐기십시오.",
+          "tasks": [
+            "부정적인 생각 패턴과 그것이 당신의 삶에 어떤 영향을 미치는지 파악한다.",
+            "보다 긍정적인 마음가짐으로 전환하기 위한 전략에 대해 논의합니다.",
+            "어려운 시기에 긍정적인 태도를 유지할 수 있는 방법을 찾아본다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 24,
+      "prompt": "You are a psychologist. Encourage users to practice self-love and acceptance through exercises and discussion.",
+      "first_message": "您好，自爱是幸福的第一步。您对自己有什么感受？",
+      "image_url": "/uploads/conversation_topics/developing_self_compassion.webp",
+      "regions": {
+        "vi": {
+          "title": "Phát Triển Sự Tự Thương",
+          "description": "Học cách yêu thương và chấp nhận bản thân mình, cả những khuyết điểm và sức mạnh.",
+          "tasks": [
+            "Thảo luận về những khó khăn bạn gặp phải khi cố gắng yêu thương và chấp nhận bản thân.",
+            "Thực hành các bài tập tự thương như viết thư cho bản thân, thực hành lòng biết ơn đối với chính mình, và chấp nhận khuyết điểm.",
+            "Chia sẻ cảm nhận của bạn sau khi thực hành sự tự thương."
+          ]
+        },
+        "en": {
+          "title": "Developing Self-Compassion",
+          "description": "Learn to love and accept yourself, both your flaws and strengths.",
+          "tasks": [
+            "Reflect on your self-perception and how it influences your behavior.",
+            "Discuss exercises to practice self-compassion and self-care.",
+            "Explore ways to embrace both your strengths and weaknesses."
+          ]
+        },
+        "zh-Hant": {
+          "title": "培養自我同情",
+          "description": "學會愛和接受自己，包括你的缺點和優點。",
+          "tasks": [
+            "反思你的自我認知以及它如何影響你的行為。",
+            "討論練習自我同情和自我照顧的練習。",
+            "探索兼顧自身優勢和劣勢的方法。"
+          ]
+        },
+        "ko": {
+          "title": "자기 연민을 키움",
+          "description": "자신의 결점과 강점을 모두 사랑하고 받아들이는 법을 배우십시오.",
+          "tasks": [
+            "자신의 인식과 그것이 자신의 행동에 어떤 영향을 미치는지 생각해 보십시오.",
+            "자기 연민과 자기 관리를 연습하기 위한 연습에 대해 토론한다.",
+            "자신의 강점과 약점을 모두 포용할 수 있는 방법을 살펴보세요."
+          ]
+        }
+      }
+    }
+  ],
+  "is_active": true,
+  "created_at": {
+    "$date": "2025-01-20T09:58:44.296Z"
+  },
+  "updated_at": {
+    "$date": "2025-01-20T09:58:44.298Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "678e1ec38ce4b93d741773c7"
+  },
+  "id": 7,
+  "display_order": 7,
+  "regions": {
+    "vi": {
+      "name": "Cuộc Sống Hàng Ngày"
+    },
+    "en": {
+      "name": "Daily Life"
+    },
+    "zh-Hant": {
+      "name": "日常生活"
+    },
+    "ko": {
+      "name": "일상 생활"
+    }
+  },
+  "topic_details": [
+    {
+      "topic_id": 63,
+      "prompt": "You are a chef. Guide the user on how to prepare a tasty and healthy meal.",
+      "first_message": "您好！今天您想做什么菜？我可以帮助您准备所有东西。",
+      "image_url": "/uploads/conversation_topics/cooking_at_home.webp",
+      "regions": {
+        "vi": {
+          "title": "Nấu Ăn Tại Nhà",
+          "description": "Học cách chuẩn bị và nấu các món ăn ngon tại nhà, từ món ăn nhanh đến các bữa tiệc cho gia đình và bạn bè.",
+          "tasks": [
+            "Xác định món ăn bạn muốn nấu và lập danh sách nguyên liệu cần thiết.",
+            "Thảo luận về các phương pháp nấu ăn khác nhau để đạt được hương vị và kết cấu mong muốn.",
+            "Chia sẻ kinh nghiệm nấu ăn của bạn và nhận phản hồi để cải thiện kỹ năng nấu nướng."
+          ]
+        },
+        "en": {
+          "title": "Home Cooking",
+          "description": "Learn to prepare and cook delicious meals at home, from quick eats to family and friends' gatherings.",
+          "tasks": [
+            "Decide on a meal to cook and gather the necessary ingredients.",
+            "Follow step-by-step instructions to prepare the meal.",
+            "Discuss tips for making the meal healthier or more flavorful."
+          ]
+        },
+        "zh-Hant": {
+          "title": "家常菜",
+          "description": "學習在家準備和烹飪美味佳餚，從速食到家人和朋友聚會。",
+          "tasks": [
+            "決定要烹飪的餐點並收集必要的食材。",
+            "按照分步說明準備餐點。",
+            "討論使膳食更健康或更美味的技巧。"
+          ]
+        },
+        "ko": {
+          "title": "가정 요리",
+          "description": "간단한 식사부터 가족 및 친구 모임에 이르기까지 집에서 맛있는 식사를 준비하고 요리하는 방법을 배우십시오.",
+          "tasks": [
+            "요리하고 필요한 재료를 모을 식사를 결정하십시오.",
+            "단계별 지침에 따라 식사를 준비하십시오.",
+            "식사를 더 건강하고 맛있게 만들기 위한 팁에 대해 토론한다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 77,
+      "prompt": "You are a personal finance advisor. Assist the user in managing finances and saving money.",
+      "first_message": "您好，理财是确保未来的重要钥匙。您想为哪个目标省钱？",
+      "image_url": "/uploads/conversation_topics/budgeting_savings.webp",
+      "regions": {
+        "vi": {
+          "title": "Tiết Kiệm Ngân Sách",
+          "description": "Học cách lên kế hoạch ngân sách cá nhân và gia đình để tiết kiệm tiền và đầu tư cho tương lai.",
+          "tasks": [
+            "Xác định mục tiêu tiết kiệm và lập kế hoạch ngân sách hàng tháng.",
+            "Thảo luận về các chiến lược để giảm chi phí và tăng thu nhập.",
+            "Lập kế hoạch đầu tư dài hạn dựa trên mục tiêu tài chính của bạn."
+          ]
+        },
+        "en": {
+          "title": "Budgeting",
+          "description": "Learn to plan personal and family budgets to save money and invest in the future.",
+          "tasks": [
+            "Identify your income and regular expenses.",
+            "Create a monthly budget that aligns with your financial goals.",
+            "Discuss strategies to save money and reduce unnecessary expenses."
+          ]
+        },
+        "zh-Hant": {
+          "title": "預算",
+          "description": "學會規劃個人和家庭預算，以節省資金並投資於未來。",
+          "tasks": [
+            "確定您的收入和日常支出。",
+            "制定與您的財務目標相符的月度預算。",
+            "討論省錢和減少不必要開支的策略。"
+          ]
+        },
+        "ko": {
+          "title": "예산",
+          "description": "돈을 저축하고 미래에 투자하기 위해 개인 및 가족 예산을 계획하는 방법을 배운다.",
+          "tasks": [
+            "수입과 정기적인 지출을 확인하십시오.",
+            "재정 목표에 부합하는 월별 예산을 세우세요.",
+            "돈을 절약하고 불필요한 지출을 줄이기 위한 전략에 대해 논의한다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 72,
+      "prompt": "You are a fitness trainer. Motivate and guide the user to achieve their health goals.",
+      "first_message": "您好！您想如何改善您的身体健康？让我们开始制定一个锻炼计划。",
+      "image_url": "/uploads/conversation_topics/physical_exercise.webp",
+      "regions": {
+        "vi": {
+          "title": "Tập Thể Dục",
+          "description": "Hướng dẫn lập kế hoạch tập luyện cá nhân phù hợp với mục tiêu sức khỏe và thể chất của từng người.",
+          "tasks": [
+            "Xác định mục tiêu thể dục của bạn và lập kế hoạch tập luyện hàng tuần.",
+            "Thực hành các bài tập cơ bản và nhận phản hồi về kỹ thuật tập luyện.",
+            "Thảo luận về chế độ ăn uống hỗ trợ mục tiêu sức khỏe của bạn."
+          ]
+        },
+        "en": {
+          "title": "Exercising",
+          "description": "Get guidance on creating a personal exercise plan that aligns with your health and fitness goals.",
+          "tasks": [
+            "Set specific fitness goals based on your current health.",
+            "Create a personalized exercise routine that fits your schedule.",
+            "Discuss ways to stay motivated and track your progress."
+          ]
+        },
+        "zh-Hant": {
+          "title": "行使",
+          "description": "獲取有關制定符合您的健康和健身目標的個人鍛煉計劃的指導。",
+          "tasks": [
+            "根據您當前的健康情況設定具體的健身目標。",
+            "創建適合您日程安排的個人化鍛煉程式。",
+            "討論保持動力和跟蹤進度的方法。"
+          ]
+        },
+        "ko": {
+          "title": "운동",
+          "description": "건강 및 피트니스 목표에 부합하는 개인 운동 계획을 세우는 방법에 대한 지침을 받으세요.",
+          "tasks": [
+            "현재 건강 상태에 따라 구체적인 피트니스 목표를 설정하세요.",
+            "일정에 맞는 맞춤형 운동 루틴을 만드십시오.",
+            "동기를 유지하고 진행 상황을 추적하는 방법에 대해 논의하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 57,
+      "prompt": "You are a time management expert. Guide the user on how to optimize their day.",
+      "first_message": "您好，良好的时间管理可以帮助您在生活中取得更多成就。您通常如何安排您的一天？",
+      "image_url": "/uploads/conversation_topics/time_management.webp",
+      "regions": {
+        "vi": {
+          "title": "Quản Lý Thời Gian",
+          "description": "Học cách phân chia thời gian hiệu quả để cân bằng công việc, học tập và thời gian nghỉ ngơi.",
+          "tasks": [
+            "Lập danh sách các nhiệm vụ quan trọng cần hoàn thành trong ngày.",
+            "Thảo luận về các phương pháp ưu tiên công việc và sử dụng thời gian hiệu quả.",
+            "Thực hành kỹ thuật 'Pomodoro' để cải thiện sự tập trung và năng suất."
+          ]
+        },
+        "en": {
+          "title": "Time Management",
+          "description": "Learn to effectively divide your time to balance work, study, and relaxation.",
+          "tasks": [
+            "Analyze your current daily routine and identify time-wasting activities.",
+            "Prioritize tasks based on importance and urgency.",
+            "Create a time management plan to achieve a better work-life balance."
+          ]
+        },
+        "zh-Hant": {
+          "title": "時間管理",
+          "description": "學會有效地分配時間以平衡工作、學習和放鬆。",
+          "tasks": [
+            "分析您當前的日常生活並確定浪費時間的活動。",
+            "根據重要性和緊急性確定任務的優先順序。",
+            "制定時間管理計劃以實現更好的工作與生活平衡。"
+          ]
+        },
+        "ko": {
+          "title": "시간 관리",
+          "description": "일, 공부, 휴식의 균형을 맞추기 위해 시간을 효과적으로 분배하는 방법을 배우십시오.",
+          "tasks": [
+            "현재의 일과를 분석하고 시간 낭비가 되는 활동을 파악합니다.",
+            "중요도와 긴급성에 따라 작업의 우선순위를 지정합니다.",
+            "더 나은 일과 삶의 균형을 달성하기 위해 시간 관리 계획을 세우십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 56,
+      "prompt": "You are a health expert. Guide the user on how to maintain personal health.",
+      "first_message": "您好，个人健康护理非常重要。您有哪些日常习惯来保持健康？",
+      "image_url": "/uploads/conversation_topics/personal_health_care.webp",
+      "regions": {
+        "vi": {
+          "title": "Chăm Sóc Sức Khỏe Cá Nhân",
+          "description": "Học cách thực hiện các hoạt động chăm sóc sức khỏe cá nhân hàng ngày, từ vệ sinh cá nhân đến việc giữ gìn sức khỏe tinh thần.",
+          "tasks": [
+            "Xây dựng thói quen vệ sinh cá nhân hàng ngày để duy trì sức khỏe.",
+            "Thảo luận về các phương pháp giữ gìn sức khỏe tinh thần như thiền định hoặc viết nhật ký.",
+            "Lập kế hoạch kiểm tra sức khỏe định kỳ để theo dõi tình trạng sức khỏe của bạn."
+          ]
+        },
+        "en": {
+          "title": "Personal Health Care",
+          "description": "Learn daily personal health care activities, from personal hygiene to mental health maintenance.",
+          "tasks": [
+            "Discuss your current health care routine and areas for improvement.",
+            "Learn about effective personal hygiene practices.",
+            "Explore strategies for maintaining mental health and well-being."
+          ]
+        },
+        "zh-Hant": {
+          "title": "個人健康護理",
+          "description": "學習日常個人保健活動，從個人衛生到心理健康維護。",
+          "tasks": [
+            "討論您當前的醫療保健程式和需要改進的領域。",
+            "瞭解有效的個人衛生習慣。",
+            "探索保持心理健康和福祉的策略。"
+          ]
+        },
+        "ko": {
+          "title": "개인 건강 관리",
+          "description": "개인 위생에서 정신 건강 유지에 이르기까지 일상적인 개인 건강 관리 활동을 배웁니다.",
+          "tasks": [
+            "현재의 건강 관리 루틴과 개선해야 할 부분에 대해 논의하십시오.",
+            "효과적인 개인 위생 수칙에 대해 알아보십시오.",
+            "정신 건강과 웰빙을 유지하기 위한 전략을 살펴봅니다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 59,
+      "prompt": "You are a meditation teacher. Guide the user through the basic steps to start meditating.",
+      "first_message": "您好，冥想是改善精神状态的好方法。您尝试过冥想吗？",
+      "image_url": "/uploads/conversation_topics/meditation_practice.webp",
+      "regions": {
+        "vi": {
+          "title": "Thực Hành Thiền Định",
+          "description": "Khám phá các kỹ thuật thiền định để giảm stress, tăng cường sự tập trung và cải thiện sức khỏe tinh thần.",
+          "tasks": [
+            "Thực hành thiền định hàng ngày trong một khoảng thời gian nhất định.",
+            "Thảo luận về các kỹ thuật thiền định khác nhau và tìm ra phương pháp phù hợp với bạn nhất.",
+            "Chia sẻ trải nghiệm của bạn sau khi thực hành thiền định và cách nó ảnh hưởng đến sức khỏe tinh thần của bạn."
+          ]
+        },
+        "en": {
+          "title": "Meditation Practice",
+          "description": "Explore meditation techniques to reduce stress, enhance focus, and improve mental health.",
+          "tasks": [
+            "Learn the basics of meditation and how to get started.",
+            "Practice guided meditation to reduce stress and improve focus.",
+            "Discuss how to integrate meditation into your daily routine."
+          ]
+        },
+        "zh-Hant": {
+          "title": "冥想練習",
+          "description": "探索冥想技巧以減輕壓力、增強注意力和改善心理健康。",
+          "tasks": [
+            "瞭解冥想的基礎知識以及如何開始。",
+            "練習引導冥想以減輕壓力並提高注意力。",
+            "討論如何將冥想融入您的日常生活中。"
+          ]
+        },
+        "ko": {
+          "title": "명상 연습",
+          "description": "스트레스를 줄이고, 집중력을 높이고, 정신 건강을 개선하는 명상 기법을 살펴보세요.",
+          "tasks": [
+            "명상의 기초와 명상을 시작하는 방법을 알아보세요.",
+            "스트레스를 줄이고 집중력을 향상시키기 위해 안내 명상을 연습하십시오.",
+            "명상을 일상 생활에 통합하는 방법에 대해 토론하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 65,
+      "prompt": "You are a family consultant. Provide advice and strategies for improving relationships and family care.",
+      "first_message": "您好，在工作和家庭护理之间取得平衡可能是一个挑战。您需要在哪个方面得到支持？",
+      "image_url": "/uploads/conversation_topics/family_care.webp",
+      "regions": {
+        "vi": {
+          "title": "Chăm Sóc Gia Đình",
+          "description": "Học cách quản lý các nhu cầu và trách nhiệm khi chăm sóc cho các thành viên trong gia đình, từ trẻ em đến người lớn tuổi.",
+          "tasks": [
+            "Thảo luận về cách quản lý thời gian và trách nhiệm trong gia đình.",
+            "Xác định các phương pháp hỗ trợ cho từng thành viên trong gia đình theo nhu cầu của họ.",
+            "Lập kế hoạch dành thời gian chất lượng với gia đình và tạo dựng mối quan hệ bền chặt."
+          ]
+        },
+        "en": {
+          "title": "Family Care",
+          "description": "Learn to manage needs and responsibilities when taking care of family members, from children to the elderly.",
+          "tasks": [
+            "Identify the specific needs of your family members.",
+            "Create a plan to balance family care with other responsibilities.",
+            "Discuss strategies for improving family relationships and communication."
+          ]
+        },
+        "zh-Hant": {
+          "title": "家庭護理",
+          "description": "學會在照顧家庭成員（從孩子到老人）時管理需求和責任。",
+          "tasks": [
+            "確定您家庭成員的具體需求。",
+            "制定計劃以平衡家庭照顧與其他責任。",
+            "討論改善家庭關係和溝通的策略。"
+          ]
+        },
+        "ko": {
+          "title": "패밀리 케어",
+          "description": "어린이부터 노인에 이르기까지 가족 구성원을 돌볼 때 필요 사항과 책임을 관리하는 방법을 배운다.",
+          "tasks": [
+            "가족 구성원들의 구체적인 필요 사항을 파악한다.",
+            "가족을 돌보는 것과 다른 책임의 균형을 맞추기 위한 계획을 세운다.",
+            "가족 관계와 의사소통을 개선하기 위한 전략에 대해 토론한다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 62,
+      "prompt": "You are an environmental activist. Guide the user on how they can contribute to protecting the environment.",
+      "first_message": "您好，每天的小行动都可以对环境产生重大影响。您采取了哪些步骤来过上绿色生活？",
+      "image_url": "/uploads/conversation_topics/environmental_protection.webp",
+      "regions": {
+        "vi": {
+          "title": "Bảo Vệ Môi Trường",
+          "description": "Học cách áp dụng các thực hành bảo vệ môi trường vào cuộc sống hàng ngày như tái chế, tiết kiệm năng lượng và sử dụng sản phẩm thân thiện với môi trường.",
+          "tasks": [
+            "Thảo luận về các phương pháp tái chế và cách áp dụng chúng vào cuộc sống hàng ngày.",
+            "Xác định các cách tiết kiệm năng lượng trong gia đình và thực hành chúng.",
+            "Tìm hiểu về các sản phẩm thân thiện với môi trường và lập kế hoạch sử dụng chúng trong cuộc sống hàng ngày."
+          ]
+        },
+        "en": {
+          "title": "Environmental Protection",
+          "description": "Learn to incorporate environmental protection practices into daily life, such as recycling, energy saving, and using eco-friendly products.",
+          "tasks": [
+            "Discuss your current environmental practices and areas for improvement.",
+            "Learn about simple ways to reduce your carbon footprint.",
+            "Explore eco-friendly products and energy-saving techniques."
+          ]
+        },
+        "zh-Hant": {
+          "title": "環境保護",
+          "description": "學習將環保習慣融入日常生活，例如回收、節能和使用環保產品。",
+          "tasks": [
+            "討論您當前的環境實踐和需要改進的領域。",
+            "了解減少碳足跡的簡單方法。",
+            "探索環保產品和節能技術。"
+          ]
+        },
+        "ko": {
+          "title": "환경 보호",
+          "description": "재활용, 에너지 절약, 친환경 제품 사용과 같은 환경 보호 관행을 일상 생활에 통합하는 방법을 배웁니다.",
+          "tasks": [
+            "현재 환경 관행과 개선 영역에 대해 논의하십시오.",
+            "탄소 발자국을 줄이는 간단한 방법에 대해 알아보세요.",
+            "친환경 제품과 에너지 절약 기술을 살펴보세요."
+          ]
+        }
+      }
+    }
+  ],
+  "is_active": true,
+  "created_at": {
+    "$date": "2025-01-20T09:58:45.305Z"
+  },
+  "updated_at": {
+    "$date": "2025-01-20T09:58:45.305Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "678e1ec38ce4b93d741773c8"
+  },
+  "id": 8,
+  "display_order": 8,
+  "regions": {
+    "vi": {
+      "name": "Công Việc"
+    },
+    "en": {
+      "name": "Work"
+    },
+    "zh-Hant": {
+      "name": "工作"
+    },
+    "ko": {
+      "name": "일하다"
+    }
+  },
+  "topic_details": [
+    {
+      "topic_id": 32,
+      "prompt": "You are a leadership coach. Guide the user on how to develop and apply leadership skills at work.",
+      "first_message": "您好！您想如何提升您的领导技能？让我们从确定您的目标开始。",
+      "image_url": "/uploads/conversation_topics/leadership_skills.webp",
+      "regions": {
+        "vi": {
+          "title": "Phát Triển Kỹ Năng Lãnh Đạo",
+          "description": "Khám phá các kỹ năng cần thiết để trở thành một nhà lãnh đạo hiệu quả và tạo động lực cho đội nhóm của bạn.",
+          "tasks": [
+            "Xác định các kỹ năng lãnh đạo cần phát triển để đạt được mục tiêu của bạn.",
+            "Thực hành các kỹ năng lãnh đạo trong các tình huống giả định hoặc thực tế.",
+            "Thảo luận về cách tạo động lực cho đội nhóm và cải thiện hiệu suất làm việc."
+          ]
+        },
+        "en": {
+          "title": "Developing Leadership Skills",
+          "description": "Explore the essential skills needed to become an effective leader and motivate your team.",
+          "tasks": [
+            "Identify your leadership style and how it impacts your team.",
+            "Discuss strategies for motivating and inspiring your team.",
+            "Learn about effective decision-making and conflict resolution."
+          ]
+        },
+        "zh-Hant": {
+          "title": "培養領導技能",
+          "description": "探索成為有效領導者和激勵團隊所需的基本技能。",
+          "tasks": [
+            "確定您的領導風格及其對團隊的影響。",
+            "討論激勵和啟發團隊的策略。",
+            "瞭解有效的決策和衝突解決。"
+          ]
+        },
+        "ko": {
+          "title": "리더십 기술 개발",
+          "description": "효과적인 리더가 되고 팀에 동기를 부여하는 데 필요한 필수 기술을 살펴보세요.",
+          "tasks": [
+            "자신의 리더십 스타일과 그것이 팀에 어떤 영향을 미치는지 파악하세요.",
+            "팀에 동기를 부여하고 영감을 주기 위한 전략에 대해 논의합니다.",
+            "효과적인 의사 결정 및 갈등 해결에 대해 알아보십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 97,
+      "prompt": "You are a project management specialist. Share project management success secrets with the user.",
+      "first_message": "您好！项目管理是一个重要任务。您在项目中遇到了哪些困难？",
+      "image_url": "/uploads/conversation_topics/project_management.webp",
+      "regions": {
+        "vi": {
+          "title": "Quản Lý Dự Án Hiệu Quả",
+          "description": "Tìm hiểu các công cụ và phương pháp quản lý dự án để đảm bảo hoàn thành dự án đúng hạn và trong ngân sách.",
+          "tasks": [
+            "Lập kế hoạch dự án với các mốc thời gian cụ thể và ngân sách dự kiến.",
+            "Thảo luận về các công cụ và kỹ thuật quản lý dự án hiệu quả.",
+            "Thực hành quản lý dự án thông qua các tình huống giả định để nâng cao kỹ năng."
+          ]
+        },
+        "en": {
+          "title": "Effective Project Management",
+          "description": "Learn about tools and methods of project management to ensure projects are completed on time and within budget.",
+          "tasks": [
+            "Identify the key stages of a project and how to manage them.",
+            "Learn about project management tools and how to use them effectively.",
+            "Discuss strategies for keeping projects on track and within budget."
+          ]
+        },
+        "zh-Hant": {
+          "title": "有效的專案管理",
+          "description": "了解專案管理的工具和方法，以確保專案在預算內按時完成。",
+          "tasks": [
+            "確定專案的關鍵階段以及如何管理它們。",
+            "了解專案管理工具以及如何有效使用它們。",
+            "討論保持專案按計劃進行並在預算範圍內的策略。"
+          ]
+        },
+        "ko": {
+          "title": "효과적인 프로젝트 관리",
+          "description": "프로젝트를 시간과 예산 내에서 완료할 수 있도록 하는 프로젝트 관리 도구와 방법에 대해 알아보세요.",
+          "tasks": [
+            "프로젝트의 주요 단계와 이를 관리하는 방법을 식별합니다.",
+            "프로젝트 관리 툴과 이를 효과적으로 사용하는 방법에 대해 알아보세요.",
+            "프로젝트를 계획대로 진행하고 예산 범위 내에서 진행하기 위한 전략에 대해 논의합니다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 94,
+      "prompt": "You are a communication expert. Teach the user effective communication techniques with colleagues and management.",
+      "first_message": "您好，沟通是成功的关键。您对自己的沟通技巧有多自信？",
+      "image_url": "/uploads/conversation_topics/professional_communication.webp",
+      "regions": {
+        "vi": {
+          "title": "Giao Tiếp Chuyên Nghiệp",
+          "description": "Cải thiện kỹ năng giao tiếp của bạn để trở nên rõ ràng và thuyết phục hơn trong môi trường công sở.",
+          "tasks": [
+            "Thảo luận về các kỹ thuật giao tiếp hiệu quả trong môi trường công sở.",
+            "Thực hành giao tiếp qua email, cuộc gọi hoặc cuộc họp để cải thiện kỹ năng.",
+            "Nhận phản hồi về cách giao tiếp của bạn và xác định các lĩnh vực cần cải thiện."
+          ]
+        },
+        "en": {
+          "title": "Professional Communication",
+          "description": "Improve your communication skills to become clearer and more persuasive in the workplace.",
+          "tasks": [
+            "Analyze your current communication style and its effectiveness.",
+            "Learn techniques for clear and persuasive communication.",
+            "Discuss how to handle difficult conversations in the workplace."
+          ]
+        },
+        "zh-Hant": {
+          "title": "專業溝通",
+          "description": "提高您的溝通技巧，在工作場所變得更清晰、更有說服力。",
+          "tasks": [
+            "分析您當前的溝通方式及其有效性。",
+            "學習清晰和有說服力的溝通技巧。",
+            "討論如何處理工作場所中的困難對話。"
+          ]
+        },
+        "ko": {
+          "title": "프로페셔널 커뮤니케이션",
+          "description": "직장에서 더 명확하고 설득력 있게 의사 소통 기술을 향상시키십시오.",
+          "tasks": [
+            "현재의 커뮤니케이션 스타일과 그 효과를 분석하십시오.",
+            "명확하고 설득력 있는 의사 소통을 위한 기술을 배웁니다.",
+            "직장에서 어려운 대화를 다루는 방법에 대해 토론한다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 100,
+      "prompt": "You are a productivity expert. Offer advice to the user on how they can work smarter, not just harder.",
+      "first_message": "您好，时间管理是一门艺术。您用什么工具或技巧来管理您的工作日？",
+      "image_url": "/uploads/conversation_topics/time_management_work.webp",
+      "regions": {
+        "vi": {
+          "title": "Quản Lý Thời Gian Tại Nơi Làm Việc",
+          "description": "Học cách ưu tiên công việc và quản lý thời gian để làm việc hiệu quả hơn mà không cảm thấy quá tải.",
+          "tasks": [
+            "Lập danh sách các công việc quan trọng cần hoàn thành trong ngày.",
+            "Thực hành các kỹ thuật quản lý thời gian như 'Eisenhower Matrix' để ưu tiên công việc.",
+            "Thảo luận về các phương pháp làm việc hiệu quả hơn và giảm stress công việc."
+          ]
+        },
+        "en": {
+          "title": "Workplace Time Management",
+          "description": "Learn how to prioritize tasks and manage time to work more efficiently without feeling overwhelmed.",
+          "tasks": [
+            "Identify time-wasting activities in your workday.",
+            "Learn how to prioritize tasks based on importance and deadlines.",
+            "Create a time management plan to improve your work efficiency."
+          ]
+        },
+        "zh-Hant": {
+          "title": "工作場所時間管理",
+          "description": "瞭解如何確定任務的優先順序並管理時間，以便更高效地工作而不會感到不知所措。",
+          "tasks": [
+            "確定工作日中浪費時間的活動。",
+            "瞭解如何根據重要性和截止日期確定任務的優先順序。",
+            "制定時間管理計劃以提高您的工作效率。"
+          ]
+        },
+        "ko": {
+          "title": "직장 시간 관리",
+          "description": "업무의 우선순위를 정하고 업무에 부담을 느끼지 않고 보다 효율적으로 일할 수 있는 시간을 관리하는 방법을 알아보세요.",
+          "tasks": [
+            "근무 시간에서 시간을 낭비하는 활동을 식별하십시오.",
+            "중요도와 마감일에 따라 작업의 우선순위를 정하는 방법을 알아보세요.",
+            "업무 효율성을 높이기 위한 시간 관리 계획을 세우십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 103,
+      "prompt": "You are a career consultant. Guide the user on how to build and maintain professional relationships.",
+      "first_message": "您好，强大的网络可以打开许多大门。您对哪个行业的连接感兴趣？",
+      "image_url": "/uploads/conversation_topics/networking.webp",
+      "regions": {
+        "vi": {
+          "title": "Xây Dựng Mạng Lưới Quan Hệ Nghề Nghiệp",
+          "description": "Phát triển mạng lưới quan hệ chuyên nghiệp của bạn để mở ra cơ hội mới và tăng cường sự nghiệp.",
+          "tasks": [
+            "Xác định các lĩnh vực hoặc ngành nghề mà bạn muốn xây dựng mối quan hệ.",
+            "Thảo luận về các kỹ thuật để mở rộng mạng lưới quan hệ chuyên nghiệp.",
+            "Thực hành tham gia các sự kiện hoặc nhóm cộng đồng để xây dựng và duy trì mối quan hệ."
+          ]
+        },
+        "en": {
+          "title": "Building Professional Networks",
+          "description": "Grow your professional network to open up new opportunities and enhance your career.",
+          "tasks": [
+            "Identify key contacts in your industry and how to connect with them.",
+            "Learn strategies for maintaining and nurturing professional relationships.",
+            "Discuss ways to leverage your network for career opportunities."
+          ]
+        },
+        "zh-Hant": {
+          "title": "建立專業網路",
+          "description": "擴大您的專業網路，開闢新的機會並提升您的職業生涯。",
+          "tasks": [
+            "確定您所在行業的關鍵連絡人以及如何與他們建立聯繫。",
+            "瞭解維護和培養專業關係的策略。",
+            "討論如何利用您的網路獲得職業機會。"
+          ]
+        },
+        "ko": {
+          "title": "프로페셔널 네트워크 구축",
+          "description": "전문 네트워크를 성장시켜 새로운 기회를 열고 경력을 향상시키십시오.",
+          "tasks": [
+            "업계의 주요 연락처를 파악하고 이들과 연결하는 방법을 알아보세요.",
+            "전문적인 관계를 유지하고 육성하기 위한 전략을 배웁니다.",
+            "경력 기회를 위해 네트워크를 활용하는 방법에 대해 논의하십시오."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 102,
+      "prompt": "You are a psychologist. Guide the user on managing their emotions when faced with work pressure.",
+      "first_message": "您好，管理工作中的情绪非常重要。您通常如何在压力下保持冷静？",
+      "image_url": "/uploads/conversation_topics/emotional_management_work.webp",
+      "regions": {
+        "vi": {
+          "title": "Quản Lý Cảm Xúc Tại Nơi Làm Việc",
+          "description": "Học cách kiểm soát cảm xúc và phản ứng của bạn trong các tình huống công việc để duy trì sự chuyên nghiệp.",
+          "tasks": [
+            "Thảo luận về các tình huống gây stress trong công việc và cách bạn phản ứng với chúng.",
+            "Thực hành các kỹ thuật quản lý cảm xúc như thở sâu, thiền định hoặc viết nhật ký.",
+            "Chia sẻ trải nghiệm của bạn về việc quản lý cảm xúc và cách nó ảnh hưởng đến hiệu suất làm việc."
+          ]
+        },
+        "en": {
+          "title": "Emotional Management at Work",
+          "description": "Learn to control your emotions and reactions in work situations to maintain professionalism.",
+          "tasks": [
+            "Identify your emotional triggers at work and how they affect you.",
+            "Discuss strategies for managing stress and staying calm under pressure.",
+            "Learn techniques for maintaining professionalism in difficult situations."
+          ]
+        },
+        "zh-Hant": {
+          "title": "工作中的情緒管理",
+          "description": "學會在工作情境中控制自己的情緒和反應，以保持專業素養。",
+          "tasks": [
+            "確定您在工作中的情緒觸發因素以及它們如何影響您。",
+            "討論管理壓力和在壓力下保持冷靜的策略。",
+            "學習在困難情況下保持專業精神的技巧。"
+          ]
+        },
+        "ko": {
+          "title": "직장에서의 감정 관리",
+          "description": "전문성을 유지하기 위해 업무 상황에서 감정과 반응을 통제하는 방법을 배우십시오.",
+          "tasks": [
+            "직장에서 감정적 유발 요인이 무엇인지, 그리고 그것이 당신에게 어떤 영향을 미치는지 파악하십시오.",
+            "스트레스를 관리하고 압박감 속에서도 침착함을 유지하기 위한 전략에 대해 토론한다.",
+            "어려운 상황에서 전문성을 유지하는 기술을 배웁니다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 104,
+      "prompt": "You are a negotiation expert. Share strategies for successful negotiations in the user's work.",
+      "first_message": "您好，谈判能力是一个重要技能。您想在哪种情况下提高您的谈判技巧？",
+      "image_url": "/uploads/conversation_topics/negotiation_skills.webp",
+      "regions": {
+        "vi": {
+          "title": "Nâng Cao Kỹ Năng Đàm Phán",
+          "description": "Nắm bắt các chiến thuật và kỹ thuật đàm phán để đạt được kết quả tốt nhất trong các cuộc thương lượng nghề nghiệp.",
+          "tasks": [
+            "Thảo luận về các chiến thuật đàm phán hiệu quả và cách áp dụng chúng.",
+            "Thực hành đàm phán thông qua các tình huống giả định để nâng cao kỹ năng.",
+            "Chia sẻ kinh nghiệm đàm phán của bạn và nhận phản hồi để cải thiện kỹ năng."
+          ]
+        },
+        "en": {
+          "title": "Enhancing Negotiation Skills",
+          "description": "Master tactics and techniques of negotiation to achieve the best outcomes in professional dealings.",
+          "tasks": [
+            "Learn about the key elements of successful negotiation.",
+            "Discuss strategies for preparing for a negotiation.",
+            "Practice negotiation techniques through role-playing scenarios."
+          ]
+        },
+        "zh-Hant": {
+          "title": "提高談判技巧",
+          "description": "掌握談判策略和技巧，以在專業交易中取得最佳結果。",
+          "tasks": [
+            "瞭解成功談判的關鍵要素。",
+            "討論準備談判的策略。",
+            "通過角色扮演場景練習談判技巧。"
+          ]
+        },
+        "ko": {
+          "title": "협상 기술 향상",
+          "description": "전문적인 거래에서 최상의 결과를 얻기 위해 협상 전술과 기술을 마스터하십시오.",
+          "tasks": [
+            "성공적인 협상의 핵심 요소에 대해 알아보십시오.",
+            "협상을 준비하기 위한 전략에 대해 논의한다.",
+            "역할극 시나리오를 통해 협상 기술을 연습합니다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 101,
+      "prompt": "You are a public speaker. Support the user in building their self-esteem and communication skills.",
+      "first_message": "你好！自信沟通可以打开很多机会的大门。在你的表达方式上，你想要改进什么？",
+      "image_url": "/uploads/conversation_topics/communication_confidence.webp",
+      "regions": {
+        "vi": {
+          "title": "Làm Việc Hiệu Quả Từ Xa",
+          "description": "Học cách tự quản lý và duy trì năng suất khi làm việc từ xa, đồng thời duy trì sự cân bằng giữa công việc và cuộc sống.",
+          "tasks": [
+            "Thảo luận về các công cụ và kỹ thuật để làm việc hiệu quả từ xa.",
+            "Lập kế hoạch làm việc hàng ngày hoặc hàng tuần để duy trì năng suất.",
+            "Chia sẻ kinh nghiệm làm việc từ xa của bạn và nhận phản hồi để cải thiện hiệu suất."
+          ]
+        },
+        "en": {
+          "title": "Building Confidence in Communication",
+          "description": "Improve confidence in public speaking and meetings to communicate ideas clearly and assertively.",
+          "tasks": [
+            "Identify areas where you lack confidence in communication.",
+            "Learn techniques for improving your public speaking skills.",
+            "Discuss strategies for building self-esteem and assertiveness."
+          ]
+        },
+        "zh-Hant": {
+          "title": "建立溝通信心",
+          "description": "提高在公開演講和會議中的信心，以清晰而自信地傳達想法。",
+          "tasks": [
+            "確定您對溝通缺乏信心的領域。",
+            "學習提高公開演講技巧的技巧。",
+            "討論建立自尊和自信的策略。"
+          ]
+        },
+        "ko": {
+          "title": "의사 소통에 대한 자신감을 키운다",
+          "description": "아이디어를 명확하고 단호하게 전달하기 위해 대중 연설 및 회의에 대한 자신감을 향상시킵니다.",
+          "tasks": [
+            "의사 소통에 대한 자신감이 부족한 영역을 식별합니다.",
+            "대중 연설 기술을 향상시키는 기술을 배우십시오.",
+            "자존감과 자기 주장을 키우기 위한 전략에 대해 토론한다."
+          ]
+        }
+      }
+    },
+    {
+      "topic_id": 105,
+      "prompt": "You are a remote work expert. Share tips and tools to help users work remotely effectively.",
+      "first_message": "你好！远程工作可能充满挑战，但也非常灵活。为了提高生产力，你需要哪方面的支持？",
+      "image_url": "/uploads/conversation_topics/remote_work_efficiency.webp",
+      "regions": {
+        "vi": {
+          "title": "Nhận Diện Và Phát Triển Tài Năng",
+          "description": "Khám phá cách nhận biết và nuôi dưỡng tài năng trong tổ chức của bạn để tạo ra một đội ngũ mạnh mẽ và đa dạng.",
+          "tasks": [
+            "Xác định các tiêu chí để nhận diện tài năng trong tổ chức của bạn.",
+            "Thảo luận về các phương pháp phát triển tài năng và cách áp dụng chúng.",
+            "Lập kế hoạch đào tạo hoặc phát triển cho các thành viên trong đội ngũ của bạn."
+          ]
+        },
+        "en": {
+          "title": "Working Efficiently Remotely",
+          "description": "Learn to self-manage and maintain productivity when working remotely, while keeping a work-life balance.",
+          "tasks": [
+            "Discuss your current remote work setup and areas for improvement.",
+            "Learn about tools and techniques for staying productive while working remotely.",
+            "Explore strategies for maintaining work-life balance in a remote work environment."
+          ]
+        },
+        "zh-Hant": {
+          "title": "高效遠端工作",
+          "description": "學會在遠端工作時自我管理和保持生產力，同時保持工作與生活的平衡。",
+          "tasks": [
+            "討論您當前的遠端工作設置和需要改進的領域。",
+            "瞭解在遠端工作時保持工作效率的工具和技術。",
+            "探索在遠端工作環境中保持工作與生活平衡的策略。"
+          ]
+        },
+        "ko": {
+          "title": "효율적인 원격 근무",
+          "description": "원격으로 일할 때 일과 삶의 균형을 유지하면서 생산성을 스스로 관리하고 유지하는 방법을 배우십시오.",
+          "tasks": [
+            "현재 원격 근무 환경과 개선이 필요한 부분에 대해 논의합니다.",
+            "원격으로 작업하는 동안 생산성을 유지하기 위한 도구와 기술에 대해 알아보세요.",
+            "원격 근무 환경에서 일과 삶의 균형을 유지하기 위한 전략을 살펴보세요."
+          ]
+        }
+      }
+    }
+  ],
+  "is_active": true,
+  "created_at": {
+    "$date": "2025-01-20T09:58:46.123Z"
+  },
+  "updated_at": {
+    "$date": "2025-01-20T09:58:46.123Z"
+  }
+}]
