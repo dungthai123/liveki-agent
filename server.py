@@ -128,4 +128,5 @@ def get_chinese_topic_detail(category_id, topic_id):
     return jsonify({"success": False, "error": "Topic not found"}), 404
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5001, debug=True)
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host="0.0.0.0", port=port)
